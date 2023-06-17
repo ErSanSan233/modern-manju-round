@@ -3,8 +3,8 @@ FontName: Modern-manJu-Round
 FullName: Modern manJu Round
 FamilyName: Modern-manJu
 Weight: Book
-Copyright: Copyright 2023 L.
-Version: 0.1
+Copyright: Copyright 2023 LLLLL.
+Version: 0.2
 ItalicAngle: 0
 UnderlinePosition: -144
 UnderlineWidth: 32
@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1390402476
-ModificationTime: 1686929111
+ModificationTime: 1686967144
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -5983,21 +5983,20 @@ EndShort
 LangName: 1033
 GaspTable: 3 8 2 17 1 65535 3 0
 Encoding: Custom
-Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 9 9 5
+WinInfo: 252 9 4
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-0""" 
-BeginChars: 532 276
+BeginChars: 286 286
 
 StartChar: a.isol
-Encoding: 256 6176 0
+Encoding: 0 6176 0
 Width: 1231
 VWidth: 2796
 GlyphClass: 2
@@ -6039,7 +6038,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" a.init
 EndChar
 
 StartChar: a.init
-Encoding: 257 -1 1
+Encoding: 1 -1 1
 Width: 895
 VWidth: 2796
 GlyphClass: 2
@@ -6078,7 +6077,7 @@ EndSplineSet
 EndChar
 
 StartChar: a.fina
-Encoding: 258 -1 2
+Encoding: 2 -1 2
 Width: 838
 VWidth: 2796
 GlyphClass: 2
@@ -6108,7 +6107,7 @@ Substitution2: "Single Substitution lookup 6 subtable" a1.fina
 EndChar
 
 StartChar: a1.fina
-Encoding: 259 -1 3
+Encoding: 3 -1 3
 Width: 895
 VWidth: 2796
 GlyphClass: 2
@@ -6141,7 +6140,7 @@ EndSplineSet
 EndChar
 
 StartChar: a.medi
-Encoding: 260 -1 4
+Encoding: 4 -1 4
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -6169,7 +6168,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph277
 EndChar
 
 StartChar: e.isol
-Encoding: 261 6237 5
+Encoding: 5 6237 5
 Width: 1231
 VWidth: 2796
 GlyphClass: 2
@@ -6211,7 +6210,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" e.init
 EndChar
 
 StartChar: e.init
-Encoding: 262 -1 6
+Encoding: 6 -1 6
 Width: 895
 VWidth: 2796
 GlyphClass: 2
@@ -6242,7 +6241,7 @@ EndSplineSet
 EndChar
 
 StartChar: e.fina
-Encoding: 263 -1 7
+Encoding: 7 -1 7
 Width: 838
 VWidth: 2796
 GlyphClass: 2
@@ -6291,7 +6290,7 @@ Substitution2: "Single Substitution lookup 6 subtable" e1.fina
 EndChar
 
 StartChar: e1.fina
-Encoding: 264 -1 8
+Encoding: 8 -1 8
 Width: 838
 VWidth: 2796
 GlyphClass: 2
@@ -6320,7 +6319,7 @@ EndSplineSet
 EndChar
 
 StartChar: e3.fina
-Encoding: 265 -1 9
+Encoding: 9 -1 9
 Width: 895
 VWidth: 2796
 GlyphClass: 2
@@ -6370,7 +6369,7 @@ EndSplineSet
 EndChar
 
 StartChar: e2.fina
-Encoding: 266 -1 10
+Encoding: 10 -1 10
 Width: 895
 VWidth: 2796
 GlyphClass: 2
@@ -6403,7 +6402,7 @@ EndSplineSet
 EndChar
 
 StartChar: e.medi
-Encoding: 267 -1 11
+Encoding: 11 -1 11
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -6451,7 +6450,7 @@ Substitution2: "Single Substitution lookup 6 subtable" e1.medi
 EndChar
 
 StartChar: e1.medi
-Encoding: 268 -1 12
+Encoding: 12 -1 12
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -6479,7 +6478,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph277
 EndChar
 
 StartChar: i.isol
-Encoding: 269 6259 13
+Encoding: 13 6259 13
 Width: 1231
 VWidth: 2796
 GlyphClass: 2
@@ -6528,7 +6527,7 @@ Substitution2: "Single Substitution lookup 6 subtable" i1.isol
 EndChar
 
 StartChar: i1.isol
-Encoding: 270 -1 14
+Encoding: 14 -1 14
 Width: 614
 VWidth: 2796
 GlyphClass: 2
@@ -6557,7 +6556,7 @@ EndSplineSet
 EndChar
 
 StartChar: i.init
-Encoding: 271 -1 15
+Encoding: 15 -1 15
 Width: 895
 VWidth: 2796
 GlyphClass: 2
@@ -6600,7 +6599,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph147
-Encoding: 272 -1 16
+Encoding: 16 -1 16
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -6639,7 +6638,7 @@ EndSplineSet
 EndChar
 
 StartChar: i.fina
-Encoding: 273 -1 17
+Encoding: 17 -1 17
 Width: 614
 VWidth: 2796
 GlyphClass: 2
@@ -6670,7 +6669,7 @@ Substitution2: "Single Substitution lookup 6 subtable" i1.fina
 EndChar
 
 StartChar: i2.fina
-Encoding: 274 -1 18
+Encoding: 18 -1 18
 Width: 559
 VWidth: 2796
 GlyphClass: 2
@@ -6699,7 +6698,7 @@ EndSplineSet
 EndChar
 
 StartChar: i1.fina
-Encoding: 275 -1 19
+Encoding: 19 -1 19
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -6720,7 +6719,7 @@ EndSplineSet
 EndChar
 
 StartChar: iy.isol
-Encoding: 276 6239 20
+Encoding: 20 6239 20
 Width: 1567
 VWidth: 2796
 GlyphClass: 2
@@ -6773,7 +6772,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" iy.init
 EndChar
 
 StartChar: i.medi
-Encoding: 277 -1 21
+Encoding: 21 -1 21
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -6803,7 +6802,7 @@ Substitution2: "Single Substitution lookup 6 subtable" i1.medi
 EndChar
 
 StartChar: is1.medi
-Encoding: 278 -1 22
+Encoding: 22 -1 22
 Width: 559
 VWidth: 2796
 GlyphClass: 2
@@ -6841,7 +6840,7 @@ Substitution2: "Single Substitution lookup 31 subtable" glyph339
 EndChar
 
 StartChar: i1.medi
-Encoding: 279 -1 23
+Encoding: 23 -1 23
 Width: 559
 VWidth: 2796
 GlyphClass: 2
@@ -6878,7 +6877,7 @@ EndSplineSet
 EndChar
 
 StartChar: iy.init
-Encoding: 280 -1 24
+Encoding: 24 -1 24
 Width: 505
 VWidth: 2796
 GlyphClass: 2
@@ -6922,7 +6921,7 @@ EndSplineSet
 EndChar
 
 StartChar: o.isol
-Encoding: 281 6179 25
+Encoding: 25 6179 25
 Width: 1343
 VWidth: 2796
 GlyphClass: 2
@@ -6975,7 +6974,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" o.init
 EndChar
 
 StartChar: o.init
-Encoding: 282 -1 26
+Encoding: 26 -1 26
 Width: 1231
 VWidth: 2796
 GlyphClass: 2
@@ -7029,7 +7028,7 @@ EndSplineSet
 EndChar
 
 StartChar: o.fina
-Encoding: 283 -1 27
+Encoding: 27 -1 27
 Width: 892
 VWidth: 2796
 GlyphClass: 2
@@ -7074,7 +7073,7 @@ Substitution2: "Single Substitution lookup 4 subtable" o1.fina
 EndChar
 
 StartChar: o1.fina
-Encoding: 284 -1 28
+Encoding: 28 -1 28
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -7110,7 +7109,7 @@ Substitution2: "Single Substitution lookup 27 subtable" glyph281
 EndChar
 
 StartChar: o.medi
-Encoding: 285 -1 29
+Encoding: 29 -1 29
 Width: 614
 VWidth: 2796
 GlyphClass: 2
@@ -7148,7 +7147,7 @@ Substitution2: "Single Substitution lookup 27 subtable" glyph280
 EndChar
 
 StartChar: u.isol
-Encoding: 286 6240 30
+Encoding: 30 6240 30
 Width: 1343
 VWidth: 2796
 GlyphClass: 2
@@ -7218,7 +7217,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" u.init
 EndChar
 
 StartChar: u.init
-Encoding: 287 -1 31
+Encoding: 31 -1 31
 Width: 1231
 VWidth: 2796
 GlyphClass: 2
@@ -7289,7 +7288,7 @@ EndSplineSet
 EndChar
 
 StartChar: v.isol
-Encoding: 288 6241 32
+Encoding: 32 6241 32
 Width: 1567
 VWidth: 2796
 GlyphClass: 2
@@ -7348,7 +7347,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" v.init
 EndChar
 
 StartChar: v.init
-Encoding: 289 -1 33
+Encoding: 33 -1 33
 Width: 1062
 VWidth: 2796
 GlyphClass: 2
@@ -7406,7 +7405,7 @@ EndSplineSet
 EndChar
 
 StartChar: u.fina
-Encoding: 290 -1 34
+Encoding: 34 -1 34
 Width: 892
 VWidth: 2796
 GlyphClass: 2
@@ -7470,7 +7469,7 @@ Substitution2: "Single Substitution lookup 4 subtable" u2.fina
 EndChar
 
 StartChar: u3.fina
-Encoding: 291 -1 35
+Encoding: 35 -1 35
 Width: 892
 VWidth: 2796
 GlyphClass: 2
@@ -7513,7 +7512,7 @@ EndSplineSet
 EndChar
 
 StartChar: u2.fina
-Encoding: 292 -1 36
+Encoding: 36 -1 36
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -7566,7 +7565,7 @@ Substitution2: "Single Substitution lookup 6 subtable" u1.fina
 EndChar
 
 StartChar: u1.fina
-Encoding: 293 -1 37
+Encoding: 37 -1 37
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -7602,7 +7601,7 @@ Substitution2: "Single Substitution lookup 27 subtable" glyph281
 EndChar
 
 StartChar: v.fina
-Encoding: 294 -1 38
+Encoding: 38 -1 38
 Width: 895
 VWidth: 2796
 GlyphClass: 2
@@ -7645,7 +7644,7 @@ Substitution2: "Single Substitution lookup 27 subtable" glyph285
 EndChar
 
 StartChar: u.medi
-Encoding: 295 -1 39
+Encoding: 39 -1 39
 Width: 614
 VWidth: 2796
 GlyphClass: 2
@@ -7703,7 +7702,7 @@ Substitution2: "Single Substitution lookup 6 subtable" u1.medi
 EndChar
 
 StartChar: u1.medi
-Encoding: 296 -1 40
+Encoding: 40 -1 40
 Width: 614
 VWidth: 2796
 GlyphClass: 2
@@ -7741,7 +7740,7 @@ Substitution2: "Single Substitution lookup 27 subtable" glyph280
 EndChar
 
 StartChar: v.medi
-Encoding: 297 -1 41
+Encoding: 41 -1 41
 Width: 617
 VWidth: 2796
 GlyphClass: 2
@@ -7788,7 +7787,7 @@ Substitution2: "Single Substitution lookup 27 subtable" glyph284
 EndChar
 
 StartChar: b.isol
-Encoding: 298 6186 42
+Encoding: 42 6186 42
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -7839,7 +7838,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" b.init
 EndChar
 
 StartChar: b.fina
-Encoding: 299 -1 43
+Encoding: 43 -1 43
 Width: 895
 VWidth: 2796
 GlyphClass: 2
@@ -7899,7 +7898,7 @@ EndSplineSet
 EndChar
 
 StartChar: b.medi
-Encoding: 300 -1 44
+Encoding: 44 -1 44
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -7948,7 +7947,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph287
 EndChar
 
 StartChar: p.isol
-Encoding: 301 6246 45
+Encoding: 45 6246 45
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -8005,7 +8004,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" p.init
 EndChar
 
 StartChar: p.medi
-Encoding: 302 -1 46
+Encoding: 46 -1 46
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -8059,7 +8058,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph289
 EndChar
 
 StartChar: m.isol
-Encoding: 303 6190 47
+Encoding: 47 6190 47
 Width: 617
 VWidth: 2796
 GlyphClass: 2
@@ -8106,7 +8105,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" m.init
 EndChar
 
 StartChar: m.fina
-Encoding: 304 -1 48
+Encoding: 48 -1 48
 Width: 671
 VWidth: 2796
 GlyphClass: 2
@@ -8148,7 +8147,7 @@ EndSplineSet
 EndChar
 
 StartChar: m.medi
-Encoding: 305 -1 49
+Encoding: 49 -1 49
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -8193,7 +8192,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph320
 EndChar
 
 StartChar: f.isol
-Encoding: 306 6262 50
+Encoding: 50 6262 50
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -8246,7 +8245,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" f.init
 EndChar
 
 StartChar: f1.init
-Encoding: 307 -1 51
+Encoding: 51 -1 51
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -8279,7 +8278,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph183
-Encoding: 308 -1 52
+Encoding: 52 -1 52
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -8330,7 +8329,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph334
 EndChar
 
 StartChar: f.medi
-Encoding: 309 -1 53
+Encoding: 53 -1 53
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -8381,7 +8380,7 @@ Substitution2: "Single Substitution lookup 6 subtable" f1.medi
 EndChar
 
 StartChar: f1.medi
-Encoding: 310 -1 54
+Encoding: 54 -1 54
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -8415,7 +8414,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph336
 EndChar
 
 StartChar: d.isol
-Encoding: 311 6249 55
+Encoding: 55 6249 55
 Width: 838
 VWidth: 2796
 GlyphClass: 2
@@ -8483,7 +8482,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" d.init
 EndChar
 
 StartChar: d1.init
-Encoding: 312 -1 56
+Encoding: 56 -1 56
 Width: 895
 VWidth: 2796
 GlyphClass: 2
@@ -8550,7 +8549,7 @@ EndSplineSet
 EndChar
 
 StartChar: d.medi
-Encoding: 313 -1 57
+Encoding: 57 -1 57
 Width: 335
 VWidth: 2796
 GlyphClass: 2
@@ -8610,7 +8609,7 @@ Substitution2: "Single Substitution lookup 6 subtable" d1.medi
 EndChar
 
 StartChar: d1.medi
-Encoding: 314 -1 58
+Encoding: 58 -1 58
 Width: 335
 VWidth: 2796
 GlyphClass: 2
@@ -8671,7 +8670,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph330
 EndChar
 
 StartChar: t.isol
-Encoding: 315 6248 59
+Encoding: 59 6248 59
 Width: 838
 VWidth: 2796
 GlyphClass: 2
@@ -8722,7 +8721,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" t.init
 EndChar
 
 StartChar: t1.init
-Encoding: 316 -1 60
+Encoding: 60 -1 60
 Width: 895
 VWidth: 2796
 GlyphClass: 2
@@ -8772,7 +8771,7 @@ EndSplineSet
 EndChar
 
 StartChar: t.fina
-Encoding: 317 -1 61
+Encoding: 61 -1 61
 Width: 1062
 VWidth: 2796
 GlyphClass: 2
@@ -8822,7 +8821,7 @@ EndSplineSet
 EndChar
 
 StartChar: t2.medi
-Encoding: 318 -1 62
+Encoding: 62 -1 62
 Width: 335
 VWidth: 2796
 GlyphClass: 2
@@ -8864,7 +8863,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph331
 EndChar
 
 StartChar: t1.medi
-Encoding: 319 -1 63
+Encoding: 63 -1 63
 Width: 335
 VWidth: 2796
 GlyphClass: 2
@@ -8908,7 +8907,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph332
 EndChar
 
 StartChar: t.medi
-Encoding: 320 -1 64
+Encoding: 64 -1 64
 Width: 895
 VWidth: 2796
 GlyphClass: 2
@@ -8962,7 +8961,7 @@ Substitution2: "Single Substitution lookup 6 subtable" t1.medi
 EndChar
 
 StartChar: n.isol
-Encoding: 321 6184 65
+Encoding: 65 6184 65
 Width: 611
 VWidth: 2796
 GlyphClass: 2
@@ -9013,7 +9012,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" n.init
 EndChar
 
 StartChar: n.fina
-Encoding: 322 -1 66
+Encoding: 66 -1 66
 Width: 838
 VWidth: 2796
 GlyphClass: 2
@@ -9043,7 +9042,7 @@ Substitution2: "Single Substitution lookup 6 subtable" n1.fina
 EndChar
 
 StartChar: n1.fina
-Encoding: 323 -1 67
+Encoding: 67 -1 67
 Width: 838
 VWidth: 2796
 GlyphClass: 2
@@ -9089,7 +9088,7 @@ EndSplineSet
 EndChar
 
 StartChar: n1.medi
-Encoding: 324 -1 68
+Encoding: 68 -1 68
 Width: 278
 VWidth: 2796
 GlyphClass: 2
@@ -9134,7 +9133,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph322
 EndChar
 
 StartChar: n.medi
-Encoding: 325 -1 69
+Encoding: 69 -1 69
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -9163,7 +9162,7 @@ Substitution2: "Single Substitution lookup 6 subtable" n1.medi
 EndChar
 
 StartChar: l.isol
-Encoding: 326 6191 70
+Encoding: 70 6191 70
 Width: 617
 VWidth: 2796
 GlyphClass: 2
@@ -9214,7 +9213,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" l.init
 EndChar
 
 StartChar: l.fina
-Encoding: 327 -1 71
+Encoding: 71 -1 71
 Width: 838
 VWidth: 2796
 GlyphClass: 2
@@ -9243,7 +9242,7 @@ EndSplineSet
 EndChar
 
 StartChar: l.medi
-Encoding: 328 -1 72
+Encoding: 72 -1 72
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -9282,7 +9281,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph321
 EndChar
 
 StartChar: k.isol
-Encoding: 329 6260 73
+Encoding: 73 6260 73
 Width: 1062
 VWidth: 2796
 GlyphClass: 2
@@ -9329,7 +9328,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" k.init
 EndChar
 
 StartChar: ks.fina
-Encoding: 330 -1 74
+Encoding: 74 -1 74
 Width: 950
 VWidth: 2796
 GlyphClass: 2
@@ -9392,7 +9391,7 @@ EndSplineSet
 EndChar
 
 StartChar: k.fina
-Encoding: 331 -1 75
+Encoding: 75 -1 75
 Width: 950
 VWidth: 2796
 GlyphClass: 2
@@ -9464,7 +9463,7 @@ Substitution2: "Single Substitution lookup 8 subtable" k.fina
 EndChar
 
 StartChar: k2.medi
-Encoding: 332 -1 76
+Encoding: 76 -1 76
 Width: 559
 VWidth: 2796
 GlyphClass: 2
@@ -9502,7 +9501,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph290
 EndChar
 
 StartChar: ks.medi
-Encoding: 333 -1 77
+Encoding: 77 -1 77
 Width: 559
 VWidth: 2796
 GlyphClass: 2
@@ -9568,7 +9567,7 @@ Substitution2: "Single Substitution lookup 6 subtable" ks1.medi
 EndChar
 
 StartChar: k.medi
-Encoding: 334 -1 78
+Encoding: 78 -1 78
 Width: 559
 VWidth: 2796
 GlyphClass: 2
@@ -9647,7 +9646,7 @@ Substitution2: "Single Substitution lookup 6 subtable" k1.medi
 EndChar
 
 StartChar: g.isol
-Encoding: 335 6244 79
+Encoding: 79 6244 79
 Width: 1062
 VWidth: 2796
 GlyphClass: 2
@@ -9711,7 +9710,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" g.init
 EndChar
 
 StartChar: g.medi
-Encoding: 336 -1 80
+Encoding: 80 -1 80
 Width: 559
 VWidth: 2796
 GlyphClass: 2
@@ -9767,7 +9766,7 @@ Substitution2: "Single Substitution lookup 6 subtable" g1.medi
 EndChar
 
 StartChar: h.isol
-Encoding: 337 6245 81
+Encoding: 81 6245 81
 Width: 1062
 VWidth: 2796
 GlyphClass: 2
@@ -9848,7 +9847,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" h.init
 EndChar
 
 StartChar: h.medi
-Encoding: 338 -1 82
+Encoding: 82 -1 82
 Width: 559
 VWidth: 2796
 GlyphClass: 2
@@ -9921,7 +9920,7 @@ Substitution2: "Single Substitution lookup 6 subtable" h1.medi
 EndChar
 
 StartChar: kh.isol
-Encoding: 339 6202 83
+Encoding: 83 6202 83
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -9967,7 +9966,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" kh.init
 EndChar
 
 StartChar: k1.init
-Encoding: 340 -1 84
+Encoding: 84 -1 84
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -10001,7 +10000,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph296
 EndChar
 
 StartChar: k1.fina
-Encoding: 341 -1 85
+Encoding: 85 -1 85
 Width: 895
 VWidth: 2796
 GlyphClass: 2
@@ -10047,7 +10046,7 @@ EndSplineSet
 EndChar
 
 StartChar: kh.medi
-Encoding: 342 -1 86
+Encoding: 86 -1 86
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -10091,7 +10090,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph301
 EndChar
 
 StartChar: k1.medi
-Encoding: 343 -1 87
+Encoding: 87 -1 87
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -10127,7 +10126,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph302
 EndChar
 
 StartChar: gh.isol
-Encoding: 344 6252 88
+Encoding: 88 6252 88
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -10181,7 +10180,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" gh.init
 EndChar
 
 StartChar: g1.init
-Encoding: 345 -1 89
+Encoding: 89 -1 89
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -10232,7 +10231,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph298
 EndChar
 
 StartChar: gh.medi
-Encoding: 346 -1 90
+Encoding: 90 -1 90
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -10293,7 +10292,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph303
 EndChar
 
 StartChar: g1.medi
-Encoding: 347 -1 91
+Encoding: 91 -1 91
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -10345,7 +10344,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph304
 EndChar
 
 StartChar: hh.isol
-Encoding: 348 6253 92
+Encoding: 92 6253 92
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -10425,7 +10424,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" hh.init
 EndChar
 
 StartChar: h1.init
-Encoding: 349 -1 93
+Encoding: 93 -1 93
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -10493,7 +10492,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph300
 EndChar
 
 StartChar: hh.medi
-Encoding: 350 -1 94
+Encoding: 94 -1 94
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -10571,7 +10570,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph305
 EndChar
 
 StartChar: h1.medi
-Encoding: 351 -1 95
+Encoding: 95 -1 95
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -10640,7 +10639,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph306
 EndChar
 
 StartChar: dz.isol
-Encoding: 352 6255 96
+Encoding: 96 6255 96
 Width: 1567
 VWidth: 2796
 GlyphClass: 2
@@ -10689,7 +10688,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" dz.init
 EndChar
 
 StartChar: dz1.init
-Encoding: 353 -1 97
+Encoding: 97 -1 97
 Width: 729
 VWidth: 2796
 GlyphClass: 2
@@ -10727,7 +10726,7 @@ EndSplineSet
 EndChar
 
 StartChar: dz.fina
-Encoding: 354 -1 98
+Encoding: 98 -1 98
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -10776,7 +10775,7 @@ EndSplineSet
 EndChar
 
 StartChar: dz.medi
-Encoding: 355 -1 99
+Encoding: 99 -1 99
 Width: 950
 VWidth: 2796
 GlyphClass: 2
@@ -10824,7 +10823,7 @@ Substitution2: "Single Substitution lookup 6 subtable" dz1.medi
 EndChar
 
 StartChar: dz1.medi
-Encoding: 356 -1 100
+Encoding: 100 -1 100
 Width: 729
 VWidth: 2796
 GlyphClass: 2
@@ -10863,7 +10862,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph325
 EndChar
 
 StartChar: ts.isol
-Encoding: 357 6254 101
+Encoding: 101 6254 101
 Width: 950
 VWidth: 2796
 GlyphClass: 2
@@ -10916,7 +10915,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" ts.init
 EndChar
 
 StartChar: ts.medi
-Encoding: 358 -1 102
+Encoding: 102 -1 102
 Width: 950
 VWidth: 2796
 GlyphClass: 2
@@ -10967,7 +10966,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph326
 EndChar
 
 StartChar: s.isol
-Encoding: 359 6192 103
+Encoding: 103 6192 103
 Width: 1007
 VWidth: 2796
 GlyphClass: 2
@@ -11009,7 +11008,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" s.init
 EndChar
 
 StartChar: s.fina
-Encoding: 360 -1 104
+Encoding: 104 -1 104
 Width: 841
 VWidth: 2796
 GlyphClass: 2
@@ -11047,7 +11046,7 @@ EndSplineSet
 EndChar
 
 StartChar: s.medi
-Encoding: 361 -1 105
+Encoding: 105 -1 105
 Width: 1007
 VWidth: 2796
 GlyphClass: 2
@@ -11087,7 +11086,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph327
 EndChar
 
 StartChar: j.isol
-Encoding: 362 6197 106
+Encoding: 106 6197 106
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -11117,7 +11116,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" j.init
 EndChar
 
 StartChar: j.medi
-Encoding: 363 -1 107
+Encoding: 107 -1 107
 Width: 445
 VWidth: 2796
 GlyphClass: 2
@@ -11149,7 +11148,7 @@ EndSplineSet
 EndChar
 
 StartChar: c.isol
-Encoding: 364 6196 108
+Encoding: 108 6196 108
 Width: 671
 VWidth: 2796
 GlyphClass: 2
@@ -11187,7 +11186,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" c.init
 EndChar
 
 StartChar: c.medi
-Encoding: 365 -1 109
+Encoding: 109 -1 109
 Width: 671
 VWidth: 2796
 GlyphClass: 2
@@ -11222,7 +11221,7 @@ EndSplineSet
 EndChar
 
 StartChar: x.isol
-Encoding: 366 6247 110
+Encoding: 110 6247 110
 Width: 1062
 VWidth: 2796
 GlyphClass: 2
@@ -11273,7 +11272,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" x.init
 EndChar
 
 StartChar: x.fina
-Encoding: 367 -1 111
+Encoding: 111 -1 111
 Width: 841
 VWidth: 2796
 GlyphClass: 2
@@ -11320,7 +11319,7 @@ EndSplineSet
 EndChar
 
 StartChar: x.medi
-Encoding: 368 -1 112
+Encoding: 112 -1 112
 Width: 1062
 VWidth: 2796
 GlyphClass: 2
@@ -11369,7 +11368,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph328
 EndChar
 
 StartChar: rh.isol
-Encoding: 369 6256 113
+Encoding: 113 6256 113
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -11396,7 +11395,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" rh.init
 EndChar
 
 StartChar: rh.medi
-Encoding: 370 -1 114
+Encoding: 114 -1 114
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -11420,7 +11419,7 @@ EndSplineSet
 EndChar
 
 StartChar: r.isol
-Encoding: 371 6261 115
+Encoding: 115 6261 115
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -11459,7 +11458,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" r.init
 EndChar
 
 StartChar: rs.fina
-Encoding: 372 -1 116
+Encoding: 116 -1 116
 Width: 895
 VWidth: 2796
 GlyphClass: 2
@@ -11501,7 +11500,7 @@ EndSplineSet
 EndChar
 
 StartChar: r.fina
-Encoding: 373 -1 117
+Encoding: 117 -1 117
 Width: 729
 VWidth: 2796
 GlyphClass: 2
@@ -11546,7 +11545,7 @@ EndSplineSet
 EndChar
 
 StartChar: r.medi
-Encoding: 374 -1 118
+Encoding: 118 -1 118
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -11583,7 +11582,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph333
 EndChar
 
 StartChar: y.isol
-Encoding: 375 6198 119
+Encoding: 119 6198 119
 Width: 505
 VWidth: 2796
 GlyphClass: 2
@@ -11619,7 +11618,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" y.init
 EndChar
 
 StartChar: y.medi
-Encoding: 376 -1 120
+Encoding: 120 -1 120
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -11653,7 +11652,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph335
 EndChar
 
 StartChar: w.isol
-Encoding: 377 6200 121
+Encoding: 121 6200 121
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -11689,7 +11688,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" w.init
 EndChar
 
 StartChar: w.medi
-Encoding: 378 -1 122
+Encoding: 122 -1 122
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -11723,7 +11722,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph336
 EndChar
 
 StartChar: ngs.isol
-Encoding: 379 6242 123
+Encoding: 123 6242 123
 Width: 838
 VWidth: 2796
 GlyphClass: 2
@@ -11772,7 +11771,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" ngs.init
 EndChar
 
 StartChar: ng.isol
-Encoding: 380 6185 124
+Encoding: 124 6185 124
 Width: 838
 VWidth: 2796
 GlyphClass: 2
@@ -11821,9 +11820,9 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" ng.init
 EndChar
 
 StartChar: ng.init
-Encoding: 381 -1 125
-Width: 1174
-VWidth: 2796
+Encoding: 125 -1 125
+Width: 831
+VWidth: 2790
 GlyphClass: 2
 Flags: W
 LayerCount: 2
@@ -11832,45 +11831,45 @@ SplineSet
 0 502 m 1,0,1
  0 502 0 502 27 502 c 256,2,3
  54 502 54 502 0 502 c 1,4,5
- 55 502 55 502 139 502 c 256,6,7
- 224 502 224 502 279 502 c 0,8,9
- 336 502 336 502 336 448 c 0,10,11
- 336 391 336 391 279 390 c 0,12,13
+ 54 502 54 502 139 502 c 256,6,7
+ 222 502 222 502 278 502 c 0,8,9
+ 336 502 336 502 336 449 c 0,10,11
+ 335 392 335 392 278 390 c 0,12,13
  224 390 224 390 197 390 c 0,14,15
- 167 390 167 390 112 390 c 1,16,17
- 112 390 112 390 112 363 c 256,18,19
- 112 336 112 336 112 279 c 0,20,21
- 112 224 112 224 55 224 c 0,22,23
- 0 224 0 224 0 279 c 0,24,25
- 0 336 0 336 0 369 c 0,26,27
+ 167 390 167 390 111 390 c 1,16,17
+ 111 390 111 390 111 364 c 256,18,19
+ 111 336 111 336 111 278 c 0,20,21
+ 111 225 111 225 54 225 c 0,22,23
+ 0 225 0 225 0 278 c 0,24,25
+ 0 335 0 335 0 369 c 0,26,27
  0 398 0 398 0 502 c 1,0,1
-279 502 m 0,28,29
- 279 726 279 726 390 838 c 256,30,31
- 502 950 502 950 726 950 c 256,32,33
- 950 950 950 950 1062 838 c 256,34,35
- 1174 726 1174 726 1174 502 c 0,36,37
- 1174 447 1174 447 1174 448 c 257,38,39
- 1174 448 1174 448 1174 448 c 1,40,41
- 1174 391 1174 391 1120 390 c 0,42,43
- 1063 390 1063 390 1062 448 c 1,44,45
- 1062 448 1062 448 1062 448 c 257,46,47
- 1062 448 1062 448 1062 502 c 0,48,49
- 1062 671 1062 671 978 754 c 0,50,51
- 896 839 896 839 726 838 c 0,52,53
- 559 838 559 838 475 754 c 0,54,55
- 390 672 390 672 390 502 c 0,56,57
- 390 447 390 447 390 279 c 0,58,59
- 390 112 390 112 390 0 c 0,60,61
- 390 -55 390 -55 336 -55 c 0,62,63
- 279 -55 279 -55 279 0 c 256,64,65
- 279 55 279 55 279 251 c 256,66,67
- 279 447 279 447 279 502 c 0,28,29
+278 502 m 0,28,29
+ 278 727 278 727 364 810 c 256,30,31
+ 448 894 448 894 615 894 c 0,32,33
+ 785 894 785 894 864 782 c 0,34,35
+ 948 671 948 671 948 502 c 0,36,37
+ 948 448 948 448 948 449 c 257,38,39
+ 948 449 948 449 948 449 c 1,40,41
+ 948 392 948 392 894 390 c 0,42,43
+ 837 390 837 390 838 449 c 1,44,45
+ 838 449 838 449 838 449 c 257,46,47
+ 838 449 838 449 838 502 c 0,48,49
+ 838 613 838 613 782 700 c 0,50,51
+ 725 784 725 784 615 782 c 256,52,53
+ 504 782 504 782 449 728 c 0,54,55
+ 392 674 392 674 390 502 c 0,56,57
+ 390 447 390 447 390 278 c 0,58,59
+ 390 111 390 111 390 0 c 0,60,61
+ 391 -54 391 -54 336 -54 c 0,62,63
+ 279 -54 279 -54 278 0 c 256,64,65
+ 278 54 278 54 278 251 c 256,66,67
+ 278 448 278 448 278 502 c 0,28,29
 EndSplineSet
 Substitution2: "Single Substitution lookup 24 subtable" glyph319
 EndChar
 
 StartChar: jh.isol
-Encoding: 382 6263 126
+Encoding: 126 6263 126
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -11934,7 +11933,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" jh.init
 EndChar
 
 StartChar: jh.medi
-Encoding: 383 -1 127
+Encoding: 127 -1 127
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -11996,7 +11995,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph323
 EndChar
 
 StartChar: ch.isol
-Encoding: 384 6257 128
+Encoding: 128 6257 128
 Width: 671
 VWidth: 2796
 GlyphClass: 2
@@ -12068,7 +12067,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" ch.init
 EndChar
 
 StartChar: ch.medi
-Encoding: 385 -1 129
+Encoding: 129 -1 129
 Width: 671
 VWidth: 2796
 GlyphClass: 2
@@ -12137,7 +12136,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph277
-Encoding: 386 -1 130
+Encoding: 130 -1 130
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -12164,7 +12163,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph278
-Encoding: 387 -1 131
+Encoding: 131 -1 131
 Width: 278
 VWidth: 2796
 GlyphClass: 2
@@ -12210,7 +12209,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph279
-Encoding: 388 -1 132
+Encoding: 132 -1 132
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -12237,7 +12236,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph280
-Encoding: 389 -1 133
+Encoding: 133 -1 133
 Width: 614
 VWidth: 2796
 GlyphClass: 2
@@ -12274,7 +12273,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph281
-Encoding: 390 -1 134
+Encoding: 134 -1 134
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -12309,7 +12308,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph282
-Encoding: 391 -1 135
+Encoding: 135 -1 135
 Width: 611
 VWidth: 2796
 GlyphClass: 2
@@ -12365,7 +12364,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph283
-Encoding: 392 -1 136
+Encoding: 136 -1 136
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -12419,7 +12418,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph284
-Encoding: 393 -1 137
+Encoding: 137 -1 137
 Width: 617
 VWidth: 2796
 GlyphClass: 2
@@ -12465,7 +12464,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph285
-Encoding: 394 -1 138
+Encoding: 138 -1 138
 Width: 895
 VWidth: 2796
 GlyphClass: 2
@@ -12507,7 +12506,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph286
-Encoding: 395 -1 139
+Encoding: 139 -1 139
 Width: 335
 VWidth: 2796
 GlyphClass: 2
@@ -12554,7 +12553,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph287
-Encoding: 396 -1 140
+Encoding: 140 -1 140
 Width: 335
 VWidth: 2796
 GlyphClass: 2
@@ -12601,7 +12600,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph288
-Encoding: 397 -1 141
+Encoding: 141 -1 141
 Width: 335
 VWidth: 2796
 GlyphClass: 2
@@ -12654,7 +12653,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph289
-Encoding: 398 -1 142
+Encoding: 142 -1 142
 Width: 335
 VWidth: 2796
 GlyphClass: 2
@@ -12707,7 +12706,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph290
-Encoding: 399 -1 143
+Encoding: 143 -1 143
 Width: 559
 VWidth: 2796
 GlyphClass: 2
@@ -12744,7 +12743,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph291
-Encoding: 400 -1 144
+Encoding: 144 -1 144
 Width: 559
 VWidth: 2796
 GlyphClass: 2
@@ -12807,7 +12806,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph292
-Encoding: 401 -1 145
+Encoding: 145 -1 145
 Width: 1567
 VWidth: 2796
 GlyphClass: 2
@@ -12878,7 +12877,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph293
-Encoding: 402 -1 146
+Encoding: 146 -1 146
 Width: 559
 VWidth: 2796
 GlyphClass: 2
@@ -12932,7 +12931,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph294
-Encoding: 403 -1 147
+Encoding: 147 -1 147
 Width: 559
 VWidth: 2796
 GlyphClass: 2
@@ -13003,7 +13002,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph295
-Encoding: 404 -1 148
+Encoding: 148 -1 148
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -13045,7 +13044,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph296
-Encoding: 405 -1 149
+Encoding: 149 -1 149
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -13078,7 +13077,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph297
-Encoding: 406 -1 150
+Encoding: 150 -1 150
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -13137,7 +13136,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph298
-Encoding: 407 -1 151
+Encoding: 151 -1 151
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -13187,7 +13186,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph299
-Encoding: 408 -1 152
+Encoding: 152 -1 152
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -13263,7 +13262,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph300
-Encoding: 409 -1 153
+Encoding: 153 -1 153
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -13330,7 +13329,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph301
-Encoding: 410 -1 154
+Encoding: 154 -1 154
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -13373,7 +13372,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph313
 EndChar
 
 StartChar: glyph302
-Encoding: 411 -1 155
+Encoding: 155 -1 155
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -13407,7 +13406,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph314
 EndChar
 
 StartChar: glyph303
-Encoding: 412 -1 156
+Encoding: 156 -1 156
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -13467,7 +13466,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph315
 EndChar
 
 StartChar: glyph304
-Encoding: 413 -1 157
+Encoding: 157 -1 157
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -13518,7 +13517,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph316
 EndChar
 
 StartChar: glyph305
-Encoding: 414 -1 158
+Encoding: 158 -1 158
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -13595,7 +13594,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph317
 EndChar
 
 StartChar: glyph306
-Encoding: 415 -1 159
+Encoding: 159 -1 159
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -13663,7 +13662,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph318
 EndChar
 
 StartChar: glyph307
-Encoding: 416 -1 160
+Encoding: 160 -1 160
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -13706,7 +13705,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph313
 EndChar
 
 StartChar: glyph308
-Encoding: 417 -1 161
+Encoding: 161 -1 161
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -13740,7 +13739,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph314
 EndChar
 
 StartChar: glyph309
-Encoding: 418 -1 162
+Encoding: 162 -1 162
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -13800,7 +13799,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph315
 EndChar
 
 StartChar: glyph310
-Encoding: 419 -1 163
+Encoding: 163 -1 163
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -13851,7 +13850,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph316
 EndChar
 
 StartChar: glyph311
-Encoding: 420 -1 164
+Encoding: 164 -1 164
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -13928,7 +13927,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph317
 EndChar
 
 StartChar: glyph312
-Encoding: 421 -1 165
+Encoding: 165 -1 165
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -13996,7 +13995,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph318
 EndChar
 
 StartChar: glyph313
-Encoding: 422 -1 166
+Encoding: 166 -1 166
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -14038,7 +14037,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph314
-Encoding: 423 -1 167
+Encoding: 167 -1 167
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -14071,7 +14070,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph315
-Encoding: 424 -1 168
+Encoding: 168 -1 168
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -14130,7 +14129,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph316
-Encoding: 425 -1 169
+Encoding: 169 -1 169
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -14180,7 +14179,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph317
-Encoding: 426 -1 170
+Encoding: 170 -1 170
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -14256,7 +14255,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph318
-Encoding: 427 -1 171
+Encoding: 171 -1 171
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -14323,9 +14322,9 @@ EndSplineSet
 EndChar
 
 StartChar: glyph319
-Encoding: 428 -1 172
-Width: 1062
-VWidth: 2796
+Encoding: 172 -1 172
+Width: 831
+VWidth: 2790
 GlyphClass: 2
 Flags: W
 LayerCount: 2
@@ -14334,44 +14333,44 @@ SplineSet
 0 502 m 1,0,1
  0 502 0 502 27 502 c 256,2,3
  54 502 54 502 0 502 c 1,4,5
- 55 502 55 502 139 502 c 256,6,7
- 224 502 224 502 279 502 c 0,8,9
- 336 502 336 502 336 448 c 0,10,11
- 336 391 336 391 279 390 c 0,12,13
+ 54 502 54 502 139 502 c 256,6,7
+ 222 502 222 502 278 502 c 0,8,9
+ 336 502 336 502 336 449 c 0,10,11
+ 335 392 335 392 278 390 c 0,12,13
  224 390 224 390 197 390 c 0,14,15
- 167 390 167 390 112 390 c 1,16,17
- 112 390 112 390 112 363 c 256,18,19
- 112 336 112 336 112 279 c 0,20,21
- 112 224 112 224 55 224 c 0,22,23
- 0 224 0 224 0 279 c 0,24,25
- 0 336 0 336 0 369 c 0,26,27
+ 167 390 167 390 111 390 c 1,16,17
+ 111 390 111 390 111 364 c 256,18,19
+ 111 336 111 336 111 278 c 0,20,21
+ 111 225 111 225 54 225 c 0,22,23
+ 0 225 0 225 0 278 c 0,24,25
+ 0 335 0 335 0 369 c 0,26,27
  0 398 0 398 0 502 c 1,0,1
-279 502 m 0,28,29
- 279 726 279 726 390 838 c 256,30,31
- 502 950 502 950 726 950 c 256,32,33
- 950 950 950 950 1062 838 c 256,34,35
- 1174 726 1174 726 1174 502 c 0,36,37
- 1174 447 1174 447 1174 448 c 257,38,39
- 1174 448 1174 448 1174 448 c 1,40,41
- 1174 391 1174 391 1120 390 c 0,42,43
- 1063 390 1063 390 1062 448 c 1,44,45
- 1062 448 1062 448 1062 448 c 257,46,47
- 1062 448 1062 448 1062 502 c 0,48,49
- 1062 671 1062 671 978 754 c 0,50,51
- 896 839 896 839 726 838 c 0,52,53
- 559 838 559 838 475 754 c 0,54,55
- 390 672 390 672 390 502 c 0,56,57
- 390 447 390 447 390 279 c 0,58,59
- 390 112 390 112 390 0 c 0,60,61
- 390 -55 390 -55 336 -55 c 0,62,63
- 279 -55 279 -55 279 0 c 256,64,65
- 279 55 279 55 279 251 c 256,66,67
- 279 447 279 447 279 502 c 0,28,29
+278 502 m 0,28,29
+ 278 727 278 727 364 810 c 256,30,31
+ 448 894 448 894 615 894 c 0,32,33
+ 785 894 785 894 864 782 c 0,34,35
+ 948 671 948 671 948 502 c 0,36,37
+ 948 448 948 448 948 449 c 257,38,39
+ 948 449 948 449 948 449 c 1,40,41
+ 948 392 948 392 894 390 c 0,42,43
+ 837 390 837 390 838 449 c 1,44,45
+ 838 449 838 449 838 449 c 257,46,47
+ 838 449 838 449 838 502 c 0,48,49
+ 838 613 838 613 782 700 c 0,50,51
+ 725 784 725 784 615 782 c 256,52,53
+ 504 782 504 782 449 728 c 0,54,55
+ 392 674 392 674 390 502 c 0,56,57
+ 390 447 390 447 390 278 c 0,58,59
+ 390 111 390 111 390 0 c 0,60,61
+ 391 -54 391 -54 336 -54 c 0,62,63
+ 279 -54 279 -54 278 0 c 256,64,65
+ 278 54 278 54 278 251 c 256,66,67
+ 278 448 278 448 278 502 c 0,28,29
 EndSplineSet
 EndChar
 
 StartChar: glyph320
-Encoding: 429 -1 173
+Encoding: 173 -1 173
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -14409,7 +14408,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph321
-Encoding: 430 -1 174
+Encoding: 174 -1 174
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -14447,7 +14446,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph322
-Encoding: 431 -1 175
+Encoding: 175 -1 175
 Width: 278
 VWidth: 2796
 GlyphClass: 2
@@ -14491,7 +14490,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph323
-Encoding: 432 -1 176
+Encoding: 176 -1 176
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -14552,7 +14551,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph324
-Encoding: 433 -1 177
+Encoding: 177 -1 177
 Width: 950
 VWidth: 2796
 GlyphClass: 2
@@ -14598,7 +14597,7 @@ Substitution2: "Single Substitution lookup 30 subtable" glyph325
 EndChar
 
 StartChar: glyph325
-Encoding: 434 -1 178
+Encoding: 178 -1 178
 Width: 729
 VWidth: 2796
 GlyphClass: 2
@@ -14636,7 +14635,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph326
-Encoding: 435 -1 179
+Encoding: 179 -1 179
 Width: 950
 VWidth: 2796
 GlyphClass: 2
@@ -14686,7 +14685,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph327
-Encoding: 436 -1 180
+Encoding: 180 -1 180
 Width: 1007
 VWidth: 2796
 GlyphClass: 2
@@ -14725,7 +14724,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph328
-Encoding: 437 -1 181
+Encoding: 181 -1 181
 Width: 1062
 VWidth: 2796
 GlyphClass: 2
@@ -14773,7 +14772,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph329
-Encoding: 438 -1 182
+Encoding: 182 -1 182
 Width: 335
 VWidth: 2796
 GlyphClass: 2
@@ -14831,7 +14830,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph330
-Encoding: 439 -1 183
+Encoding: 183 -1 183
 Width: 335
 VWidth: 2796
 GlyphClass: 2
@@ -14891,7 +14890,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph331
-Encoding: 440 -1 184
+Encoding: 184 -1 184
 Width: 335
 VWidth: 2796
 GlyphClass: 2
@@ -14932,7 +14931,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph332
-Encoding: 441 -1 185
+Encoding: 185 -1 185
 Width: 335
 VWidth: 2796
 GlyphClass: 2
@@ -14975,7 +14974,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph333
-Encoding: 442 -1 186
+Encoding: 186 -1 186
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -15011,7 +15010,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph334
-Encoding: 443 -1 187
+Encoding: 187 -1 187
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -15061,7 +15060,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph335
-Encoding: 444 -1 188
+Encoding: 188 -1 188
 Width: 505
 VWidth: 2796
 GlyphClass: 2
@@ -15094,7 +15093,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph336
-Encoding: 445 -1 189
+Encoding: 189 -1 189
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -15127,7 +15126,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph337
-Encoding: 446 -1 190
+Encoding: 190 -1 190
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -15175,7 +15174,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph287
 EndChar
 
 StartChar: glyph338
-Encoding: 447 -1 191
+Encoding: 191 -1 191
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -15209,7 +15208,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph302
 EndChar
 
 StartChar: glyph339
-Encoding: 448 -1 192
+Encoding: 192 -1 192
 Width: 559
 VWidth: 2796
 GlyphClass: 2
@@ -15246,7 +15245,7 @@ EndSplineSet
 EndChar
 
 StartChar: nirugu.init
-Encoding: 449 -1 193
+Encoding: 193 -1 193
 Width: 169
 VWidth: 2796
 GlyphClass: 2
@@ -15263,7 +15262,7 @@ EndSplineSet
 EndChar
 
 StartChar: nirugu.medi
-Encoding: 450 -1 194
+Encoding: 194 -1 194
 Width: 169
 VWidth: 2796
 GlyphClass: 2
@@ -15280,7 +15279,7 @@ EndSplineSet
 EndChar
 
 StartChar: nirugu.fina
-Encoding: 451 -1 195
+Encoding: 195 -1 195
 Width: 169
 VWidth: 2796
 GlyphClass: 2
@@ -15297,7 +15296,7 @@ EndSplineSet
 EndChar
 
 StartChar: syllbmsjo.fina
-Encoding: 452 -1 196
+Encoding: 196 -1 196
 Width: 278
 VWidth: 5592
 GlyphClass: 2
@@ -15309,7 +15308,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph277
 EndChar
 
 StartChar: syllbmsjo.init
-Encoding: 453 -1 197
+Encoding: 197 -1 197
 Width: 278
 VWidth: 5592
 GlyphClass: 2
@@ -15321,7 +15320,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph277
 EndChar
 
 StartChar: syllbmsjo.medi
-Encoding: 454 -1 198
+Encoding: 198 -1 198
 Width: 278
 VWidth: 5592
 GlyphClass: 2
@@ -15333,7 +15332,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph277
 EndChar
 
 StartChar: is.isol
-Encoding: 455 6238 199
+Encoding: 199 6238 199
 Width: 1231
 VWidth: 2796
 GlyphClass: 2
@@ -15382,7 +15381,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" is.init
 EndChar
 
 StartChar: is.init
-Encoding: 456 -1 200
+Encoding: 200 -1 200
 Width: 895
 VWidth: 5592
 GlyphClass: 2
@@ -15393,7 +15392,7 @@ Refer: 15 -1 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: is.fina
-Encoding: 457 -1 201
+Encoding: 201 -1 201
 Width: 614
 VWidth: 5592
 GlyphClass: 2
@@ -15406,7 +15405,7 @@ Substitution2: "Single Substitution lookup 6 subtable" is1.fina
 EndChar
 
 StartChar: is2.fina
-Encoding: 458 -1 202
+Encoding: 202 -1 202
 Width: 559
 VWidth: 5592
 GlyphClass: 2
@@ -15417,7 +15416,7 @@ Refer: 18 -1 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: is1.fina
-Encoding: 459 -1 203
+Encoding: 203 -1 203
 Width: 447
 VWidth: 5592
 GlyphClass: 2
@@ -15428,7 +15427,7 @@ Refer: 19 -1 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: iy.fina
-Encoding: 460 -1 204
+Encoding: 204 -1 204
 Width: 838
 VWidth: 5592
 GlyphClass: 2
@@ -15439,7 +15438,7 @@ Refer: 20 6239 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: is.medi
-Encoding: 461 -1 205
+Encoding: 205 -1 205
 Width: 278
 VWidth: 5592
 GlyphClass: 2
@@ -15453,7 +15452,7 @@ Substitution2: "Single Substitution lookup 6 subtable" is1.medi
 EndChar
 
 StartChar: iy.medi
-Encoding: 462 -1 206
+Encoding: 206 -1 206
 Width: 505
 VWidth: 5592
 GlyphClass: 2
@@ -15464,7 +15463,7 @@ Refer: 24 -1 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: b.init
-Encoding: 463 -1 207
+Encoding: 207 -1 207
 Width: 783
 VWidth: 5592
 GlyphClass: 2
@@ -15476,7 +15475,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph286
 EndChar
 
 StartChar: p.init
-Encoding: 464 -1 208
+Encoding: 208 -1 208
 Width: 783
 VWidth: 5592
 GlyphClass: 2
@@ -15488,7 +15487,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph288
 EndChar
 
 StartChar: p.fina
-Encoding: 465 -1 209
+Encoding: 209 -1 209
 Width: 783
 VWidth: 5592
 GlyphClass: 2
@@ -15500,7 +15499,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph289
 EndChar
 
 StartChar: m.init
-Encoding: 466 -1 210
+Encoding: 210 -1 210
 Width: 617
 VWidth: 5592
 GlyphClass: 2
@@ -15511,7 +15510,7 @@ Refer: 47 6190 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: f.init
-Encoding: 467 -1 211
+Encoding: 211 -1 211
 Width: 447
 VWidth: 5592
 GlyphClass: 2
@@ -15523,7 +15522,7 @@ Substitution2: "Single Substitution lookup 6 subtable" f1.init
 EndChar
 
 StartChar: fs.isol
-Encoding: 468 6251 212
+Encoding: 212 6251 212
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -15576,7 +15575,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" fs.init
 EndChar
 
 StartChar: fs.init
-Encoding: 469 -1 213
+Encoding: 213 -1 213
 Width: 447
 VWidth: 5592
 GlyphClass: 2
@@ -15587,7 +15586,7 @@ Refer: 50 6262 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: f.fina
-Encoding: 470 -1 214
+Encoding: 214 -1 214
 Width: 278
 VWidth: 5592
 GlyphClass: 2
@@ -15598,7 +15597,7 @@ Refer: 53 -1 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: fs.medi
-Encoding: 471 -1 215
+Encoding: 215 -1 215
 Width: 278
 VWidth: 5592
 GlyphClass: 2
@@ -15609,7 +15608,7 @@ Refer: 53 -1 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: fs.fina
-Encoding: 472 -1 216
+Encoding: 216 -1 216
 Width: 278
 VWidth: 5592
 GlyphClass: 2
@@ -15620,7 +15619,7 @@ Refer: 53 -1 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: d.init
-Encoding: 473 -1 217
+Encoding: 217 -1 217
 Width: 838
 VWidth: 5592
 GlyphClass: 2
@@ -15632,7 +15631,7 @@ Substitution2: "Single Substitution lookup 6 subtable" d1.init
 EndChar
 
 StartChar: d.fina
-Encoding: 474 -1 218
+Encoding: 218 -1 218
 Width: 335
 VWidth: 5592
 GlyphClass: 2
@@ -15644,7 +15643,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph329
 EndChar
 
 StartChar: t.init
-Encoding: 475 -1 219
+Encoding: 219 -1 219
 Width: 838
 VWidth: 5592
 GlyphClass: 2
@@ -15656,7 +15655,7 @@ Substitution2: "Single Substitution lookup 6 subtable" t1.init
 EndChar
 
 StartChar: n.init
-Encoding: 476 -1 220
+Encoding: 220 -1 220
 Width: 611
 VWidth: 5592
 GlyphClass: 2
@@ -15667,7 +15666,7 @@ Refer: 65 6184 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: l.init
-Encoding: 477 -1 221
+Encoding: 221 -1 221
 Width: 617
 VWidth: 5592
 GlyphClass: 2
@@ -15678,7 +15677,7 @@ Refer: 70 6191 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: k.init
-Encoding: 478 -1 222
+Encoding: 222 -1 222
 Width: 1062
 VWidth: 5592
 GlyphClass: 2
@@ -15690,7 +15689,7 @@ Substitution2: "Single Substitution lookup 6 subtable" k1.init
 EndChar
 
 StartChar: ks.isol
-Encoding: 479 6243 223
+Encoding: 223 6243 223
 Width: 1062
 VWidth: 2796
 GlyphClass: 2
@@ -15737,7 +15736,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" ks.init
 EndChar
 
 StartChar: ks.init
-Encoding: 480 -1 224
+Encoding: 224 -1 224
 Width: 1062
 VWidth: 5592
 GlyphClass: 2
@@ -15749,7 +15748,7 @@ Substitution2: "Single Substitution lookup 6 subtable" ks1.init
 EndChar
 
 StartChar: ks2.medi
-Encoding: 481 -1 225
+Encoding: 225 -1 225
 Width: 559
 VWidth: 5592
 GlyphClass: 2
@@ -15761,7 +15760,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph290
 EndChar
 
 StartChar: g.init
-Encoding: 482 -1 226
+Encoding: 226 -1 226
 Width: 1062
 VWidth: 5592
 GlyphClass: 2
@@ -15773,7 +15772,7 @@ Substitution2: "Single Substitution lookup 6 subtable" g1.init
 EndChar
 
 StartChar: g.fina
-Encoding: 483 -1 227
+Encoding: 227 -1 227
 Width: 562
 VWidth: 5592
 GlyphClass: 2
@@ -15785,7 +15784,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph293
 EndChar
 
 StartChar: h.init
-Encoding: 484 -1 228
+Encoding: 228 -1 228
 Width: 1062
 VWidth: 5592
 GlyphClass: 2
@@ -15797,7 +15796,7 @@ Substitution2: "Single Substitution lookup 6 subtable" h1.init
 EndChar
 
 StartChar: h.fina
-Encoding: 485 -1 229
+Encoding: 229 -1 229
 Width: 554
 VWidth: 5592
 GlyphClass: 2
@@ -15809,7 +15808,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph294
 EndChar
 
 StartChar: kh.init
-Encoding: 486 -1 230
+Encoding: 230 -1 230
 Width: 783
 VWidth: 5592
 GlyphClass: 2
@@ -15821,7 +15820,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph295
 EndChar
 
 StartChar: ks1.init
-Encoding: 487 -1 231
+Encoding: 231 -1 231
 Width: 783
 VWidth: 5592
 GlyphClass: 2
@@ -15833,7 +15832,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph296
 EndChar
 
 StartChar: ks1.medi
-Encoding: 488 -1 232
+Encoding: 232 -1 232
 Width: 783
 VWidth: 5592
 GlyphClass: 2
@@ -15847,7 +15846,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph302
 EndChar
 
 StartChar: gh.init
-Encoding: 489 -1 233
+Encoding: 233 -1 233
 Width: 783
 VWidth: 5592
 GlyphClass: 2
@@ -15859,7 +15858,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph297
 EndChar
 
 StartChar: gh.fina
-Encoding: 490 -1 234
+Encoding: 234 -1 234
 Width: 783
 VWidth: 5592
 GlyphClass: 2
@@ -15872,7 +15871,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph303
 EndChar
 
 StartChar: hh.init
-Encoding: 491 -1 235
+Encoding: 235 -1 235
 Width: 783
 VWidth: 5592
 GlyphClass: 2
@@ -15884,7 +15883,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph299
 EndChar
 
 StartChar: hh.fina
-Encoding: 492 -1 236
+Encoding: 236 -1 236
 Width: 783
 VWidth: 5592
 GlyphClass: 2
@@ -15897,7 +15896,7 @@ Substitution2: "Single Substitution lookup 25 subtable" glyph305
 EndChar
 
 StartChar: dz.init
-Encoding: 493 -1 237
+Encoding: 237 -1 237
 Width: 950
 VWidth: 5592
 GlyphClass: 2
@@ -15910,7 +15909,7 @@ Substitution2: "Single Substitution lookup 6 subtable" dz1.init
 EndChar
 
 StartChar: ts.init
-Encoding: 494 -1 238
+Encoding: 238 -1 238
 Width: 950
 VWidth: 5592
 GlyphClass: 2
@@ -15921,7 +15920,7 @@ Refer: 101 6254 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: ts.fina
-Encoding: 495 -1 239
+Encoding: 239 -1 239
 Width: 950
 VWidth: 5592
 GlyphClass: 2
@@ -15933,7 +15932,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph326
 EndChar
 
 StartChar: s.init
-Encoding: 496 -1 240
+Encoding: 240 -1 240
 Width: 1007
 VWidth: 5592
 GlyphClass: 2
@@ -15944,7 +15943,7 @@ Refer: 103 6192 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: j.init
-Encoding: 497 -1 241
+Encoding: 241 -1 241
 Width: 278
 VWidth: 5592
 GlyphClass: 2
@@ -15955,7 +15954,7 @@ Refer: 106 6197 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: js.isol
-Encoding: 498 6250 242
+Encoding: 242 6250 242
 Width: 278
 VWidth: 5592
 GlyphClass: 2
@@ -15969,7 +15968,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" js.init
 EndChar
 
 StartChar: js.init
-Encoding: 499 -1 243
+Encoding: 243 -1 243
 Width: 278
 VWidth: 5592
 GlyphClass: 2
@@ -15980,7 +15979,7 @@ Refer: 106 6197 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: j.fina
-Encoding: 500 -1 244
+Encoding: 244 -1 244
 Width: 447
 VWidth: 5592
 GlyphClass: 2
@@ -15991,7 +15990,7 @@ Refer: 107 -1 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: js.fina
-Encoding: 501 -1 245
+Encoding: 245 -1 245
 Width: 447
 VWidth: 5592
 GlyphClass: 2
@@ -16002,7 +16001,7 @@ Refer: 107 -1 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: js.medi
-Encoding: 502 -1 246
+Encoding: 246 -1 246
 Width: 447
 VWidth: 5592
 GlyphClass: 2
@@ -16013,7 +16012,7 @@ Refer: 107 -1 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: c.init
-Encoding: 503 -1 247
+Encoding: 247 -1 247
 Width: 671
 VWidth: 5592
 GlyphClass: 2
@@ -16024,7 +16023,7 @@ Refer: 108 6196 S 1 0 0 1 0 0 0
 EndChar
 
 StartChar: c.fina
-Encoding: 504 -1 248
+Encoding: 248 -1 248
 Width: 671
 VWidth: 5592
 GlyphClass: 2
@@ -16035,7 +16034,7 @@ Refer: 109 -1 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: x.init
-Encoding: 505 -1 249
+Encoding: 249 -1 249
 Width: 1062
 VWidth: 5592
 GlyphClass: 2
@@ -16046,7 +16045,7 @@ Refer: 110 6247 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: rh.init
-Encoding: 506 -1 250
+Encoding: 250 -1 250
 Width: 281
 VWidth: 5592
 GlyphClass: 2
@@ -16057,7 +16056,7 @@ Refer: 113 6256 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: rh.fina
-Encoding: 507 -1 251
+Encoding: 251 -1 251
 Width: 273
 VWidth: 5592
 GlyphClass: 2
@@ -16068,7 +16067,7 @@ Refer: 114 -1 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: r.init
-Encoding: 508 -1 252
+Encoding: 252 -1 252
 Width: 447
 VWidth: 5592
 GlyphClass: 2
@@ -16079,7 +16078,7 @@ Refer: 115 6261 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: rs.init
-Encoding: 509 -1 253
+Encoding: 253 -1 253
 Width: 447
 VWidth: 5592
 GlyphClass: 2
@@ -16090,7 +16089,7 @@ Refer: 115 6261 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: rs.isol
-Encoding: 510 6199 254
+Encoding: 254 6199 254
 Width: 447
 VWidth: 2796
 GlyphClass: 2
@@ -16129,7 +16128,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" rs.init
 EndChar
 
 StartChar: kh.fina
-Encoding: 511 -1 255
+Encoding: 255 -1 255
 Width: 783
 VWidth: 2796
 GlyphClass: 2
@@ -16171,7 +16170,7 @@ EndSplineSet
 EndChar
 
 StartChar: rs.medi
-Encoding: 512 -1 256
+Encoding: 256 -1 256
 Width: 447
 VWidth: 5592
 GlyphClass: 2
@@ -16183,7 +16182,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph333
 EndChar
 
 StartChar: y.init
-Encoding: 513 -1 257
+Encoding: 257 -1 257
 Width: 505
 VWidth: 5592
 GlyphClass: 2
@@ -16194,7 +16193,7 @@ Refer: 119 6198 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: y.fina
-Encoding: 514 -1 258
+Encoding: 258 -1 258
 Width: 278
 VWidth: 5592
 GlyphClass: 2
@@ -16206,7 +16205,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph335
 EndChar
 
 StartChar: w.init
-Encoding: 515 -1 259
+Encoding: 259 -1 259
 Width: 281
 VWidth: 5592
 GlyphClass: 2
@@ -16217,7 +16216,7 @@ Refer: 121 6200 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: w.fina
-Encoding: 516 -1 260
+Encoding: 260 -1 260
 Width: 278
 VWidth: 5592
 GlyphClass: 2
@@ -16229,7 +16228,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph336
 EndChar
 
 StartChar: ngs.fina
-Encoding: 517 -1 261
+Encoding: 261 -1 261
 Width: 838
 VWidth: 5592
 GlyphClass: 2
@@ -16240,7 +16239,7 @@ Refer: 123 6242 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: ng.fina
-Encoding: 518 -1 262
+Encoding: 262 -1 262
 Width: 838
 VWidth: 5592
 GlyphClass: 2
@@ -16251,43 +16250,154 @@ Refer: 124 6185 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: ng.medi
-Encoding: 519 -1 263
-Width: 1062
-VWidth: 5592
+Encoding: 263 -1 263
+Width: 831
+VWidth: 2790
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 125 -1 N 1 0 0 1 0 0 0
+SplineSet
+0 502 m 1,0,1
+ 0 502 0 502 27 502 c 256,2,3
+ 54 502 54 502 0 502 c 1,4,5
+ 54 502 54 502 139 502 c 256,6,7
+ 222 502 222 502 278 502 c 0,8,9
+ 336 502 336 502 336 449 c 0,10,11
+ 335 392 335 392 278 390 c 0,12,13
+ 224 390 224 390 197 390 c 0,14,15
+ 167 390 167 390 111 390 c 1,16,17
+ 111 390 111 390 111 364 c 256,18,19
+ 111 336 111 336 111 278 c 0,20,21
+ 111 225 111 225 54 225 c 0,22,23
+ 0 225 0 225 0 278 c 0,24,25
+ 0 335 0 335 0 369 c 0,26,27
+ 0 398 0 398 0 502 c 1,0,1
+278 502 m 0,28,29
+ 278 727 278 727 364 810 c 256,30,31
+ 448 894 448 894 615 894 c 0,32,33
+ 785 894 785 894 864 782 c 0,34,35
+ 948 671 948 671 948 502 c 0,36,37
+ 948 448 948 448 948 449 c 257,38,39
+ 948 449 948 449 948 449 c 1,40,41
+ 948 392 948 392 894 390 c 0,42,43
+ 837 390 837 390 838 449 c 1,44,45
+ 838 449 838 449 838 449 c 257,46,47
+ 838 449 838 449 838 502 c 0,48,49
+ 838 613 838 613 782 700 c 0,50,51
+ 725 784 725 784 615 782 c 256,52,53
+ 504 782 504 782 449 728 c 0,54,55
+ 392 674 392 674 390 502 c 0,56,57
+ 390 447 390 447 390 278 c 0,58,59
+ 390 111 390 111 390 0 c 0,60,61
+ 391 -54 391 -54 336 -54 c 0,62,63
+ 279 -54 279 -54 278 0 c 256,64,65
+ 278 54 278 54 278 251 c 256,66,67
+ 278 448 278 448 278 502 c 0,28,29
+EndSplineSet
 Substitution2: "Single Substitution lookup 24 subtable" glyph319
 EndChar
 
 StartChar: ngs.init
-Encoding: 520 -1 264
-Width: 1062
-VWidth: 5592
+Encoding: 264 -1 264
+Width: 831
+VWidth: 2790
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 125 -1 N 1 0 0 1 0 0 0
+SplineSet
+0 502 m 1,0,1
+ 0 502 0 502 27 502 c 256,2,3
+ 54 502 54 502 0 502 c 1,4,5
+ 54 502 54 502 139 502 c 256,6,7
+ 222 502 222 502 278 502 c 0,8,9
+ 336 502 336 502 336 449 c 0,10,11
+ 335 392 335 392 278 390 c 0,12,13
+ 224 390 224 390 197 390 c 0,14,15
+ 167 390 167 390 111 390 c 1,16,17
+ 111 390 111 390 111 364 c 256,18,19
+ 111 336 111 336 111 278 c 0,20,21
+ 111 225 111 225 54 225 c 0,22,23
+ 0 225 0 225 0 278 c 0,24,25
+ 0 335 0 335 0 369 c 0,26,27
+ 0 398 0 398 0 502 c 1,0,1
+278 502 m 0,28,29
+ 278 727 278 727 364 810 c 256,30,31
+ 448 894 448 894 615 894 c 0,32,33
+ 785 894 785 894 864 782 c 0,34,35
+ 948 671 948 671 948 502 c 0,36,37
+ 948 448 948 448 948 449 c 257,38,39
+ 948 449 948 449 948 449 c 1,40,41
+ 948 392 948 392 894 390 c 0,42,43
+ 837 390 837 390 838 449 c 1,44,45
+ 838 449 838 449 838 449 c 257,46,47
+ 838 449 838 449 838 502 c 0,48,49
+ 838 613 838 613 782 700 c 0,50,51
+ 725 784 725 784 615 782 c 256,52,53
+ 504 782 504 782 449 728 c 0,54,55
+ 392 674 392 674 390 502 c 0,56,57
+ 390 447 390 447 390 278 c 0,58,59
+ 390 111 390 111 390 0 c 0,60,61
+ 391 -54 391 -54 336 -54 c 0,62,63
+ 279 -54 279 -54 278 0 c 256,64,65
+ 278 54 278 54 278 251 c 256,66,67
+ 278 448 278 448 278 502 c 0,28,29
+EndSplineSet
 Substitution2: "Single Substitution lookup 24 subtable" glyph319
 EndChar
 
 StartChar: ngs.medi
-Encoding: 521 -1 265
-Width: 1062
-VWidth: 5592
+Encoding: 265 -1 265
+Width: 831
+VWidth: 2790
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 125 -1 N 1 0 0 1 0 0 0
+SplineSet
+0 502 m 1,0,1
+ 0 502 0 502 27 502 c 256,2,3
+ 54 502 54 502 0 502 c 1,4,5
+ 54 502 54 502 139 502 c 256,6,7
+ 222 502 222 502 278 502 c 0,8,9
+ 336 502 336 502 336 449 c 0,10,11
+ 335 392 335 392 278 390 c 0,12,13
+ 224 390 224 390 197 390 c 0,14,15
+ 167 390 167 390 111 390 c 1,16,17
+ 111 390 111 390 111 364 c 256,18,19
+ 111 336 111 336 111 278 c 0,20,21
+ 111 225 111 225 54 225 c 0,22,23
+ 0 225 0 225 0 278 c 0,24,25
+ 0 335 0 335 0 369 c 0,26,27
+ 0 398 0 398 0 502 c 1,0,1
+278 502 m 0,28,29
+ 278 727 278 727 364 810 c 256,30,31
+ 448 894 448 894 615 894 c 0,32,33
+ 785 894 785 894 864 782 c 0,34,35
+ 948 671 948 671 948 502 c 0,36,37
+ 948 448 948 448 948 449 c 257,38,39
+ 948 449 948 449 948 449 c 1,40,41
+ 948 392 948 392 894 390 c 0,42,43
+ 837 390 837 390 838 449 c 1,44,45
+ 838 449 838 449 838 449 c 257,46,47
+ 838 449 838 449 838 502 c 0,48,49
+ 838 613 838 613 782 700 c 0,50,51
+ 725 784 725 784 615 782 c 256,52,53
+ 504 782 504 782 449 728 c 0,54,55
+ 392 674 392 674 390 502 c 0,56,57
+ 390 447 390 447 390 278 c 0,58,59
+ 390 111 390 111 390 0 c 0,60,61
+ 391 -54 391 -54 336 -54 c 0,62,63
+ 279 -54 279 -54 278 0 c 256,64,65
+ 278 54 278 54 278 251 c 256,66,67
+ 278 448 278 448 278 502 c 0,28,29
+EndSplineSet
 Substitution2: "Single Substitution lookup 24 subtable" glyph319
 EndChar
 
 StartChar: jh.init
-Encoding: 522 -1 266
+Encoding: 266 -1 266
 Width: 281
 VWidth: 5592
 GlyphClass: 2
@@ -16298,7 +16408,7 @@ Refer: 126 6263 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: jhs.init
-Encoding: 523 -1 267
+Encoding: 267 -1 267
 Width: 281
 VWidth: 5592
 GlyphClass: 2
@@ -16309,7 +16419,7 @@ Refer: 126 6263 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: jhs.isol
-Encoding: 524 6258 268
+Encoding: 268 6258 268
 Width: 281
 VWidth: 2796
 GlyphClass: 2
@@ -16373,7 +16483,7 @@ Substitution2: "Required Feature in Latin lookup 0 subtable" jhs.init
 EndChar
 
 StartChar: jh.fina
-Encoding: 525 -1 269
+Encoding: 269 -1 269
 Width: 278
 VWidth: 5592
 GlyphClass: 2
@@ -16385,7 +16495,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph323
 EndChar
 
 StartChar: jhs.fina
-Encoding: 526 -1 270
+Encoding: 270 -1 270
 Width: 278
 VWidth: 5592
 GlyphClass: 2
@@ -16397,7 +16507,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph323
 EndChar
 
 StartChar: jhs.medi
-Encoding: 527 -1 271
+Encoding: 271 -1 271
 Width: 278
 VWidth: 5592
 GlyphClass: 2
@@ -16409,7 +16519,7 @@ Substitution2: "Single Substitution lookup 26 subtable" glyph323
 EndChar
 
 StartChar: ch.init
-Encoding: 528 -1 272
+Encoding: 272 -1 272
 Width: 671
 VWidth: 5592
 GlyphClass: 2
@@ -16420,7 +16530,7 @@ Refer: 128 6257 S 1 0 0 1 0 0 0
 EndChar
 
 StartChar: ch.fina
-Encoding: 529 -1 273
+Encoding: 273 -1 273
 Width: 674
 VWidth: 5592
 GlyphClass: 2
@@ -16431,7 +16541,7 @@ Refer: 129 -1 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: nobreakspace
-Encoding: 530 8239 274
+Encoding: 274 8239 274
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -16439,10 +16549,379 @@ LayerCount: 2
 EndChar
 
 StartChar: n
-Encoding: 531 110 275
+Encoding: 275 110 275
 Width: 0
 Flags: W
 LayerCount: 2
+EndChar
+
+StartChar: comma
+Encoding: 276 6152 276
+Width: 499
+VWidth: 2790
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+287 328 m 0,0,1
+ 265 306 265 306 232 291 c 256,2,3
+ 198 277 198 277 167 278 c 1,4,5
+ 167 389 167 389 167 615 c 1,6,7
+ 201 616 201 616 232 605 c 0,8,9
+ 266 591 266 591 287 565 c 0,10,11
+ 309 543 309 543 321 512 c 0,12,13
+ 335 482 335 482 336 449 c 256,14,15
+ 335 415 335 415 321 381 c 0,16,17
+ 309 353 309 353 287 328 c 0,0,1
+225 449 m 256,18,19
+ 225 460 225 460 220 470 c 0,20,21
+ 216 481 216 481 208 487 c 0,22,23
+ 200 494 200 494 190 499 c 0,24,25
+ 179 503 179 503 167 502 c 1,26,27
+ 167 466 167 466 167 390 c 1,28,29
+ 178 390 178 390 190 396 c 256,30,31
+ 201 402 201 402 208 406 c 0,32,33
+ 216 414 216 414 220 425 c 0,34,35
+ 225 438 225 438 225 449 c 256,18,19
+EndSplineSet
+EndChar
+
+StartChar: period
+Encoding: 277 6153 277
+Width: 777
+VWidth: 2790
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+287 328 m 0,0,1
+ 265 306 265 306 232 291 c 256,2,3
+ 198 277 198 277 167 278 c 1,4,5
+ 167 389 167 389 167 615 c 1,6,7
+ 201 616 201 616 232 605 c 0,8,9
+ 266 591 266 591 287 565 c 0,10,11
+ 309 543 309 543 321 512 c 0,12,13
+ 335 482 335 482 336 449 c 256,14,15
+ 335 415 335 415 321 381 c 0,16,17
+ 309 353 309 353 287 328 c 0,0,1
+225 449 m 256,18,19
+ 225 460 225 460 220 470 c 0,20,21
+ 216 481 216 481 208 487 c 0,22,23
+ 200 494 200 494 190 499 c 0,24,25
+ 179 503 179 503 167 502 c 1,26,27
+ 167 466 167 466 167 390 c 1,28,29
+ 178 390 178 390 190 396 c 256,30,31
+ 201 402 201 402 208 406 c 0,32,33
+ 216 414 216 414 220 425 c 0,34,35
+ 225 438 225 438 225 449 c 256,18,19
+565 328 m 0,36,37
+ 543 306 543 306 512 291 c 0,38,39
+ 482 277 482 277 449 278 c 1,40,41
+ 449 389 449 389 449 615 c 1,42,43
+ 483 616 483 616 512 605 c 0,44,45
+ 546 591 546 591 565 565 c 0,46,47
+ 590 543 590 543 601 512 c 0,48,49
+ 615 482 615 482 615 449 c 256,50,51
+ 615 415 615 415 601 381 c 0,52,53
+ 590 353 590 353 565 328 c 0,36,37
+502 449 m 256,54,55
+ 501 460 501 460 499 470 c 0,56,57
+ 493 481 493 481 487 487 c 0,58,59
+ 478 494 478 494 470 499 c 0,60,61
+ 459 503 459 503 449 502 c 1,62,63
+ 449 466 449 466 449 390 c 1,64,65
+ 460 390 460 390 470 396 c 0,66,67
+ 478 402 478 402 487 406 c 0,68,69
+ 494 414 494 414 499 425 c 0,70,71
+ 501 438 501 438 502 449 c 256,54,55
+EndSplineSet
+EndChar
+
+StartChar: four.qik
+Encoding: 278 6149 278
+Width: 1055
+VWidth: 2790
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+565 552 m 0,0,1
+ 543 530 543 530 512 517 c 0,2,3
+ 482 503 482 503 449 502 c 1,4,5
+ 449 613 449 613 449 838 c 1,6,7
+ 483 837 483 837 512 822 c 0,8,9
+ 546 811 546 811 565 788 c 0,10,11
+ 591 766 591 766 605 735 c 0,12,13
+ 616 704 616 704 615 671 c 256,14,15
+ 616 637 616 637 605 606 c 0,16,17
+ 591 577 591 577 565 552 c 0,0,1
+502 671 m 256,18,19
+ 501 682 501 682 499 695 c 0,20,21
+ 493 703 493 703 487 710 c 0,22,23
+ 480 718 480 718 470 724 c 0,24,25
+ 459 728 459 728 449 728 c 1,26,27
+ 449 692 449 692 449 615 c 1,28,29
+ 460 615 460 615 470 620 c 0,30,31
+ 481 624 481 624 487 631 c 0,32,33
+ 494 639 494 639 499 649 c 0,34,35
+ 501 660 501 660 502 671 c 256,18,19
+565 104 m 0,36,37
+ 543 82 543 82 512 69 c 0,38,39
+ 482 55 482 55 449 54 c 1,40,41
+ 449 165 449 165 449 390 c 1,42,43
+ 483 390 483 390 512 379 c 0,44,45
+ 546 365 546 365 565 341 c 0,46,47
+ 590 319 590 319 601 287 c 0,48,49
+ 615 258 615 258 615 225 c 256,50,51
+ 615 192 615 192 601 160 c 0,52,53
+ 590 129 590 129 565 104 c 0,36,37
+502 225 m 256,54,55
+ 501 237 501 237 499 248 c 0,56,57
+ 493 259 493 259 487 261 c 0,58,59
+ 478 270 478 270 470 276 c 0,60,61
+ 459 279 459 279 449 278 c 1,62,63
+ 449 242 449 242 449 167 c 1,64,65
+ 460 167 460 167 470 172 c 0,66,67
+ 478 178 478 178 487 184 c 0,68,69
+ 494 192 494 192 499 202 c 0,70,71
+ 501 215 501 215 502 225 c 256,54,55
+287 328 m 0,72,73
+ 265 306 265 306 232 291 c 256,74,75
+ 198 277 198 277 167 278 c 1,76,77
+ 167 389 167 389 167 615 c 1,78,79
+ 201 616 201 616 232 605 c 0,80,81
+ 266 591 266 591 287 565 c 0,82,83
+ 309 543 309 543 321 512 c 0,84,85
+ 335 482 335 482 336 449 c 256,86,87
+ 335 415 335 415 321 381 c 0,88,89
+ 309 353 309 353 287 328 c 0,72,73
+225 449 m 256,90,91
+ 225 460 225 460 220 470 c 0,92,93
+ 216 481 216 481 208 487 c 0,94,95
+ 200 494 200 494 190 499 c 0,96,97
+ 179 503 179 503 167 502 c 1,98,99
+ 167 466 167 466 167 390 c 1,100,101
+ 178 390 178 390 190 396 c 256,102,103
+ 201 402 201 402 208 406 c 0,104,105
+ 216 414 216 414 220 425 c 0,106,107
+ 225 438 225 438 225 449 c 256,90,91
+845 328 m 0,108,109
+ 820 306 820 306 790 291 c 0,110,111
+ 757 277 757 277 728 278 c 1,112,113
+ 728 389 728 389 728 615 c 1,114,115
+ 762 616 762 616 790 605 c 0,116,117
+ 819 591 819 591 845 565 c 0,118,119
+ 867 543 867 543 880 512 c 0,120,121
+ 894 482 894 482 894 449 c 256,122,123
+ 894 415 894 415 880 381 c 0,124,125
+ 867 353 867 353 845 328 c 0,108,109
+782 449 m 256,126,127
+ 782 460 782 460 778 470 c 256,128,129
+ 772 481 772 481 766 487 c 0,130,131
+ 758 494 758 494 748 499 c 0,132,133
+ 738 503 738 503 728 502 c 1,134,135
+ 728 466 728 466 728 390 c 1,136,137
+ 739 390 739 390 748 396 c 256,138,139
+ 759 402 759 402 766 406 c 0,140,141
+ 772 414 772 414 778 425 c 256,142,143
+ 782 438 782 438 782 449 c 256,126,127
+EndSplineSet
+EndChar
+
+StartChar: colon
+Encoding: 279 6148 279
+Width: 499
+VWidth: 2790
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+287 552 m 0,0,1
+ 265 530 265 530 232 517 c 256,2,3
+ 198 503 198 503 167 502 c 1,4,5
+ 167 613 167 613 167 838 c 1,6,7
+ 201 837 201 837 232 822 c 0,8,9
+ 266 811 266 811 287 788 c 0,10,11
+ 309 766 309 766 321 735 c 0,12,13
+ 335 704 335 704 336 671 c 256,14,15
+ 335 637 335 637 321 606 c 0,16,17
+ 309 577 309 577 287 552 c 0,0,1
+225 671 m 256,18,19
+ 225 682 225 682 220 695 c 0,20,21
+ 216 703 216 703 208 710 c 256,22,23
+ 200 718 200 718 190 724 c 0,24,25
+ 179 728 179 728 167 728 c 1,26,27
+ 167 692 167 692 167 615 c 1,28,29
+ 178 615 178 615 190 620 c 0,30,31
+ 201 624 201 624 208 631 c 256,32,33
+ 216 639 216 639 220 649 c 0,34,35
+ 225 660 225 660 225 671 c 256,18,19
+287 104 m 0,36,37
+ 265 82 265 82 232 69 c 256,38,39
+ 198 55 198 55 167 54 c 1,40,41
+ 167 165 167 165 167 390 c 1,42,43
+ 201 390 201 390 232 379 c 0,44,45
+ 266 365 266 365 287 341 c 0,46,47
+ 309 319 309 319 321 287 c 0,48,49
+ 335 258 335 258 336 225 c 256,50,51
+ 335 192 335 192 321 160 c 0,52,53
+ 309 129 309 129 287 104 c 0,36,37
+225 225 m 256,54,55
+ 225 237 225 237 220 248 c 0,56,57
+ 216 259 216 259 208 261 c 0,58,59
+ 200 270 200 270 190 276 c 0,60,61
+ 179 279 179 279 167 278 c 1,62,63
+ 167 242 167 242 167 167 c 1,64,65
+ 178 167 178 167 190 172 c 256,66,67
+ 201 178 201 178 208 184 c 0,68,69
+ 216 192 216 192 220 202 c 0,70,71
+ 225 215 225 215 225 225 c 256,54,55
+EndSplineSet
+EndChar
+
+StartChar: niguru
+Encoding: 280 6154 280
+Width: 162
+VWidth: 2790
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 502 m 1,0,1
+ 41 502 41 502 167 502 c 1,2,3
+ 183 488 183 488 225 449 c 1,4,5
+ 211 435 211 435 167 390 c 1,6,7
+ 126 390 126 390 0 390 c 1,8,9
+ 0 420 0 420 0 449 c 5,10,11
+ 0 449 0 449 0 502 c 1,0,1
+EndSplineSet
+EndChar
+
+StartChar: ziya
+Encoding: 281 6151 281
+Width: 275
+VWidth: 2790
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 502 m 1,0,1
+ 54 502 54 502 139 502 c 256,2,3
+ 222 502 222 502 278 502 c 1,4,5
+ 298 484 298 484 336 449 c 1,6,7
+ 322 435 322 435 278 390 c 1,8,9
+ 224 390 224 390 187 390 c 256,10,11
+ 148 390 148 390 111 390 c 1,12,13
+ 111 390 111 390 111 364 c 256,14,15
+ 111 336 111 336 111 278 c 0,16,17
+ 111 225 111 225 54 225 c 0,18,19
+ 0 225 0 225 0 278 c 0,20,21
+ 0 336 0 336 0 336 c 257,22,23
+ 0 336 0 336 0 390 c 1,24,25
+ 0 418 0 418 0 447 c 5,26,27
+ 0 474 0 474 0 502 c 1,0,1
+EndSplineSet
+EndChar
+
+StartChar: rightquote
+Encoding: 282 8217 282
+Width: 549
+VWidth: 2790
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+387 0 m 0,0,1
+ 386 -54 386 -54 329 -54 c 0,2,3
+ 276 -54 276 -54 276 0 c 0,4,5
+ 276 390 276 390 276 1174 c 1,6,7
+ 246 1174 246 1174 164 1174 c 0,8,9
+ 107 1174 107 1174 105 1230 c 0,10,11
+ 105 1284 105 1284 164 1285 c 0,12,13
+ 238 1285 238 1285 387 1285 c 1,14,15
+ 387 963 387 963 387 0 c 0,0,1
+EndSplineSet
+EndChar
+
+StartChar: leftquote
+Encoding: 283 8216 283
+Width: 549
+VWidth: 2790
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+277 894 m 0,0,1
+ 276 948 276 948 219 949 c 0,2,3
+ 166 949 166 949 166 894 c 0,4,5
+ 166 465 166 465 166 -390 c 1,6,-1
+ 247 -390 l 0,7,8
+ 331 -390 331 -390 390 -390 c 0,9,10
+ 444 -390 444 -390 444 -336 c 256,11,12
+ 444 -282 444 -282 390 -282 c 0,13,14
+ 352 -282 352 -282 277 -282 c 1,15,16
+ 277 14 277 14 277 894 c 0,0,1
+EndSplineSet
+EndChar
+
+StartChar: rightbook
+Encoding: 284 8221 284
+Width: 750
+VWidth: 2790
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+588 0 m 0,0,1
+ 587 -54 587 -54 530 -54 c 0,2,3
+ 477 -54 477 -54 477 0 c 0,4,5
+ 477 390 477 390 477 1174 c 1,6,7
+ 393 1174 393 1174 140 1174 c 0,8,9
+ 85 1174 85 1174 84 1230 c 0,10,11
+ 84 1284 84 1284 140 1285 c 0,12,13
+ 287 1285 287 1285 588 1285 c 1,14,15
+ 588 963 588 963 588 0 c 0,0,1
+365 0 m 0,16,17
+ 365 -54 365 -54 306 -54 c 0,18,19
+ 252 -54 252 -54 253 0 c 0,20,21
+ 253 316 253 316 253 948 c 1,22,23
+ 223 948 223 948 140 948 c 0,24,25
+ 85 948 85 948 84 1005 c 0,26,27
+ 84 1059 84 1059 140 1061 c 0,28,29
+ 214 1061 214 1061 365 1061 c 1,30,31
+ 365 795 365 795 365 0 c 0,16,17
+EndSplineSet
+EndChar
+
+StartChar: leftbook
+Encoding: 285 8220 285
+Width: 750
+VWidth: 2790
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+276 891 m 0,0,1
+ 276 945 276 945 217 946 c 0,2,3
+ 163 946 163 946 164 891 c 0,4,5
+ 164 462 164 462 164 -393 c 1,6,-1
+ 357 -393 l 0,7,8
+ 554 -393 554 -393 612 -393 c 0,9,10
+ 666 -393 666 -393 666 -339 c 256,11,12
+ 666 -285 666 -285 612 -285 c 0,13,14
+ 501 -285 501 -285 276 -285 c 1,15,16
+ 276 11 276 11 276 891 c 0,0,1
+499 891 m 0,17,18
+ 498 945 498 945 441 946 c 0,19,20
+ 388 946 388 946 388 891 c 0,21,22
+ 388 536 388 536 388 -172 c 1,23,-1
+ 469 -172 l 0,24,25
+ 553 -172 553 -172 612 -172 c 0,26,27
+ 666 -171 666 -171 666 -114 c 0,28,29
+ 666 -61 666 -61 612 -61 c 0,30,31
+ 574 -61 574 -61 499 -61 c 1,32,33
+ 499 175 499 175 499 891 c 0,17,18
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
