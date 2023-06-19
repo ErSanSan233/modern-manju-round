@@ -20,3 +20,18 @@
   - [x] 当f/w和y之间只有一个字符时，采用更长的y
 - [ ] ~~字母间接缝宜引入尖角，涉及全部重绘，搁置~~
 - [ ] ~~所有转角统一为圆角，涉及ᠪᠣ等复杂情况，搁置~~
+
+### 使用示例
+
+```
+``manju gisun serengga, manju halangge niyalmai fulehe da yaya we bahanarakvqi ojorakvngge kai, adarame seqi, muse jabxan de wesihun jalan -i ayan suwayan manju ofi, aika manjurame bahanarakv, niyalma be aqaha dari, fonjiha \nolinebreak de, angga gahvxara yasa xarinjara oqi, ereqi giqukengge biu ereq=====i fanqaquk==========angge ge=====li bi===============o::''
+
+tangsu: batu si ainambi ni.
+
+batu: bi jing bithe hvlame bi. taqibusi muse be xu bithe be labdu hvlabumbi, uttu ofi, bi jing <<ilan gurun -i bithe>> be hvlamebi.
+
+tangsu: mini tere dabteli <<hari poter>> be si sabuhau.
+
+neh'v, dvmbi, hv, h'v. h h' h''. t'' d'' t d 
+```
+

@@ -1,5 +1,5 @@
 SplineFontDB: 3.2
-FontName: Modern-manJu-Roundss
+FontName: Modern-manJu-Round
 FullName: Modern manJu Round
 FamilyName: Modern-manJu
 Weight: Book
@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1390402476
-ModificationTime: 1687180230
+ModificationTime: 1687180798
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
