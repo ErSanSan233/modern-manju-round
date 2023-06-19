@@ -1,10 +1,10 @@
 SplineFontDB: 3.2
-FontName: Modern-manJu-Roundss
+FontName: Modern-manJu-Round
 FullName: Modern manJu Round
 FamilyName: Modern-manJu
 Weight: Book
 Copyright: Copyright 2023 LLLLL.
-Version: 0.3
+Version: 0.2
 ItalicAngle: 0
 UnderlinePosition: -144
 UnderlineWidth: 32
@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1390402476
-ModificationTime: 1687180230
+ModificationTime: 1687177300
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -58,8 +58,7 @@ OS2FamilyClass: 261
 OS2Vendor: 'SBT '
 OS2CodePages: 001e0101.00000000
 OS2UnicodeRanges: 800000a7.1001e408.00020016.00000000
-Lookup: 1 0 0 "Single Subs wide y" { "Single Subs wide y-1"  } []
-Lookup: 1 0 0 "Single Substitution k g h t d force replacement" { "Single Substitution t d-isol"  "Single Substitution k g h"  } []
+Lookup: 1 0 0 "Single Substitution k g h to F full" { "Single Substitution k g h force replacement-1"  } []
 Lookup: 1 0 0 "Single Substitution o u fina" { "Single Substitution lookup 4 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 6" { "Single Substitution lookup 6 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 7" { "Single Substitution lookup 7 subtable"  } []
@@ -79,9 +78,9 @@ Lookup: 1 0 0 "Single Substitution is-medi maintained" { "Single Substitution lo
 Lookup: 1 0 0 "'fina' all fina-s" { "'fina' Terminal Forms in Mongolian lookup 2 subtable"  } ['fina' ('mong' <'dflt' > ) ]
 Lookup: 1 0 0 "'medi' all medi-s" { "'medi' Medial Forms in Mongolian lookup 1 subtable"  } ['medi' ('mong' <'dflt' > ) ]
 Lookup: 1 0 0 "'init' all init-s" { "Required Feature in Latin lookup 0 subtable"  } ['init' ('mong' <'dflt' > ) ]
-Lookup: 6 0 0 "'rlig' k g h t d replacement with fvs1" { "'rlig' t d-isol replacement with fvs1"  "'rlig' k g h replacement with fvs1 default-full"  } ['rlig' ('mong' <'dflt' > ) ]
+Lookup: 6 0 0 "'rlig' k g h replacement with fvs1" { "'rlig' k g h replacement with fvs1 default-full"  } ['rlig' ('mong' <'dflt' > ) ]
 Lookup: 6 0 0 "'rlig' Required Ligatures in Mongolian lookup 22" { "'rlig' Required Ligatures in Mongolian lookup 22 subtable"  } ['rlig' ('mong' <'dflt' > ) ]
-Lookup: 6 0 0 "'rlig' majority" { "'rlig' long y in w/f-*-y "  "'rlig' a-fina after round"  "'rlig' e-medi after d t"  "'rlig' e-fina after d t"  "'rlig' e-fina after k g h"  "'rlig' e-fina after round"  "'rlig' i-medi after vowel"  "'rlig' i-fina after z"  "'rlig' i-fina after round"  "'rlig' is-medi after vowel"  "'rlig' is-fina after z"  "'rlig' is-fina after round"  "'rlig' o-fina after round"  "'rlig' u-medi after t d"  "'rlig' u-fina after k g h"  "'rlig' u-fina after b p"  "'rlig' u-fina after t d"  "'rlig' u2-fina after t d"  "'rlig' n-medi before vowel"  "'rlig' n-fina before fvs1 2"  "'rlig' k ks-init F before vowel"  "'rlig' k ks-medi F before vowel"  "'rlig' k ks-medi M before vowel"  "'rlig' tek"  "'rlig' k after e v"  "'rlig' kak gak hak"  "'rlig' kuk guk huk"  "'rlig' kuuk guuk huuk"  "'rlig' g-init F before vowel"  "'rlig' g-medi F before vowel"  "'rlig' h-init F before vowel"  "'rlig' h medi F before vowel"  "'rlig' t-init before e u v"  "'rlig' t-medi before e u v"  "'rlig' t-medi before a i o"  "'rlig' d-init before e u v"  "'rlig' d-medi before e u v"  "'rlig' f-init"  "'rlig' f-medi"  "'rlig' z-init"  "'rlig' z-medi"  } ['rlig' ('mong' <'dflt' > ) ]
+Lookup: 6 0 0 "'rlig' majority" { "'rlig' a-fina after round"  "'rlig' e-medi after d t"  "'rlig' e-fina after d t"  "'rlig' e-fina after k g h"  "'rlig' e-fina after round"  "'rlig' i-medi after vowel"  "'rlig' i-fina after z"  "'rlig' i-fina after round"  "'rlig' is-medi after vowel"  "'rlig' is-fina after z"  "'rlig' is-fina after round"  "'rlig' o-fina after round"  "'rlig' u-medi after t d"  "'rlig' u-fina after k g h"  "'rlig' u-fina after b p"  "'rlig' u-fina after t d"  "'rlig' u2-fina after t d"  "'rlig' n-medi before vowel"  "'rlig' n-fina before fvs1 2"  "'rlig' k ks-init F before vowel"  "'rlig' k ks-medi F before vowel"  "'rlig' k ks-medi M before vowel"  "'rlig' tek"  "'rlig' k after e v"  "'rlig' kak gak hak"  "'rlig' kuk guk huk"  "'rlig' kuuk guuk huuk"  "'rlig' g-init F before vowel"  "'rlig' g-medi F before vowel"  "'rlig' h-init F before vowel"  "'rlig' h medi F before vowel"  "'rlig' t-init before e u v"  "'rlig' t-medi before e u v"  "'rlig' t-medi before a i o"  "'rlig' d-init before e u v"  "'rlig' d-medi before e u v"  "'rlig' f-init"  "'rlig' f-medi"  "'rlig' z-init"  "'rlig' z-medi"  } ['rlig' ('mong' <'dflt' > ) ]
 Lookup: 6 0 0 "'rlig' o u fina" { "'rlig' Required Ligatures in Mongolian lookup 3 contextual 0"  "'rlig' Required Ligatures in Mongolian lookup 3 contextual 1"  } ['rlig' ('mong' <'dflt' > ) ]
 Lookup: 6 0 0 "'rlig' Required Ligatures in Mongolian lookup 15" { "'rlig' Required Ligatures in Mongolian lookup 15 subtable"  } ['rlig' ('mong' <'dflt' > ) ]
 Lookup: 6 0 0 "'rlig' Required Ligatures in Mongolian lookup 16" { "'rlig' Required Ligatures in Mongolian lookup 16 subtable"  } ['rlig' ('mong' <'dflt' > ) ]
@@ -93,27 +92,12 @@ Lookup: 6 0 0 "'rlig' z before i" { "'rlig' Required Ligatures in Mongolian look
 Lookup: 6 0 0 "'calt' Contextual Alternates little -i" { "'calt' Contextual Alternates in Mongolian lookup 32 subtable"  } ['calt' ('mong' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: coverage "'rlig' long y in w/f-*-y " 0 0 0 1
- 1 2 0
-  Coverage: 27 y.fina y.init y.isol y.medi
-  BCoverage: 2312 a.isol a.init a.fina a1.fina a.medi e.isol e.init e.fina e1.fina e3.fina e2.fina e.medi e1.medi i.isol i1.isol i.init glyph147 i.fina i2.fina i1.fina iy.isol i.medi is1.medi i1.medi iy.init o.isol o.init o.fina o1.fina o.medi u.isol u.init v.isol v.init u.fina u3.fina u2.fina u1.fina v.fina u.medi u1.medi v.medi b.isol b.fina b.medi p.isol p.medi m.isol m.fina m.medi f.isol f1.init glyph183 f.medi f1.medi d.isol d1.init d.medi d1.medi t.isol t1.init t.fina t2.medi t1.medi t.medi n.isol n.fina n1.fina n1.medi n.medi l.isol l.fina l.medi k.isol ks.fina k.fina k2.medi ks.medi k.medi g.isol g.medi h.isol h.medi kh.isol k1.init k1.fina kh.medi k1.medi gh.isol g1.init gh.medi g1.medi hh.isol h1.init hh.medi h1.medi dz.isol dz1.init dz.fina dz.medi dz1.medi ts.isol ts.medi s.isol s.fina s.medi j.isol j.medi c.isol c.medi x.isol x.fina x.medi rh.isol rh.medi r.isol rs.fina r.fina r.medi y.isol y.medi w.isol w.medi ngs.isol ng.isol ng.init jh.isol jh.medi ch.isol ch.medi glyph277 glyph278 glyph279 glyph280 glyph281 glyph282 glyph283 glyph284 glyph285 glyph286 glyph287 glyph288 glyph289 glyph290 glyph291 glyph292 glyph293 glyph294 glyph295 glyph296 glyph297 glyph298 glyph299 glyph300 glyph301 glyph302 glyph303 glyph304 glyph305 glyph306 glyph307 glyph308 glyph309 glyph310 glyph311 glyph312 glyph313 glyph314 glyph315 glyph316 glyph317 glyph318 glyph319 glyph320 glyph321 glyph322 glyph323 glyph324 glyph325 glyph326 glyph327 glyph328 glyph329 glyph330 glyph331 glyph332 glyph333 glyph334 glyph335 glyph336 glyph337 glyph338 glyph339 nirugu.init nirugu.medi nirugu.fina syllbmsjo.fina syllbmsjo.init syllbmsjo.medi is.isol is.init is.fina is2.fina is1.fina iy.fina is.medi iy.medi b.init p.init p.fina m.init f.init fs.isol fs.init f.fina fs.medi fs.fina d.init d.fina t.init n.init l.init k.init ks.isol ks.init ks2.medi g.init g.fina h.init h.fina kh.init ks1.init ks1.medi gh.init gh.fina hh.init hh.fina dz.init ts.init ts.fina s.init j.init js.isol js.init j.fina js.fina js.medi c.init c.fina x.init rh.init rh.fina r.init rs.init rs.isol kh.fina rs.medi y.init y.fina w.init w.fina ngs.fina ng.fina ng.medi ngs.init ngs.medi jh.init jhs.init jhs.isol jh.fina jhs.fina jhs.medi ch.init ch.fina nobreakspace comma period four.qik colon niguru ziya rightquote leftquote rightbook leftbook fvs1 fvs2
-  BCoverage: 103 w.fina w.init w.isol w.medi f.fina f.init f.isol f.medi f1.init f1.medi fs.fina fs.init fs.isol fs.medi
- 1
-  SeqLookup: 0 "Single Subs wide y"
-EndFPST
-ChainSub2: coverage "'rlig' t d-isol replacement with fvs1" 0 0 0 1
- 1 0 1
-  Coverage: 13 t.isol d.isol
-  FCoverage: 4 fvs1
- 1
-  SeqLookup: 0 "Single Substitution k g h t d force replacement"
-EndFPST
 ChainSub2: coverage "'rlig' k g h replacement with fvs1 default-full" 0 0 0 1
  1 0 1
   Coverage: 69 k.isol k.init k.medi k.fina g.isol g.init g.medi h.isol h.init h.medi
   FCoverage: 4 fvs1
  1
-  SeqLookup: 0 "Single Substitution k g h t d force replacement"
+  SeqLookup: 0 "Single Substitution k g h to F full"
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Mongolian lookup 32 subtable" 0 0 0 1
  1 1 0
@@ -167,7 +151,7 @@ EndFPST
 ChainSub2: coverage "'rlig' Required Ligatures in Mongolian lookup 16 subtable" 0 0 0 1
  1 0 1
   Coverage: 274 b.isol b.medi p.isol p.medi kh.isol k1.init kh.medi k1.medi gh.isol g1.init gh.medi g1.medi hh.isol h1.init hh.medi h1.medi glyph307 glyph308 glyph309 glyph310 glyph311 glyph312 glyph337 glyph338 b.init p.init p.fina kh.init ks1.init ks1.medi gh.init gh.fina hh.init hh.fina
-  FCoverage: 64 o1.fina o.medi u2.fina u1.fina v.fina u.medi u1.medi v.medi fvs2
+  FCoverage: 59 o1.fina o.medi u2.fina u1.fina v.fina u.medi u1.medi v.medi
  1
   SeqLookup: 0 "Single Substitution round"
 EndFPST
@@ -209,14 +193,14 @@ EndFPST
 ChainSub2: coverage "'rlig' d-medi before e u v" 0 0 0 1
  1 0 1
   Coverage: 6 d.medi
-  FCoverage: 152 e.isol e.init e.fina e1.fina e3.fina e2.fina e.medi e1.medi u.isol u.init v.isol v.init u.fina u3.fina u2.fina u1.fina v.fina u.medi u1.medi v.medi fvs1
+  FCoverage: 147 e.isol e.init e.fina e1.fina e3.fina e2.fina e.medi e1.medi u.isol u.init v.isol v.init u.fina u3.fina u2.fina u1.fina v.fina u.medi u1.medi v.medi
  1
   SeqLookup: 0 "Single Substitution lookup 6"
 EndFPST
 ChainSub2: coverage "'rlig' d-init before e u v" 0 0 0 1
  1 0 1
   Coverage: 6 d.init
-  FCoverage: 152 e.isol e.init e.fina e1.fina e3.fina e2.fina e.medi e1.medi u.isol u.init v.isol v.init u.fina u3.fina u2.fina u1.fina v.fina u.medi u1.medi v.medi fvs1
+  FCoverage: 147 e.isol e.init e.fina e1.fina e3.fina e2.fina e.medi e1.medi u.isol u.init v.isol v.init u.fina u3.fina u2.fina u1.fina v.fina u.medi u1.medi v.medi
  1
   SeqLookup: 0 "Single Substitution lookup 6"
 EndFPST
@@ -230,42 +214,42 @@ EndFPST
 ChainSub2: coverage "'rlig' t-medi before e u v" 0 0 0 1
  1 0 1
   Coverage: 6 t.medi
-  FCoverage: 152 e.isol e.init e.fina e1.fina e3.fina e2.fina e.medi e1.medi u.isol u.init v.isol v.init u.fina u3.fina u2.fina u1.fina v.fina u.medi u1.medi v.medi fvs1
+  FCoverage: 147 e.isol e.init e.fina e1.fina e3.fina e2.fina e.medi e1.medi u.isol u.init v.isol v.init u.fina u3.fina u2.fina u1.fina v.fina u.medi u1.medi v.medi
  1
   SeqLookup: 0 "Single Substitution lookup 6"
 EndFPST
 ChainSub2: coverage "'rlig' t-init before e u v" 0 0 0 1
  1 0 1
   Coverage: 6 t.init
-  FCoverage: 152 e.isol e.init e.fina e1.fina e3.fina e2.fina e.medi e1.medi u.isol u.init v.isol v.init u.fina u3.fina u2.fina u1.fina v.fina u.medi u1.medi v.medi fvs1
+  FCoverage: 147 e.isol e.init e.fina e1.fina e3.fina e2.fina e.medi e1.medi u.isol u.init v.isol v.init u.fina u3.fina u2.fina u1.fina v.fina u.medi u1.medi v.medi
  1
   SeqLookup: 0 "Single Substitution lookup 6"
 EndFPST
 ChainSub2: coverage "'rlig' h medi F before vowel" 0 0 0 1
  1 0 1
   Coverage: 6 h.medi
-  FCoverage: 243 e.isol e.init e.fina e1.fina e3.fina e2.fina e.medi e1.medi i.isol i1.isol i.init i.fina i2.fina i1.fina i.medi is1.medi i1.medi u.isol u.init u.fina u3.fina u2.fina u1.fina u.medi u1.medi is.isol is.init is.fina is2.fina is1.fina is.medi fvs2
+  FCoverage: 238 e.isol e.init e.fina e1.fina e3.fina e2.fina e.medi e1.medi i.isol i1.isol i.init i.fina i2.fina i1.fina i.medi is1.medi i1.medi u.isol u.init u.fina u3.fina u2.fina u1.fina u.medi u1.medi is.isol is.init is.fina is2.fina is1.fina is.medi
  1
   SeqLookup: 0 "Single Substitution lookup 6"
 EndFPST
 ChainSub2: coverage "'rlig' h-init F before vowel" 0 0 0 1
  1 0 1
   Coverage: 6 h.init
-  FCoverage: 243 e.isol e.init e.fina e1.fina e3.fina e2.fina e.medi e1.medi i.isol i1.isol i.init i.fina i2.fina i1.fina i.medi is1.medi i1.medi u.isol u.init u.fina u3.fina u2.fina u1.fina u.medi u1.medi is.isol is.init is.fina is2.fina is1.fina is.medi fvs2
+  FCoverage: 238 e.isol e.init e.fina e1.fina e3.fina e2.fina e.medi e1.medi i.isol i1.isol i.init i.fina i2.fina i1.fina i.medi is1.medi i1.medi u.isol u.init u.fina u3.fina u2.fina u1.fina u.medi u1.medi is.isol is.init is.fina is2.fina is1.fina is.medi
  1
   SeqLookup: 0 "Single Substitution lookup 6"
 EndFPST
 ChainSub2: coverage "'rlig' g-medi F before vowel" 0 0 0 1
  1 0 1
   Coverage: 6 g.medi
-  FCoverage: 243 e.isol e.init e.fina e1.fina e3.fina e2.fina e.medi e1.medi i.isol i1.isol i.init i.fina i2.fina i1.fina i.medi is1.medi i1.medi u.isol u.init u.fina u3.fina u2.fina u1.fina u.medi u1.medi is.isol is.init is.fina is2.fina is1.fina is.medi fvs2
+  FCoverage: 238 e.isol e.init e.fina e1.fina e3.fina e2.fina e.medi e1.medi i.isol i1.isol i.init i.fina i2.fina i1.fina i.medi is1.medi i1.medi u.isol u.init u.fina u3.fina u2.fina u1.fina u.medi u1.medi is.isol is.init is.fina is2.fina is1.fina is.medi
  1
   SeqLookup: 0 "Single Substitution lookup 6"
 EndFPST
 ChainSub2: coverage "'rlig' g-init F before vowel" 0 0 0 1
  1 0 1
   Coverage: 6 g.init
-  FCoverage: 243 e.isol e.init e.fina e1.fina e3.fina e2.fina e.medi e1.medi i.isol i1.isol i.init i.fina i2.fina i1.fina i.medi is1.medi i1.medi u.isol u.init u.fina u3.fina u2.fina u1.fina u.medi u1.medi is.isol is.init is.fina is2.fina is1.fina is.medi fvs2
+  FCoverage: 238 e.isol e.init e.fina e1.fina e3.fina e2.fina e.medi e1.medi i.isol i1.isol i.init i.fina i2.fina i1.fina i.medi is1.medi i1.medi u.isol u.init u.fina u3.fina u2.fina u1.fina u.medi u1.medi is.isol is.init is.fina is2.fina is1.fina is.medi
  1
   SeqLookup: 0 "Single Substitution lookup 6"
 EndFPST
@@ -319,14 +303,14 @@ EndFPST
 ChainSub2: coverage "'rlig' k ks-medi F before vowel" 0 0 0 1
  1 0 1
   Coverage: 14 ks.medi k.medi
-  FCoverage: 243 e.isol e.init e.fina e1.fina e3.fina e2.fina e.medi e1.medi i.isol i1.isol i.init i.fina i2.fina i1.fina i.medi is1.medi i1.medi u.isol u.init u.fina u3.fina u2.fina u1.fina u.medi u1.medi is.isol is.init is.fina is2.fina is1.fina is.medi fvs2
+  FCoverage: 238 e.isol e.init e.fina e1.fina e3.fina e2.fina e.medi e1.medi i.isol i1.isol i.init i.fina i2.fina i1.fina i.medi is1.medi i1.medi u.isol u.init u.fina u3.fina u2.fina u1.fina u.medi u1.medi is.isol is.init is.fina is2.fina is1.fina is.medi
  1
   SeqLookup: 0 "Single Substitution lookup 6"
 EndFPST
 ChainSub2: coverage "'rlig' k ks-init F before vowel" 0 0 0 1
  1 0 1
   Coverage: 14 k.init ks.init
-  FCoverage: 243 e.isol e.init e.fina e1.fina e3.fina e2.fina e.medi e1.medi i.isol i1.isol i.init i.fina i2.fina i1.fina i.medi is1.medi i1.medi u.isol u.init u.fina u3.fina u2.fina u1.fina u.medi u1.medi is.isol is.init is.fina is2.fina is1.fina is.medi fvs2
+  FCoverage: 238 e.isol e.init e.fina e1.fina e3.fina e2.fina e.medi e1.medi i.isol i1.isol i.init i.fina i2.fina i1.fina i.medi is1.medi i1.medi u.isol u.init u.fina u3.fina u2.fina u1.fina u.medi u1.medi is.isol is.init is.fina is2.fina is1.fina is.medi
  1
   SeqLookup: 0 "Single Substitution lookup 6"
 EndFPST
@@ -6001,7 +5985,7 @@ BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-0""" 
-BeginChars: 288 288
+BeginChars: 287 287
 
 StartChar: a.isol
 Encoding: 0 6176 0
@@ -6825,6 +6809,7 @@ SplineSet
  0 447 0 447 0 448 c 257,26,27
  0 447 0 447 0 502 c 1,0,1
 EndSplineSet
+Validated: 1
 Substitution2: "Single Substitution lookup 29 subtable" glyph279
 Substitution2: "Single Substitution lookup 26 subtable" glyph279
 Substitution2: "Single Substitution lookup 6 subtable" i1.medi
@@ -8296,6 +8281,7 @@ SplineSet
  -55 838 -55 838 -55 896 c 0,70,71
  -55 950 -55 950 0 950 c 2,40,41
 EndSplineSet
+Validated: 37
 Substitution2: "'fina' Terminal Forms in Mongolian lookup 2 subtable" f.fina
 Substitution2: "'medi' Medial Forms in Mongolian lookup 1 subtable" f.medi
 Substitution2: "Required Feature in Latin lookup 0 subtable" f.init
@@ -8332,6 +8318,7 @@ SplineSet
  0 103 0 103 0 208 c 0,38,39
  0 308 0 308 0 502 c 1,0,1
 EndSplineSet
+Validated: 37
 EndChar
 
 StartChar: glyph183
@@ -8382,6 +8369,7 @@ SplineSet
  -55 784 -55 784 -55 838 c 0,70,71
  -55 896 -55 896 0 896 c 1,40,41
 EndSplineSet
+Validated: 37
 Substitution2: "Single Substitution lookup 26 subtable" glyph334
 EndChar
 
@@ -8433,6 +8421,7 @@ SplineSet
  -55 784 -55 784 -55 838 c 0,70,71
  -55 896 -55 896 0 896 c 1,40,41
 EndSplineSet
+Validated: 37
 Substitution2: "Single Substitution lookup 6 subtable" f1.medi
 EndChar
 
@@ -8467,6 +8456,7 @@ SplineSet
  0 103 0 103 0 208 c 0,38,39
  0 308 0 308 0 502 c 1,0,1
 EndSplineSet
+Validated: 37
 Substitution2: "Single Substitution lookup 26 subtable" glyph336
 EndChar
 
@@ -8534,7 +8524,6 @@ SplineSet
  855 819 855 819 841 808 c 0,68,69
 EndSplineSet
 Validated: 37
-Substitution2: "Single Substitution t d-isol" d.init
 Substitution2: "'fina' Terminal Forms in Mongolian lookup 2 subtable" d.fina
 Substitution2: "'medi' Medial Forms in Mongolian lookup 1 subtable" d.medi
 Substitution2: "Required Feature in Latin lookup 0 subtable" d.init
@@ -8778,7 +8767,6 @@ SplineSet
  112 672 112 672 112 560 c 2,48,49
 EndSplineSet
 Validated: 37
-Substitution2: "Single Substitution t d-isol" t.init
 Substitution2: "'fina' Terminal Forms in Mongolian lookup 2 subtable" t.fina
 Substitution2: "'medi' Medial Forms in Mongolian lookup 1 subtable" t.medi
 Substitution2: "Required Feature in Latin lookup 0 subtable" t.init
@@ -9289,31 +9277,32 @@ EndChar
 
 StartChar: l.fina
 Encoding: 71 -1 71
-Width: 111
+Width: 838
 VWidth: 2796
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 1062 m 0,0,1
- 0 1119 0 1119 -27 1147 c 256,2,3
- -54 1174 -54 1174 -112 1174 c 0,4,5
- -167 1174 -167 1174 -167 1232 c 0,6,7
- -167 1287 -167 1287 -112 1286 c 0,8,9
- 0 1286 0 1286 55 1232 c 0,10,11
- 112 1175 112 1175 112 1062 c 256,12,13
- 112 950 112 950 112 811 c 256,14,15
- 112 672 112 672 112 390 c 2,16,17
- 112 390 112 390 112 363 c 256,18,19
- 112 336 112 336 112 279 c 0,20,21
- 112 224 112 224 55 224 c 0,22,23
- 0 224 0 224 0 279 c 0,24,25
- 0 336 0 336 0 336 c 257,26,27
- 0 336 0 336 0 390 c 2,28,29
- 0 390 0 390 0 532 c 0,30,31
- 0 672 0 672 0 1062 c 0,0,1
+0 502 m 1,0,1
+ 167 502 167 502 229 502 c 0,2,3
+ 295 502 295 502 390 502 c 0,4,5
+ 559 502 559 502 644 587 c 0,6,7
+ 726 672 726 672 726 838 c 0,8,9
+ 726 1007 726 1007 644 1090 c 0,10,11
+ 559 1175 559 1175 390 1174 c 0,12,13
+ 335 1174 335 1174 336 1232 c 0,14,15
+ 336 1287 336 1287 390 1286 c 0,16,17
+ 614 1286 614 1286 726 1174 c 256,18,19
+ 838 1062 838 1062 838 838 c 256,20,21
+ 838 614 838 614 726 502 c 256,22,23
+ 614 390 614 390 390 390 c 0,24,25
+ 294 390 294 390 229 390 c 0,26,27
+ 166 390 166 390 0 390 c 1,28,29
+ 0 447 0 447 0 475 c 256,30,31
+ 0 502 0 502 0 502 c 1,0,1
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: l.medi
@@ -9399,7 +9388,7 @@ SplineSet
  -55 502 -55 502 0 502 c 0,44,45
 EndSplineSet
 Validated: 37
-Substitution2: "Single Substitution k g h" k1.init
+Substitution2: "Single Substitution k g h force replacement-1" k1.init
 Substitution2: "'fina' Terminal Forms in Mongolian lookup 2 subtable" k.fina
 Substitution2: "'medi' Medial Forms in Mongolian lookup 1 subtable" k.medi
 Substitution2: "Required Feature in Latin lookup 0 subtable" k.init
@@ -9535,7 +9524,7 @@ SplineSet
  407 -19 407 -19 396 -30 c 0,72,73
 EndSplineSet
 Validated: 33
-Substitution2: "Single Substitution k g h" k1.fina
+Substitution2: "Single Substitution k g h force replacement-1" k1.fina
 Substitution2: "Single Substitution lookup 12 subtable" k1.fina
 Substitution2: "Single Substitution lookup 11 subtable" k1.fina
 Substitution2: "Single Substitution lookup 10 subtable" k1.fina
@@ -9719,7 +9708,7 @@ SplineSet
  407 -19 407 -19 396 -33 c 0,80,81
 EndSplineSet
 Validated: 5
-Substitution2: "Single Substitution k g h" k1.medi
+Substitution2: "Single Substitution k g h force replacement-1" k1.medi
 Substitution2: "Single Substitution lookup 26 subtable" glyph292
 Substitution2: "Single Substitution lookup 12 subtable" k1.medi
 Substitution2: "Single Substitution lookup 11 subtable" k1.medi
@@ -9790,7 +9779,7 @@ SplineSet
  1079 819 1079 819 1065 808 c 0,60,61
 EndSplineSet
 Validated: 37
-Substitution2: "Single Substitution k g h" g1.init
+Substitution2: "Single Substitution k g h force replacement-1" g1.init
 Substitution2: "'fina' Terminal Forms in Mongolian lookup 2 subtable" g.fina
 Substitution2: "'medi' Medial Forms in Mongolian lookup 1 subtable" g.medi
 Substitution2: "Required Feature in Latin lookup 0 subtable" g.init
@@ -9849,7 +9838,7 @@ SplineSet
  407 819 407 819 396 808 c 0,48,49
 EndSplineSet
 Validated: 5
-Substitution2: "Single Substitution k g h" g1.medi
+Substitution2: "Single Substitution k g h force replacement-1" g1.medi
 Substitution2: "Single Substitution lookup 26 subtable" glyph293
 Substitution2: "Single Substitution lookup 6 subtable" g1.medi
 EndChar
@@ -9931,7 +9920,7 @@ SplineSet
  -55 502 -55 502 0 502 c 0,108,109
 EndSplineSet
 Validated: 37
-Substitution2: "Single Substitution k g h" h1.init
+Substitution2: "Single Substitution k g h force replacement-1" h1.init
 Substitution2: "'fina' Terminal Forms in Mongolian lookup 2 subtable" h.fina
 Substitution2: "'medi' Medial Forms in Mongolian lookup 1 subtable" h.medi
 Substitution2: "Required Feature in Latin lookup 0 subtable" h.init
@@ -10007,7 +9996,7 @@ SplineSet
  390 827 390 827 390 838 c 256,80,81
 EndSplineSet
 Validated: 37
-Substitution2: "Single Substitution k g h" h1.medi
+Substitution2: "Single Substitution k g h force replacement-1" h1.medi
 Substitution2: "Single Substitution lookup 26 subtable" glyph294
 Substitution2: "Single Substitution lookup 6 subtable" h1.medi
 EndChar
@@ -11742,7 +11731,6 @@ SplineSet
  224 308 224 308 224 502 c 1,0,1
 EndSplineSet
 Validated: 33
-Substitution2: "Single Subs wide y-1" y.long
 Substitution2: "'fina' Terminal Forms in Mongolian lookup 2 subtable" y.fina
 Substitution2: "'medi' Medial Forms in Mongolian lookup 1 subtable" y.medi
 Substitution2: "Required Feature in Latin lookup 0 subtable" y.init
@@ -11780,7 +11768,6 @@ SplineSet
  0 308 0 308 0 502 c 1,0,1
 EndSplineSet
 Validated: 33
-Substitution2: "Single Subs wide y-1" y.long
 Substitution2: "Single Substitution lookup 26 subtable" glyph335
 EndChar
 
@@ -11815,6 +11802,7 @@ SplineSet
  0 103 0 103 0 208 c 0,38,39
  0 308 0 308 0 502 c 1,0,1
 EndSplineSet
+Validated: 37
 Substitution2: "'fina' Terminal Forms in Mongolian lookup 2 subtable" w.fina
 Substitution2: "'medi' Medial Forms in Mongolian lookup 1 subtable" w.medi
 Substitution2: "Required Feature in Latin lookup 0 subtable" w.init
@@ -11851,6 +11839,7 @@ SplineSet
  0 103 0 103 0 208 c 0,38,39
  0 308 0 308 0 502 c 1,0,1
 EndSplineSet
+Validated: 37
 Substitution2: "Single Substitution lookup 26 subtable" glyph336
 EndChar
 
@@ -15254,6 +15243,7 @@ SplineSet
  -55 838 -55 838 -55 896 c 0,70,71
  -55 950 -55 950 0 950 c 2,40,41
 EndSplineSet
+Validated: 37
 EndChar
 
 StartChar: glyph335
@@ -15321,6 +15311,7 @@ SplineSet
  0 103 0 103 0 208 c 0,38,39
  0 308 0 308 0 502 c 1,0,1
 EndSplineSet
+Validated: 37
 EndChar
 
 StartChar: glyph337
@@ -15659,6 +15650,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 21 -1 N 1 0 0 1 0 0 0
+Validated: 1
 Substitution2: "Single Substitution lookup 29 subtable" glyph279
 Substitution2: "Single Substitution lookup 26 subtable" glyph279
 Substitution2: "Single Substitution lookup 6 subtable" is1.medi
@@ -15736,6 +15728,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 50 6262 N 1 0 0 1 0 0 0
+Validated: 5
 Substitution2: "Single Substitution lookup 6 subtable" f1.init
 EndChar
 
@@ -15787,6 +15780,7 @@ SplineSet
  -55 838 -55 838 -55 896 c 0,70,71
  -55 950 -55 950 0 950 c 2,40,41
 EndSplineSet
+Validated: 37
 Substitution2: "'fina' Terminal Forms in Mongolian lookup 2 subtable" fs.fina
 Substitution2: "'medi' Medial Forms in Mongolian lookup 1 subtable" fs.medi
 Substitution2: "Required Feature in Latin lookup 0 subtable" fs.init
@@ -15801,6 +15795,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 50 6262 N 1 0 0 1 0 0 0
+Validated: 5
 EndChar
 
 StartChar: f.fina
@@ -15812,6 +15807,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 53 -1 N 1 0 0 1 0 0 0
+Validated: 5
 EndChar
 
 StartChar: fs.medi
@@ -15823,6 +15819,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 53 -1 N 1 0 0 1 0 0 0
+Validated: 5
 EndChar
 
 StartChar: fs.fina
@@ -15834,6 +15831,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 53 -1 N 1 0 0 1 0 0 0
+Validated: 5
 EndChar
 
 StartChar: d.init
@@ -15909,7 +15907,7 @@ LayerCount: 2
 Fore
 Refer: 73 6260 N 1 0 0 1 0 0 0
 Validated: 5
-Substitution2: "Single Substitution k g h" k1.init
+Substitution2: "Single Substitution k g h force replacement-1" k1.init
 Substitution2: "Single Substitution lookup 6 subtable" k1.init
 EndChar
 
@@ -15997,7 +15995,7 @@ LayerCount: 2
 Fore
 Refer: 79 6244 N 1 0 0 1 0 0 0
 Validated: 5
-Substitution2: "Single Substitution k g h" g1.init
+Substitution2: "Single Substitution k g h force replacement-1" g1.init
 Substitution2: "Single Substitution lookup 6 subtable" g1.init
 EndChar
 
@@ -16024,7 +16022,7 @@ LayerCount: 2
 Fore
 Refer: 81 6245 N 1 0 0 1 0 0 0
 Validated: 5
-Substitution2: "Single Substitution k g h" h1.init
+Substitution2: "Single Substitution k g h force replacement-1" h1.init
 Substitution2: "Single Substitution lookup 6 subtable" h1.init
 EndChar
 
@@ -16090,7 +16088,8 @@ GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 90 -1 N 1 0 0 1 0 0 0
+Refer: 88 6252 N 1 0 0 1 0 0 0
+Validated: 5
 Substitution2: "Single Substitution lookup 25 subtable" glyph297
 EndChar
 
@@ -16451,7 +16450,6 @@ LayerCount: 2
 Fore
 Refer: 119 6198 N 1 0 0 1 0 0 0
 Validated: 1
-Substitution2: "Single Subs wide y-1" y.long
 EndChar
 
 StartChar: y.fina
@@ -16464,7 +16462,6 @@ LayerCount: 2
 Fore
 Refer: 120 -1 N 1 0 0 1 0 0 0
 Validated: 1
-Substitution2: "Single Subs wide y-1" y.long
 Substitution2: "Single Substitution lookup 26 subtable" glyph335
 EndChar
 
@@ -16477,6 +16474,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 121 6200 N 1 0 0 1 0 0 0
+Validated: 5
 EndChar
 
 StartChar: w.fina
@@ -16488,6 +16486,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 122 -1 N 1 0 0 1 0 0 0
+Validated: 5
 Substitution2: "Single Substitution lookup 26 subtable" glyph336
 EndChar
 
@@ -17063,14 +17062,15 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 502 m 5,0,1
- 41 502 41 502 167 502 c 5,2,3
- 183 488 183 488 225 449 c 5,4,5
- 211 435 211 435 167 390 c 5,6,7
- 126 390 126 390 0 390 c 5,8,9
+0 502 m 1,0,1
+ 41 502 41 502 167 502 c 1,2,3
+ 183 488 183 488 225 449 c 1,4,5
+ 211 435 211 435 167 390 c 1,6,7
+ 126 390 126 390 0 390 c 1,8,9
  0 420 0 420 0 449 c 5,10,11
- 0 449 0 449 0 502 c 5,0,1
+ 0 449 0 449 0 502 c 1,0,1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ziya
@@ -17221,25 +17221,6 @@ Flags: W
 LayerCount: 2
 Fore
 Validated: 1
-EndChar
-
-StartChar: y.long
-Encoding: 287 -1 287
-Width: 505
-VWidth: 5592
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-0 502 m 1
- 132 502 132 502 264 502 c 1
- 280 488 280 488 322 449 c 1
- 308 435 308 435 264 390 c 1
- 132 390 132 390 0 390 c 1
- 0 420 0 420 0 449 c 1
- 0 502 l 1
-EndSplineSet
-Refer: 119 6198 N 1 0 0 1 0 0 0
 EndChar
 EndChars
 EndSplineFont
