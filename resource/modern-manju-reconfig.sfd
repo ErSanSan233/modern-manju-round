@@ -370,6 +370,7 @@ SplineSet
  111.12145749 1406.55870445 111.12145749 1406.55870445 168 1356 c 256,27,28
  201.681818182 1322.31818182 201.681818182 1322.31818182 204 1269 c 256,15,16
 EndSplineSet
+Substitution2: "Single Subs e-u after t-d-1" e.repl1
 Substitution2: "'isol' General Isolated Forms-1" e.isol
 Substitution2: "'fina' General Terminal Forms-1" e.fina
 Substitution2: "'init' General Initial Forms-1" e.init
