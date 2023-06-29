@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1390402476
-ModificationTime: 1688043886
+ModificationTime: 1688045633
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -58,6 +58,8 @@ OS2FamilyClass: 261
 OS2Vendor: 'SBT '
 OS2CodePages: 001e0101.00000000
 OS2UnicodeRanges: 800000a7.1001e408.00020016.00000000
+Lookup: 1 0 0 "'init' General Initial Forms" { "'init' General Initial Forms-1"  } ['init' ('mong' <'dflt' > ) ]
+Lookup: 1 0 0 "'fina' General Terminal Forms" { "'fina' General Terminal Forms-1"  } ['fina' ('mong' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
@@ -65,10 +67,10 @@ GaspTable: 3 8 2 17 1 65535 3 0
 Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -72
+DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 200 8 9
+WinInfo: 176 8 12
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -98,6 +100,8 @@ SplineSet
  0 328 0 328 0 410 c 2,13,14
  0 410 0 410 0 735 c 1,0,1
 EndSplineSet
+Substitution2: "'fina' General Terminal Forms-1" a.fina
+Substitution2: "'init' General Initial Forms-1" a.init
 EndChar
 
 StartChar: a.init
@@ -329,6 +333,8 @@ SplineSet
  111.12145749 1406.55870445 111.12145749 1406.55870445 168 1356 c 256,27,28
  201.681818182 1322.31818182 201.681818182 1322.31818182 204 1269 c 256,15,16
 EndSplineSet
+Substitution2: "'fina' General Terminal Forms-1" e.fina
+Substitution2: "'init' General Initial Forms-1" e.init
 EndChar
 
 StartChar: e.init
@@ -413,18 +419,18 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-204 1759 m 260,0,1
- 204 1718.25 204 1718.25 168 1671 c 4,2,3
- 152 1655 152 1655 127 1648 c 5,4,5
- 104 1636 104 1636 82 1636 c 4,6,7
- 60 1636 60 1636 37 1648 c 5,8,9
- 14 1655 14 1655 -4 1671 c 5,10,11
- -20 1692 -20 1692 -32 1715 c 4,12,13
- -39 1736 -39 1736 -40 1759 c 260,14,15
- -40 1842.12 -40 1842.12 37 1876 c 5,16,17
- 85 1890.60869565 85 1890.60869565 127 1876 c 4,18,19
- 150 1864 150 1864 168 1849 c 260,20,21
- 201.84 1815.16 201.84 1815.16 204 1759 c 260,0,1
+204 1759 m 260
+ 204 1718.25 204 1718.25 168 1671 c 4
+ 152 1655 152 1655 127 1648 c 5
+ 104 1636 104 1636 82 1636 c 4
+ 60 1636 60 1636 37 1648 c 5
+ 14 1655 14 1655 -4 1671 c 5
+ -20 1692 -20 1692 -32 1715 c 4
+ -39 1736 -39 1736 -40 1759 c 260
+ -40 1842.12 -40 1842.12 37 1876 c 5
+ 85 1890.60869565 85 1890.60869565 127 1876 c 4
+ 150 1864 150 1864 168 1849 c 260
+ 201.84 1815.16 201.84 1815.16 204 1759 c 260
 EndSplineSet
 Refer: 0 6176 N 1 0 0 1 0 0 2
 EndChar
@@ -534,6 +540,8 @@ SplineSet
  0 -81 0 -81 0 0 c 6,13,14
  0 0 0 0 0 735 c 5,0,1
 EndSplineSet
+Substitution2: "'fina' General Terminal Forms-1" i.fina
+Substitution2: "'init' General Initial Forms-1" i.init
 EndChar
 
 StartChar: i.init
@@ -731,6 +739,8 @@ SplineSet
  164 328 164 328 328.976190476 328 c 128,-1,27
  493.952380952 328 493.952380952 328 492 492 c 1,19,20
 EndSplineSet
+Substitution2: "'fina' General Terminal Forms-1" o.fina
+Substitution2: "'init' General Initial Forms-1" o.init
 EndChar
 
 StartChar: o.init
@@ -948,6 +958,8 @@ SplineSet
  453 1246 453 1246 439 1225 c 1,44,45
  418.453074434 1151.61812298 418.453074434 1151.61812298 328 1148 c 256,28,29
 EndSplineSet
+Substitution2: "'fina' General Terminal Forms-1" u.fina
+Substitution2: "'init' General Initial Forms-1" u.init
 EndChar
 
 StartChar: u.init
@@ -1288,6 +1300,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 24 6179 N 1 0 0 1 0 0 2
+Substitution2: "'fina' General Terminal Forms-1" u.bis.fina
 EndChar
 
 StartChar: v.dlft
@@ -1324,6 +1337,8 @@ SplineSet
  490 -81 490 -81 492 0 c 257,33,34
  492 0 492 0 492 656 c 1,26,27
 EndSplineSet
+Substitution2: "'fina' General Terminal Forms-1" v.fina
+Substitution2: "'init' General Initial Forms-1" v.init
 EndChar
 
 StartChar: v.init
@@ -1769,6 +1784,8 @@ SplineSet
  157.5 81 157.5 81 196 4 c 0,29,30
  203 -17 203 -17 204 -40 c 256,17,18
 EndSplineSet
+Substitution2: "'fina' General Terminal Forms-1" n.fina
+Substitution2: "'init' General Initial Forms-1" n.init
 EndChar
 
 StartChar: n.init
@@ -1919,6 +1936,7 @@ SplineSet
  735 735 735 735 735 571 c 1,35,36
  735 571 735 571 328 571 c 1,23,24
 EndSplineSet
+Substitution2: "'fina' General Terminal Forms-1" y.prime.fina
 EndChar
 
 StartChar: y.prime.fina
@@ -2045,6 +2063,8 @@ SplineSet
  164 328 164 328 82 328 c 128,-1,40
  0 328 0 328 0 409 c 2,4,5
 EndSplineSet
+Substitution2: "'fina' General Terminal Forms-1" s.fina
+Substitution2: "'init' General Initial Forms-1" s.init
 EndChar
 
 StartChar: s.init
@@ -2204,6 +2224,7 @@ SplineSet
  164 328 164 328 82 328 c 128,-1,48
  0 328 0 328 0 409 c 2,14,15
 EndSplineSet
+Substitution2: "'init' General Initial Forms-1" x.init
 EndChar
 
 StartChar: x.init
@@ -2326,6 +2347,8 @@ SplineSet
  0 328 0 328 0 410 c 2,24,25
  0 410 0 410 0 735 c 1,4,5
 EndSplineSet
+Substitution2: "'fina' General Terminal Forms-1" k.fina
+Substitution2: "'init' General Initial Forms-1" k.init
 EndChar
 
 StartChar: k.init
@@ -2593,6 +2616,7 @@ SplineSet
  616 1292 616 1292 617 1269 c 256,42,43
  617 1246 617 1246 604 1225 c 1,26,27
 EndSplineSet
+Substitution2: "'init' General Initial Forms-1" g.init
 EndChar
 
 StartChar: g.init
@@ -2800,6 +2824,7 @@ SplineSet
  560 1184 560 1184 568 1195 c 1,62,63
  571 1212 571 1212 571 1228 c 256,46,47
 EndSplineSet
+Substitution2: "'init' General Initial Forms-1" h.init
 EndChar
 
 StartChar: h.init
@@ -3014,6 +3039,8 @@ SplineSet
  -245 1719 -245 1719 -245 1805 c 0,31,32
  -245 1886 -245 1886 -160 1884 c 0,17,18
 EndSplineSet
+Substitution2: "'fina' General Terminal Forms-1" l.fina
+Substitution2: "'init' General Initial Forms-1" l.init
 EndChar
 
 StartChar: l.init
@@ -3180,6 +3207,8 @@ SplineSet
  409 1884 409 1884 409 1803 c 128,-1,31
  409 1722 409 1722 328 1720 c 0,17,18
 EndSplineSet
+Substitution2: "'fina' General Terminal Forms-1" m.fina
+Substitution2: "'init' General Initial Forms-1" m.init
 EndChar
 
 StartChar: m.init
@@ -3452,6 +3481,7 @@ SplineSet
  -328 -81 -328 -81 -328 0 c 256,25,26
  -328 81 -328 81 -245 81 c 0,12,13
 EndSplineSet
+Substitution2: "'init' General Initial Forms-1" j.init
 EndChar
 
 StartChar: j.init
@@ -3558,6 +3588,7 @@ SplineSet
  -328 -409 -328 -409 -163.012048193 -409 c 128,-1,23
  1.97590361446 -409 1.97590361446 -409 0 -245 c 1,4,5
 EndSplineSet
+Substitution2: "'init' General Initial Forms-1" y.init
 EndChar
 
 StartChar: y.init
@@ -3697,6 +3728,7 @@ SplineSet
  656 -245 656 -245 573 -245 c 128,-1,28
  490 -245 490 -245 492 -164 c 0,17,18
 EndSplineSet
+Substitution2: "'fina' General Terminal Forms-1" r.fina
 EndChar
 
 StartChar: NameMe.153
@@ -3917,6 +3949,7 @@ SplineSet
  164 1035 164 1035 125 1091 c 0,44,45
  81 1147 81 1147 0 1148 c 0,26,27
 EndSplineSet
+Substitution2: "'init' General Initial Forms-1" f.init
 EndChar
 
 StartChar: f.init
@@ -4196,6 +4229,7 @@ SplineSet
  328 1312 328 1312 164 1312 c 1,58,59
  164 1312 164 1312 164 1556 c 0,50,51
 EndSplineSet
+Substitution2: "'init' General Initial Forms-1" c.init
 EndChar
 
 StartChar: c.init
@@ -4344,6 +4378,7 @@ SplineSet
  -81 1228 -81 1228 -81 1310 c 128,-1,49
  -81 1392 -81 1392 0 1392 c 2,40,41
 EndSplineSet
+Substitution2: "'init' General Initial Forms-1" z.init
 EndChar
 
 StartChar: z.init
@@ -4517,6 +4552,8 @@ SplineSet
  326 -656 326 -656 368 -617 c 1,33,34
  408 -573 408 -573 409 -492 c 0,24,25
 EndSplineSet
+Substitution2: "'fina' General Terminal Forms-1" t.fina
+Substitution2: "'init' General Initial Forms-1" t.init
 EndChar
 
 StartChar: t.fina
@@ -4732,6 +4769,7 @@ SplineSet
  111.12145749 1406.55870445 111.12145749 1406.55870445 168 1356 c 256,47,48
  201.681818182 1322.31818182 201.681818182 1322.31818182 204 1269 c 256,35,36
 EndSplineSet
+Substitution2: "'init' General Initial Forms-1" d.init
 EndChar
 
 StartChar: d.init
@@ -4955,6 +4993,7 @@ SplineSet
  735 571 735 571 164 571 c 1,42,43
  164 571 164 571 164 492 c 0,32,33
 EndSplineSet
+Substitution2: "'fina' General Terminal Forms-1" b.fina
 EndChar
 
 StartChar: b.fina
@@ -5791,6 +5830,7 @@ SplineSet
  409 899 409 899 532 1024 c 256,34,35
  657 1149 657 1149 820 1148 c 0,0,1
 EndSplineSet
+Substitution2: "'fina' General Terminal Forms-1" ng.fina
 EndChar
 
 StartChar: NameMe.257
