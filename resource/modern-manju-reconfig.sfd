@@ -1,5 +1,5 @@
 SplineFontDB: 3.2
-FontName: Modern-manJu-Round
+FontName: Modern-manJu-Rounds
 FullName: Modern manJu Round
 FamilyName: Modern-manJu
 Weight: Book
@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1390402476
-ModificationTime: 1688045633
+ModificationTime: 1688048718
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -58,10 +58,28 @@ OS2FamilyClass: 261
 OS2Vendor: 'SBT '
 OS2CodePages: 001e0101.00000000
 OS2UnicodeRanges: 800000a7.1001e408.00020016.00000000
+Lookup: 1 0 0 "Single Subs i-u after vowel" { "Single Subs i-u after vowel-1"  } []
+Lookup: 1 0 0 "Single Subs o-u.fina for isol syllable" { "Single Subs o-u.fina for isol syllable-1"  } []
+Lookup: 1 0 0 "'isol' General Isolated Forms" { "'isol' General Isolated Forms-1"  } ['isol' ('mong' <'dflt' > ) ]
 Lookup: 1 0 0 "'init' General Initial Forms" { "'init' General Initial Forms-1"  } ['init' ('mong' <'dflt' > ) ]
 Lookup: 1 0 0 "'fina' General Terminal Forms" { "'fina' General Terminal Forms-1"  } ['fina' ('mong' <'dflt' > ) ]
+Lookup: 6 0 0 "Contextual Alts" { "calt i-u after vowel"  "calt o-u.fina for isol syllable"  } ['calt' ('mong' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "calt i-u after vowel" 0 0 0 1
+ 1 1 0
+  Coverage: 20 i.dflt u.dflt u.fina
+  BCoverage: 109 a.dflt a.init e.dflt e.init e.F.dflt e.repl1 i.dflt i.init o.dflt o.init u.dflt u.init u.F.dflt v.dlft v.init
+ 1
+  SeqLookup: 0 "Single Subs i-u after vowel"
+EndFPST
+ChainSub2: coverage "calt o-u.fina for isol syllable" 0 0 0 1
+ 1 1 0
+  Coverage: 13 o.fina u.fina
+  BCoverage: 154 n.init s.init x.init k.init g.init h.init l.init m.init q.init j.init y.init r.init r.prime.init f.init w.init c.init z.init t.init t.repl1 d.init d.repl1
+ 1
+  SeqLookup: 0 "Single Subs o-u.fina for isol syllable"
+EndFPST
 LangName: 1033
 GaspTable: 3 8 2 17 1 65535 3 0
 Encoding: Custom
@@ -70,7 +88,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 176 8 12
+WinInfo: 0 8 12
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -100,6 +118,7 @@ SplineSet
  0 328 0 328 0 410 c 2,13,14
  0 410 0 410 0 735 c 1,0,1
 EndSplineSet
+Substitution2: "'isol' General Isolated Forms-1" a.isol
 Substitution2: "'fina' General Terminal Forms-1" a.fina
 Substitution2: "'init' General Initial Forms-1" a.init
 EndChar
@@ -333,6 +352,7 @@ SplineSet
  111.12145749 1406.55870445 111.12145749 1406.55870445 168 1356 c 256,27,28
  201.681818182 1322.31818182 201.681818182 1322.31818182 204 1269 c 256,15,16
 EndSplineSet
+Substitution2: "'isol' General Isolated Forms-1" e.isol
 Substitution2: "'fina' General Terminal Forms-1" e.fina
 Substitution2: "'init' General Initial Forms-1" e.init
 EndChar
@@ -540,6 +560,8 @@ SplineSet
  0 -81 0 -81 0 0 c 6,13,14
  0 0 0 0 0 735 c 5,0,1
 EndSplineSet
+Substitution2: "Single Subs i-u after vowel-1" i.repl1
+Substitution2: "'isol' General Isolated Forms-1" i.isol
 Substitution2: "'fina' General Terminal Forms-1" i.fina
 Substitution2: "'init' General Initial Forms-1" i.init
 EndChar
@@ -739,6 +761,7 @@ SplineSet
  164 328 164 328 328.976190476 328 c 128,-1,27
  493.952380952 328 493.952380952 328 492 492 c 1,19,20
 EndSplineSet
+Substitution2: "'isol' General Isolated Forms-1" o.isol
 Substitution2: "'fina' General Terminal Forms-1" o.fina
 Substitution2: "'init' General Initial Forms-1" o.init
 EndChar
@@ -817,6 +840,7 @@ SplineSet
  735 571 735 571 164 571 c 1,38,39
  164 571 164 571 164 492 c 0,28,29
 EndSplineSet
+Substitution2: "Single Subs o-u.fina for isol syllable-1" o.repl1
 EndChar
 
 StartChar: o.F.dflt
@@ -958,6 +982,8 @@ SplineSet
  453 1246 453 1246 439 1225 c 1,44,45
  418.453074434 1151.61812298 418.453074434 1151.61812298 328 1148 c 256,28,29
 EndSplineSet
+Substitution2: "Single Subs i-u after vowel-1" u.bis.dflt
+Substitution2: "'isol' General Isolated Forms-1" u.isol
 Substitution2: "'fina' General Terminal Forms-1" u.fina
 Substitution2: "'init' General Initial Forms-1" u.init
 EndChar
@@ -1060,6 +1086,8 @@ SplineSet
  760 1833 760 1833 768 1808 c 1,60,61
  780 1785 780 1785 779 1759 c 256,40,41
 EndSplineSet
+Substitution2: "Single Subs i-u after vowel-1" u.bis.fina
+Substitution2: "Single Subs o-u.fina for isol syllable-1" u.repl1
 EndChar
 
 StartChar: u.F.dflt
@@ -1243,6 +1271,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 26 -1 N 1 0 0 1 0 0 2
+Substitution2: "Single Subs o-u.fina for isol syllable-1" u.bis.repl1
 EndChar
 
 StartChar: u.bis.F.dflt
@@ -1337,6 +1366,7 @@ SplineSet
  490 -81 490 -81 492 0 c 257,33,34
  492 0 492 0 492 656 c 1,26,27
 EndSplineSet
+Substitution2: "'isol' General Isolated Forms-1" v.isol
 Substitution2: "'fina' General Terminal Forms-1" v.fina
 Substitution2: "'init' General Initial Forms-1" v.init
 EndChar
@@ -3388,15 +3418,17 @@ SplineSet
  -81 -81 -81 -81 -81 0 c 256,31,32
  -81 81 -81 81 0 81 c 2,15,16
 EndSplineSet
+Substitution2: "'init' General Initial Forms-1" q.init
 EndChar
 
-StartChar: NameMe.129
+StartChar: q.init
 Encoding: 129 -1 149
-Width: 1516
+Width: 984
+VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 148 6196 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.130
@@ -3728,16 +3760,18 @@ SplineSet
  656 -245 656 -245 573 -245 c 128,-1,28
  490 -245 490 -245 492 -164 c 0,17,18
 EndSplineSet
+Substitution2: "'init' General Initial Forms-1" r.init
 Substitution2: "'fina' General Terminal Forms-1" r.fina
 EndChar
 
-StartChar: NameMe.153
+StartChar: r.init
 Encoding: 153 -1 173
-Width: 1516
+Width: 656
+VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 172 6261 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.155
@@ -3819,7 +3853,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: r.bis.dflt
+StartChar: r.prime.dflt
 Encoding: 160 6256 180
 Width: 409
 VWidth: 4095
@@ -3845,15 +3879,17 @@ SplineSet
  409 735 409 735 81 735 c 1,22,23
  81 735 81 735 81 571 c 1,16,17
 EndSplineSet
+Substitution2: "'init' General Initial Forms-1" r.prime.init
 EndChar
 
-StartChar: NameMe.161
+StartChar: r.prime.init
 Encoding: 161 -1 181
-Width: 1516
+Width: 409
+VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 180 6256 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.162
@@ -4116,15 +4152,17 @@ SplineSet
  0 -409 0 -409 0 -245 c 2,24,25
  0 -245 0 -245 0 735 c 1,4,5
 EndSplineSet
+Substitution2: "'init' General Initial Forms-1" w.init
 EndChar
 
-StartChar: NameMe.177
+StartChar: w.init
 Encoding: 177 -1 198
-Width: 1516
+Width: 409
+VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 197 6200 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.178
@@ -4993,6 +5031,7 @@ SplineSet
  735 571 735 571 164 571 c 1,42,43
  164 571 164 571 164 492 c 0,32,33
 EndSplineSet
+Substitution2: "'init' General Initial Forms-1" b.init
 Substitution2: "'fina' General Terminal Forms-1" b.fina
 EndChar
 
@@ -5081,13 +5120,14 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: NameMe.217
+StartChar: b.init
 Encoding: 217 -1 240
-Width: 1516
+Width: 1146
+VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 237 6186 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: b.F.dflt
@@ -5236,15 +5276,17 @@ SplineSet
  573 984 573 984 572 1066 c 128,-1,51
  571 1148 571 1148 571 1312 c 1,44,45
 EndSplineSet
+Substitution2: "'init' General Initial Forms-1" p.init
 EndChar
 
-StartChar: NameMe.225
+StartChar: p.init
 Encoding: 225 -1 247
-Width: 1516
+Width: 1146
+VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 246 6246 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.226
@@ -5343,7 +5385,7 @@ Fore
 Refer: 3 -1 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: k.bis.dflt
+StartChar: k.prime.dflt
 Encoding: 232 6202 255
 Width: 1146
 VWidth: 4095
@@ -5374,9 +5416,10 @@ SplineSet
  656 -81 656 -81 573 -81 c 128,-1,35
  490 -81 490 -81 492 0 c 0,24,25
 EndSplineSet
+Substitution2: "'init' General Initial Forms-1" k.prime.init
 EndChar
 
-StartChar: k.bis.F.dflt
+StartChar: k.prime.F.dflt
 Encoding: 235 -1 256
 Width: 654
 VWidth: 4095
@@ -5409,7 +5452,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: g.bis.F.dflt
+StartChar: g.prime.F.dflt
 Encoding: 243 -1 257
 Width: 654
 VWidth: 4095
@@ -5454,7 +5497,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: h.bis.F.dflt
+StartChar: h.prime.F.dflt
 Encoding: 251 -1 258
 Width: 654
 VWidth: 4095
@@ -5505,7 +5548,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: g.bis.dflt
+StartChar: g.prime.dflt
 Encoding: 240 6252 259
 Width: 1146
 VWidth: 4095
@@ -5548,9 +5591,10 @@ SplineSet
  760 1833 760 1833 768 1808 c 1,56,57
  780 1785 780 1785 779 1759 c 256,36,37
 EndSplineSet
+Substitution2: "'init' General Initial Forms-1" g.prime.init
 EndChar
 
-StartChar: h.bis.dflt
+StartChar: h.prime.dflt
 Encoding: 248 6253 260
 Width: 1146
 VWidth: 4095
@@ -5599,15 +5643,17 @@ SplineSet
  706 1636 706 1636 732 1688 c 1,66,67
  735 1704 735 1704 735 1720 c 256,52,53
 EndSplineSet
+Substitution2: "'init' General Initial Forms-1" h.prime.init
 EndChar
 
-StartChar: NameMe.233
+StartChar: k.prime.init
 Encoding: 233 -1 261
-Width: 1516
+Width: 1146
+VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 255 6202 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.234
@@ -5619,13 +5665,14 @@ Fore
 Refer: 3 -1 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: NameMe.241
+StartChar: g.prime.init
 Encoding: 241 -1 263
-Width: 1516
+Width: 1146
+VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 259 6252 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.242
@@ -5637,13 +5684,14 @@ Fore
 Refer: 3 -1 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: NameMe.249
+StartChar: h.prime.init
 Encoding: 249 -1 265
-Width: 1516
+Width: 1146
+VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 260 6253 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.250
