@@ -1,132 +1,84 @@
-SplineFontDB: 3.2
-FontName: Modern-manJu-Rounds
-FullName: Modern manJu Round
-FamilyName: Modern-manJu
-Weight: Book
-Copyright: Copyright 2023 LLLLL.
-Version: 0.4-reconfig
-ItalicAngle: 0
-UnderlinePosition: -420
-UnderlineWidth: 100
-Ascent: 1352
-Descent: 696
-InvalidEm: 0
-sfntRevision: 0x00010000
+StartChar: NameMe.1
+Encoding: 1 -1 1
+Width: 1516
+Flags: W
 LayerCount: 2
-Layer: 0 1 "Back" 1
-Layer: 1 1 "Fore" 0
-XUID: [1021 520 2022644484 8954717]
-StyleMap: 0x0040
-FSType: 0
-OS2Version: 3
-OS2_WeightWidthSlopeOnly: 0
-OS2_UseTypoMetrics: 0
-CreationTime: 1390402476
-ModificationTime: 1688050724
-PfmFamily: 17
-TTFWeight: 400
-TTFWidth: 5
-LineGap: 0
-VLineGap: 0
-Panose: 2 2 6 3 5 4 5 2 3 4
-OS2TypoAscent: 2000
-OS2TypoAOffset: 0
-OS2TypoDescent: -450
-OS2TypoDOffset: 0
-OS2TypoLinegap: 0
-OS2WinAscent: 2000
-OS2WinAOffset: 0
-OS2WinDescent: 450
-OS2WinDOffset: 0
-HheadAscent: 2000
-HheadAOffset: 0
-HheadDescent: -450
-HheadDOffset: 0
-OS2SubXSize: 2000
-OS2SubYSize: 664
-OS2SubXOff: 0
-OS2SubYOff: 144
-OS2SupXSize: 2000
-OS2SupYSize: 664
-OS2SupXOff: 0
-OS2SupYOff: 464
-OS2StrikeYSize: 51
-OS2StrikeYPos: 264
-OS2CapHeight: 1750
-OS2XHeight: 740
-OS2FamilyClass: 261
-OS2Vendor: 'SBT '
-OS2CodePages: 001e0101.00000000
-OS2UnicodeRanges: 800000a7.1001e408.00020016.00000000
-Lookup: 1 0 0 "Single Subs t-d at syllable.init" { "Single Subs t-d-1"  } []
-Lookup: 1 0 0 "Single Subs e-u after t-d" { "Single Subs e-u after t-d-1"  } []
-Lookup: 1 0 0 "Single Sub n for en" { "Single Sub n for en-1"  } []
-Lookup: 1 0 0 "Single Subs i-u after vowel" { "Single Subs i-u after vowel-1"  } []
-Lookup: 1 0 0 "Single Subs o-u.fina for isol syllable" { "Single Subs o-u.fina for isol syllable-1"  } []
-Lookup: 1 0 0 "'isol' General Isolated Forms" { "'isol' General Isolated Forms-1"  } ['isol' ('mong' <'dflt' > ) ]
-Lookup: 1 0 0 "'init' General Initial Forms" { "'init' General Initial Forms-1"  } ['init' ('mong' <'dflt' > ) ]
-Lookup: 1 0 0 "'fina' General Terminal Forms" { "'fina' General Terminal Forms-1"  } ['fina' ('mong' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' Contextual Alternates for particular syllables" { "calt t-d at syllable.init"  "calt n.fina in en"  } ['calt' ('mong' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' General Contextual Alts" { "calt i-u after vowel"  "calt o-u.fina for isol syllable"  } ['calt' ('mong' <'dflt' > ) ]
-MarkAttachClasses: 1
-DEI: 91125
-ChainSub2: coverage "calt t-d at syllable.init" 0 0 0 1
- 1 0 1
-  Coverage: 27 t.dflt t.init d.dflt d.init
-  FCoverage: 27 e.dflt e.fina u.dflt u.fina
- 1
-  SeqLookup: 0 "Single Subs t-d at syllable.init"
-EndFPST
-ChainSub2: coverage "calt n.fina in en" 0 0 0 1
- 1 1 0
-  Coverage: 6 n.fina
-  BCoverage: 6 e.init
- 1
-  SeqLookup: 0 "Single Sub n for en"
-EndFPST
-ChainSub2: coverage "calt i-u after vowel" 0 0 0 1
- 1 1 0
-  Coverage: 20 i.dflt u.dflt u.fina
-  BCoverage: 109 a.dflt a.init e.dflt e.init e.F.dflt e.repl1 i.dflt i.init o.dflt o.init u.dflt u.init u.F.dflt v.dlft v.init
- 1
-  SeqLookup: 0 "Single Subs i-u after vowel"
-EndFPST
-ChainSub2: coverage "calt o-u.fina for isol syllable" 0 0 0 1
- 1 1 0
-  Coverage: 13 o.fina u.fina
-  BCoverage: 154 n.init s.init x.init k.init g.init h.init l.init m.init q.init j.init y.init r.init r.prime.init f.init w.init c.init z.init t.init t.repl1 d.init d.repl1
- 1
-  SeqLookup: 0 "Single Subs o-u.fina for isol syllable"
-EndFPST
-LangName: 1033
-GaspTable: 3 8 2 17 1 65535 3 0
-Encoding: Custom
-UnicodeInterp: none
-NameList: AGL For New Fonts
-DisplaySize: -48
-AntiAlias: 1
-FitToEm: 1
-WinInfo: 0 8 12
-BeginPrivate: 0
-EndPrivate
-Grid
--2048 656 m 0
- 4096 656 l 1024
-  Named: "Real Baseline"
-EndSplineSet
-TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "Anchor-0""" 
-BeginChars: 264 288
+Fore
+Refer: 267 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.0
+Encoding: 0 -1 0
+Width: 1516
+Flags: W
+LayerCount: 2
+Fore
+Refer: 267 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.2
+Encoding: 2 -1 2
+Width: 1516
+Flags: W
+LayerCount: 2
+Fore
+Refer: 267 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.3
+Encoding: 3 -1 3
+Width: 1516
+Flags: W
+LayerCount: 2
+Fore
+Refer: 267 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.4
+Encoding: 4 -1 4
+Width: 1516
+Flags: W
+LayerCount: 2
+Fore
+Refer: 267 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.5
+Encoding: 5 -1 5
+Width: 1516
+Flags: W
+LayerCount: 2
+Fore
+Refer: 267 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.6
+Encoding: 6 -1 6
+Width: 1516
+Flags: W
+LayerCount: 2
+Fore
+Refer: 267 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.7
+Encoding: 7 -1 7
+Width: 1516
+Flags: W
+LayerCount: 2
+Fore
+Refer: 267 -1 N 1 0 0 1 0 0 2
+EndChar
 
 StartChar: a.dflt
-Encoding: 0 6176 0
+Encoding: 8 6176 8 
 Width: 409
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 735 m 1,0,1
+ 0 735 m 1,0,1
  0 735 0 735 409 735 c 1,2,3
  409 735 409 735 489 656 c 261,4,5
  489 656 489 656 409 571 c 1,6,7
@@ -136,20 +88,18 @@ SplineSet
  0 328 0 328 0 410 c 2,13,14
  0 410 0 410 0 735 c 1,0,1
 EndSplineSet
-Substitution2: "'isol' General Isolated Forms-1" a.isol
-Substitution2: "'fina' General Terminal Forms-1" a.fina
 Substitution2: "'init' General Initial Forms-1" a.init
 EndChar
 
 StartChar: a.init
-Encoding: 1 -1 1
+Encoding: 9 -1 9 
 Width: 1312
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 1392 m 0,0,1
+ 0 1392 m 0,0,1
  656 1392 656 1392 656 735 c 1,2,3
  656 735 656 735 1312 735 c 1,4,5
  1312 735 1312 735 1392 656 c 1,6,7
@@ -174,14 +124,14 @@ EndSplineSet
 EndChar
 
 StartChar: a.fina
-Encoding: 2 -1 2
+Encoding: 10 -1 10 
 Width: 1227
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1228 1228 m 256,0,1
+ 1228 1228 m 256,0,1
  1228 571 1228 571 571 571 c 2,2,3
  571 571 571 571 0 571 c 1,4,5
  0 571 0 571 0 735 c 1,6,7
@@ -195,13 +145,13 @@ EndSplineSet
 EndChar
 
 StartChar: empty
-Encoding: 3 -1 3
+Encoding: 11 -1 11 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-666.612304688 756.169921875 m 5,0,-1
+ 666.612304688 756.169921875 m 5,0,-1
  634.7734375 756.169921875 l 5,1,-1
  643.45703125 838.66015625 l 5,2,-1
  736.439453125 838.66015625 l 5,3,-1
@@ -209,48 +159,47 @@ SplineSet
  772.619140625 866.879882812 l 5,5,-1
  769.724609375 838.66015625 l 5,6,-1
  837.743164062 838.66015625 l 6,7,8
- 853.828125 838.66015625 853.828125 838.66015625 861.66796875 830.611328125 c 132,-1,9
- 869.508789062 822.5625 869.508789062 822.5625 868.134765625 808.268554688 c 6,10,-1
- 862.70703125 756.169921875 l 5,11,-1
- 830.506835938 756.169921875 l 5,12,-1
- 835.934570312 807.18359375 l 5,13,-1
- 672.0390625 807.18359375 l 5,14,-1
+ 871.056196477 838.66015625 871.056196477 838.66015625 868.134765625 808.268554688 c 6,9,-1
+ 862.70703125 756.169921875 l 5,10,-1
+ 830.506835938 756.169921875 l 5,11,-1
+ 835.934570312 807.18359375 l 5,12,-1
+ 672.0390625 807.18359375 l 5,13,-1
  666.612304688 756.169921875 l 5,0,-1
-740.418945312 763.043945312 m 5,15,16
- 703.741210938 712.934570312 703.741210938 712.934570312 637.306640625 681.638671875 c 5,17,-1
- 623.196289062 711.306640625 l 5,18,19
- 679.008789062 736.865234375 679.008789062 736.865234375 715.092773438 782.942382812 c 5,20,-1
- 740.418945312 763.043945312 l 5,15,16
-757.78515625 752.190429688 m 5,21,-1
- 775.875976562 778.239257812 l 5,22,23
- 824.994140625 745.892578125 824.994140625 745.892578125 858.366210938 709.135742188 c 5,24,-1
- 838.466796875 683.0859375 l 5,25,26
- 802.495117188 722.760742188 802.495117188 722.760742188 757.78515625 752.190429688 c 5,21,-1
-844.6171875 554.28515625 m 5,27,-1
- 841 521 l 5,28,-1
- 605.467773438 521 l 5,29,-1
- 609.0859375 554.28515625 l 5,30,-1
- 711.475585938 554.28515625 l 5,31,-1
- 720.520507812 639.30859375 l 5,32,-1
- 648.16015625 639.30859375 l 5,33,-1
- 651.778320312 672.232421875 l 5,34,-1
- 827.250976562 672.232421875 l 5,35,-1
- 823.6328125 639.30859375 l 5,36,-1
- 754.890625 639.30859375 l 5,37,-1
- 745.846679688 554.28515625 l 5,38,-1
- 844.6171875 554.28515625 l 5,27,-1
+740.418945312 763.043945312 m 5,14,15
+ 703.741210938 712.934570312 703.741210938 712.934570312 637.306640625 681.638671875 c 5,16,-1
+ 623.196289062 711.306640625 l 5,17,18
+ 679.008789062 736.865234375 679.008789062 736.865234375 715.092773438 782.942382812 c 5,19,-1
+ 740.418945312 763.043945312 l 5,14,15
+757.78515625 752.190429688 m 5,20,-1
+ 775.875976562 778.239257812 l 5,21,22
+ 824.994140625 745.892578125 824.994140625 745.892578125 858.366210938 709.135742188 c 5,23,-1
+ 838.466796875 683.0859375 l 5,24,25
+ 802.495117188 722.760742188 802.495117188 722.760742188 757.78515625 752.190429688 c 5,20,-1
+844.6171875 554.28515625 m 5,26,-1
+ 841 521 l 5,27,-1
+ 605.467773438 521 l 5,28,-1
+ 609.0859375 554.28515625 l 5,29,-1
+ 711.475585938 554.28515625 l 5,30,-1
+ 720.520507812 639.30859375 l 5,31,-1
+ 648.16015625 639.30859375 l 5,32,-1
+ 651.778320312 672.232421875 l 5,33,-1
+ 827.250976562 672.232421875 l 5,34,-1
+ 823.6328125 639.30859375 l 5,35,-1
+ 754.890625 639.30859375 l 5,36,-1
+ 745.846679688 554.28515625 l 5,37,-1
+ 844.6171875 554.28515625 l 5,26,-1
 EndSplineSet
 EndChar
 
 StartChar: a.F.fina
-Encoding: 4 -1 4
+Encoding: 12 -1 12 
 Width: 1311
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1148 81 m 0,0,1
+ 1148 81 m 0,0,1
  1148 575.049382716 1148 575.049382716 656 571 c 1,2,3
  656 571 656 571 164 571 c 1,4,5
  164 571 164 571 164 409 c 0,6,7
@@ -268,13 +217,13 @@ EndSplineSet
 EndChar
 
 StartChar: a.isol
-Encoding: 5 -1 5
+Encoding: 13 -1 13 
 Width: 1803
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 735 m 1,0,1
+ 656 735 m 1,0,1
  656 735 656 735 1148.5 735 c 128,-1,2
  1641 735 1641 735 1641 1230.5 c 0,3,4
  1641 1476 1641 1476 1516 1599 c 128,-1,5
@@ -345,14 +294,14 @@ EndSplineSet
 EndChar
 
 StartChar: e.dflt
-Encoding: 8 6237 6
+Encoding: 16 6237 16 
 Width: 409
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 409 m 2,0,1
+ 0 409 m 2,0,1
  0 409 0 409 0 735 c 1,2,3
  0 735 0 735 409 735 c 1,4,5
  409 735 409 735 489 656 c 5,6,7
@@ -370,20 +319,18 @@ SplineSet
  111.12145749 1406.55870445 111.12145749 1406.55870445 168 1356 c 256,27,28
  201.681818182 1322.31818182 201.681818182 1322.31818182 204 1269 c 256,15,16
 EndSplineSet
-Substitution2: "'isol' General Isolated Forms-1" e.isol
-Substitution2: "'fina' General Terminal Forms-1" e.fina
 Substitution2: "'init' General Initial Forms-1" e.init
 EndChar
 
 StartChar: e.init
-Encoding: 9 -1 7
+Encoding: 17 -1 17 
 Width: 1312
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 1392 m 0,0,1
+ 0 1392 m 0,0,1
  656 1392 656 1392 656 735 c 1,2,3
  656 735 656 735 1312 735 c 1,4,5
  1352 696 1352 696 1392 656 c 257,6,7
@@ -401,33 +348,15 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: a.repl1
-Encoding: -1 -1 8
-Width: 1516
-Flags: W
-LayerCount: 2
-Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
-EndChar
-
-StartChar: a.repl2
-Encoding: -1 -1 9
-Width: 1516
-Flags: W
-LayerCount: 2
-Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
-EndChar
-
 StartChar: e.fina
-Encoding: 10 -1 10
+Encoding: 18 -1 18 
 Width: 1227
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1228 1228 m 256,0,1
+ 1228 1228 m 256,0,1
  1228 571 1228 571 571 571 c 2,2,3
  571 571 571 571 0 571 c 1,4,5
  0 571 0 571 0 735 c 1,6,7
@@ -451,14 +380,14 @@ Substitution2: "Single Subs e-u after t-d-1" e.repl2
 EndChar
 
 StartChar: e.F.dflt
-Encoding: 11 -1 11
+Encoding: 19 -1 19 
 Width: 409
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-204 1759 m 260,0,1
+ 204 1759 m 260,0,1
  204 1718.25 204 1718.25 168 1671 c 4,2,3
  152 1655 152 1655 127 1648 c 5,4,5
  104 1636 104 1636 82 1636 c 4,6,7
@@ -471,18 +400,18 @@ SplineSet
  150 1864 150 1864 168 1849 c 260,20,21
  201.84 1815.16 201.84 1815.16 204 1759 c 260,0,1
 EndSplineSet
-Refer: 0 6176 N 1 0 0 1 0 0 2
+Refer: 19 6176 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: e.F.fina
-Encoding: 12 -1 12
+Encoding: 20 -1 20 
 Width: 1311
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1148 81 m 0,0,1
+ 1148 81 m 0,0,1
  1148 575.049382716 1148 575.049382716 656 571 c 1,2,3
  656 571 656 571 164 571 c 1,4,5
  164 571 164 571 164 409 c 0,6,7
@@ -512,64 +441,25 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: NameMe.13
-Encoding: -1 -1 13
-Width: 1803
-VWidth: 4095
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1148 -409 m 0,0,1
- 1641 -409 1641 -409 1641 83.0288065844 c 128,-1,2
- 1641 575.057613169 1641 575.057613169 1148 571 c 1,3,4
- 1148 571 1148 571 656 571 c 1,5,6
- 656 571 656 571 656 409 c 0,7,8
- 656 328 656 328 573 328 c 128,-1,9
- 490 328 490 328 491 410 c 2,10,11
- 491 410 491 410 492 492 c 257,12,13
- 492 492 492 492 492 737.5 c 0,14,15
- 492 1230.02469136 492 1230.02469136 0 1228 c 0,16,17
- -81 1228 -81 1228 -81 1310 c 128,-1,18
- -81 1392 -81 1392 0 1392 c 0,19,20
- 656 1392 656 1392 656 735 c 1,21,22
- 656 735 656 735 1148 735 c 0,23,24
- 1805 735 1805 735 1805 81 c 0,25,26
- 1805 -243 1805 -243 1641 -409 c 256,27,28
- 1477 -573 1477 -573 1148 -571 c 0,29,30
- 1065 -571 1065 -571 1063 -492 c 0,31,32
- 1063 -409 1063 -409 1148 -409 c 0,0,1
-EndSplineSet
-EndChar
-
 StartChar: e.repl1
-Encoding: 14 -1 14
+Encoding: 22 -1 22 
 Width: 409
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 6176 N 1 0 0 1 0 0 2
-EndChar
-
-StartChar: NameMe.15
-Encoding: -1 -1 15
-Width: 1516
-Flags: W
-LayerCount: 2
-Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 22 6176 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: i.dflt
-Encoding: 16 6259 16
+Encoding: 24 6259 24 
 Width: 409
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 735 m 5,0,1
+ 0 735 m 5,0,1
  0 735 0 735 409 735 c 5,2,3
  449 696 449 696 489 656 c 261,4,5
  489 656 489 656 409 571 c 5,6,7
@@ -579,21 +469,18 @@ SplineSet
  0 -81 0 -81 0 0 c 6,13,14
  0 0 0 0 0 735 c 5,0,1
 EndSplineSet
-Substitution2: "Single Subs i-u after vowel-1" i.repl1
-Substitution2: "'isol' General Isolated Forms-1" i.isol
-Substitution2: "'fina' General Terminal Forms-1" i.fina
 Substitution2: "'init' General Initial Forms-1" i.init
 EndChar
 
 StartChar: i.init
-Encoding: 17 -1 17
+Encoding: 25 -1 25 
 Width: 1311
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 1392 m 4,0,1
+ 0 1392 m 4,0,1
  656 1392 656 1392 656 735 c 5,2,3
  656 735 656 735 1312 735 c 5,4,5
  1312 735 1312 735 1391 656 c 5,6,7
@@ -617,14 +504,14 @@ EndSplineSet
 EndChar
 
 StartChar: i.fina
-Encoding: 18 -1 18
+Encoding: 26 -1 26 
 Width: 899
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-735 656 m 0,0,1
+ 735 656 m 0,0,1
  735 980.024390244 735 980.024390244 409 984 c 0,2,3
  328 984 328 984 246 901 c 128,-1,4
  164 818 164 818 164 656 c 2,5,6
@@ -640,24 +527,15 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: i.F.dflt
-Encoding: -1 -1 19
-Width: 1516
-Flags: W
-LayerCount: 2
-Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
-EndChar
-
 StartChar: i.F.fina
-Encoding: 20 -1 20
+Encoding: 28 -1 28 
 Width: 818
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 81 m 0,0,1
+ 656 81 m 0,0,1
  656 575.049382716 656 575.049382716 164 571 c 0,2,3
  160 571 160 571 162 547.5 c 0,4,5
  164 524 164 524 164 -81 c 0,6,7
@@ -674,14 +552,14 @@ EndSplineSet
 EndChar
 
 StartChar: i.isol
-Encoding: 21 -1 21
+Encoding: 29 -1 29 
 Width: 1803
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 1392 m 0,0,1
+ 0 1392 m 0,0,1
  656 1392 656 1392 656 735 c 1,2,3
  656 735 656 735 899 735 c 1,4,5
  899 899 899 899 1024 1024 c 256,6,7
@@ -710,24 +588,15 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: i.repl2
-Encoding: -1 -1 22
-Width: 1516
-Flags: W
-LayerCount: 2
-Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
-EndChar
-
 StartChar: i.repl1
-Encoding: 22 -1 23
+Encoding: 30 -1 30 
 Width: 816
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-816 735 m 1,0,-1
+ 816 735 m 1,0,-1
  896 656 l 1,1,-1
  816 571 l 1,2,-1
  771 656 l 1,3,-1
@@ -752,14 +621,14 @@ EndSplineSet
 EndChar
 
 StartChar: o.dflt
-Encoding: 24 6179 24
+Encoding: 32 6179 32 
 Width: 899
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-899 735 m 5,0,-1
+ 899 735 m 5,0,-1
  979 656 l 5,1,-1
  899 571 l 5,2,-1
  854 656 l 5,3,-1
@@ -780,20 +649,18 @@ SplineSet
  164 328 164 328 328.976190476 328 c 128,-1,27
  493.952380952 328 493.952380952 328 492 492 c 1,19,20
 EndSplineSet
-Substitution2: "'isol' General Isolated Forms-1" o.isol
-Substitution2: "'fina' General Terminal Forms-1" o.fina
 Substitution2: "'init' General Initial Forms-1" o.init
 EndChar
 
 StartChar: o.init
-Encoding: 25 -1 25
+Encoding: 33 -1 33 
 Width: 1805
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1805 735 m 5,0,-1
+ 1805 735 m 5,0,-1
  1885 656 l 5,1,-1
  1805 571 l 5,2,-1
  1760 656 l 5,3,-1
@@ -827,14 +694,14 @@ EndSplineSet
 EndChar
 
 StartChar: o.fina
-Encoding: 26 -1 26
+Encoding: 34 -1 34 
 Width: 1306
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 1392 m 256,0,1
+ 656 1392 m 256,0,1
  1312 1392 1312 1392 1312 735 c 0,2,3
  1312 654 1312 654 1229.5 655 c 128,-1,4
  1147 656 1147 656 1148 735 c 0,5,6
@@ -862,24 +729,15 @@ EndSplineSet
 Substitution2: "Single Subs o-u.fina for isol syllable-1" o.repl1
 EndChar
 
-StartChar: o.F.dflt
-Encoding: -1 -1 27
-Width: 1516
-Flags: W
-LayerCount: 2
-Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
-EndChar
-
 StartChar: o.F.fina
-Encoding: 28 -1 28
+Encoding: 36 -1 36 
 Width: 654
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 492 m 0,0,1
+ 656 492 m 0,0,1
  656 164 656 164 328 164 c 256,2,3
  0 164 0 164 0 492 c 1,4,5
  4 492 4 492 2 581.5 c 128,-1,6
@@ -896,14 +754,14 @@ EndSplineSet
 EndChar
 
 StartChar: o.repl1
-Encoding: 30 -1 29
+Encoding: 38 -1 38 
 Width: 983
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 735 m 1,0,1
+ 0 735 m 1,0,1
  0 735 0 735 0 492 c 0,2,3
  0 0 0 0 491.5 0 c 128,-1,4
  983 0 983 0 983 489.5 c 2,5,6
@@ -911,23 +769,23 @@ SplineSet
  983 735 983 735 0 735 c 1,0,1
 493 164 m 256,9,10
  327 164 327 164 244 245 c 0,11,12
- 164 328 164 328 164 492 c 0,13,14
- 164 571 164 571 164 571 c 1,15,16
- 821 571 821 571 821 571 c 1,17,18
- 821 492 821 492 821 492 c 1,19,20
+ 164 328 164 328 164 492 c 2,13,14
+ 164 492 164 492 164 571 c 1,15,16
+ 164 571 164 571 821 571 c 1,17,18
+ 821 571 821 571 821 492 c 0,19,20
  817 164 817 164 493 164 c 256,9,10
 EndSplineSet
 EndChar
 
 StartChar: o.isol
-Encoding: 29 -1 30
+Encoding: 37 -1 37 
 Width: 1967
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 1392 m 0,1,2
+ 0 1392 m 0,1,2
  656 1392 656 1392 656 735 c 1,3,4
  656 735 656 735 1967 735 c 1,5,6
  1967 735 1967 735 1967 489.5 c 0,7,8
@@ -953,24 +811,15 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: o.repl2
-Encoding: -1 -1 31
-Width: 1516
-Flags: W
-LayerCount: 2
-Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
-EndChar
-
 StartChar: u.dflt
-Encoding: 32 6240 32
+Encoding: 40 6240 40 
 Width: 899
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-899 735 m 5,0,-1
+ 899 735 m 5,0,-1
  979 656 l 5,1,-1
  899 571 l 5,2,-1
  854 656 l 5,3,-1
@@ -1001,21 +850,18 @@ SplineSet
  453 1246 453 1246 439 1225 c 1,44,45
  418.453074434 1151.61812298 418.453074434 1151.61812298 328 1148 c 256,28,29
 EndSplineSet
-Substitution2: "Single Subs i-u after vowel-1" u.bis.dflt
-Substitution2: "'isol' General Isolated Forms-1" u.isol
-Substitution2: "'fina' General Terminal Forms-1" u.fina
 Substitution2: "'init' General Initial Forms-1" u.init
 EndChar
 
 StartChar: u.init
-Encoding: 33 -1 33
+Encoding: 41 -1 41 
 Width: 1805
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1805 735 m 1,0,-1
+ 1805 735 m 1,0,-1
  1885 656 l 1,1,-1
  1805 571 l 1,2,-1
  1760 656 l 1,3,-1
@@ -1061,14 +907,14 @@ EndSplineSet
 EndChar
 
 StartChar: u.fina
-Encoding: 34 -1 34
+Encoding: 42 -1 42 
 Width: 1306
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 1392 m 256,0,1
+ 656 1392 m 256,0,1
  1312 1392 1312 1392 1312 735 c 0,2,3
  1312 654 1312 654 1229.5 655 c 128,-1,4
  1147 656 1147 656 1148 735 c 0,5,6
@@ -1105,19 +951,18 @@ SplineSet
  760 1833 760 1833 768 1808 c 1,60,61
  780 1785 780 1785 779 1759 c 256,40,41
 EndSplineSet
-Substitution2: "Single Subs i-u after vowel-1" u.bis.fina
 Substitution2: "Single Subs o-u.fina for isol syllable-1" u.repl1
 EndChar
 
 StartChar: u.F.dflt
-Encoding: 35 -1 35
+Encoding: 43 -1 43 
 Width: 899
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-204 1759 m 260,0,1
+ 204 1759 m 260,0,1
  204 1718.25 204 1718.25 168 1671 c 4,2,3
  152 1655 152 1655 127 1648 c 5,4,5
  104 1636 104 1636 82 1636 c 132,-1,6
@@ -1153,14 +998,14 @@ EndSplineSet
 EndChar
 
 StartChar: u.F.fina
-Encoding: 36 -1 36
+Encoding: 44 -1 44 
 Width: 654
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 492 m 0,0,1
+ 656 492 m 0,0,1
  656 164 656 164 328 164 c 256,2,3
  0 164 0 164 0 492 c 1,4,5
  4 492 4 492 2 581.5 c 128,-1,6
@@ -1189,14 +1034,14 @@ EndSplineSet
 EndChar
 
 StartChar: u.isol
-Encoding: 37 -1 37
+Encoding: 45 -1 45 
 Width: 1967
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 1392 m 0,0,1
+ 0 1392 m 0,0,1
  656 1392 656 1392 656 735 c 1,2,3
  656 735 656 735 1967 735 c 1,4,5
  1967 735 1967 735 1967 489.5 c 0,6,7
@@ -1232,14 +1077,14 @@ EndSplineSet
 EndChar
 
 StartChar: u.repl1
-Encoding: 38 -1 38
+Encoding: 46 -1 46 
 Width: 983
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 735 m 25,0,1
+ 0 735 m 25,0,1
  0 735 0 735 0 492 c 0,2,3
  0 0 0 0 491.5 0 c 128,-1,4
  983 0 983 0 983 489.5 c 2,5,6
@@ -1247,10 +1092,10 @@ SplineSet
  983 735 983 735 0 735 c 25,0,1
 493 164 m 256,9,10
  327 164 327 164 244 245 c 0,11,12
- 164 328 164 328 164 492 c 0,13,14
- 164 571 164 571 164 571 c 1,15,16
- 821 571 821 571 821 571 c 1,17,18
- 821 492 821 492 821 492 c 1,19,20
+ 164 328 164 328 164 492 c 2,13,14
+ 164 492 164 492 164 571 c 1,15,16
+ 164 571 164 571 821 571 c 1,17,18
+ 821 571 821 571 821 492 c 0,19,20
  817 164 817 164 493 164 c 256,9,10
 613 1269 m 257,21,22
  613 1212.19042969 613 1212.19042969 576 1184 c 1,23,24
@@ -1264,102 +1109,55 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u.repl2
-Encoding: -1 -1 39
-Width: 1516
-Flags: W
-LayerCount: 2
-Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
-EndChar
-
-StartChar: u.bis.repl2
-Encoding: -1 -1 40
-Width: 1516
-Flags: W
-LayerCount: 2
-Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
-EndChar
-
 StartChar: u.bis.fina
-Encoding: 42 -1 41
+Encoding: 50 -1 50 
 Width: 1306
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 26 -1 N 1 0 0 1 0 0 2
-Substitution2: "Single Subs o-u.fina for isol syllable-1" u.bis.repl1
-EndChar
-
-StartChar: u.bis.F.dflt
-Encoding: -1 -1 42
-Width: 1516
-Flags: W
-LayerCount: 2
-Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: [50 -1 N 1 0 0 1 0 0 2], Substitution2: "Single Subs o-u.fina for isol syllable-1" u.bis.repl1
 EndChar
 
 StartChar: u.bis.F.fina
-Encoding: 44 -1 43
+Encoding: 52 -1 52 
 Width: 654
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 28 -1 N 1 0 0 1 0 0 2
+Refer: 52 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u.bis.repl1
-Encoding: 46 -1 44
+Encoding: 54 -1 54 
 Width: 983
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 29 -1 N 1 0 0 1 0 0 2
-EndChar
-
-StartChar: u.bis.isol
-Encoding: -1 -1 45
-Width: 1516
-Flags: W
-LayerCount: 2
-Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
-EndChar
-
-StartChar: u.bis.init
-Encoding: -1 -1 46
-Width: 1516
-Flags: W
-LayerCount: 2
-Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 54 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u.bis.dflt
-Encoding: 40 -1 47
+Encoding: 48 -1 48 
 Width: 899
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 24 6179 N 1 0 0 1 0 0 2
-Substitution2: "'fina' General Terminal Forms-1" u.bis.fina
+Refer: [48 6179 N 1 0 0 1 0 0 2], Substitution2: "'fina' General Terminal Forms-1" u.bis.fina
 EndChar
 
 StartChar: v.dlft
-Encoding: 48 6241 48
+Encoding: 56 6241 56 
 Width: 899
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-899 735 m 5,0,-1
+ 899 735 m 5,0,-1
  979 656 l 5,1,-1
  899 571 l 5,2,-1
  854 656 l 5,3,-1
@@ -1385,20 +1183,18 @@ SplineSet
  490 -81 490 -81 492 0 c 257,33,34
  492 0 492 0 492 656 c 1,26,27
 EndSplineSet
-Substitution2: "'isol' General Isolated Forms-1" v.isol
-Substitution2: "'fina' General Terminal Forms-1" v.fina
 Substitution2: "'init' General Initial Forms-1" v.init
 EndChar
 
 StartChar: v.init
-Encoding: 49 -1 49
+Encoding: 57 -1 57 
 Width: 1556
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1556 735 m 1,0,-1
+ 1556 735 m 1,0,-1
  1636 656 l 1,1,-1
  1556 571 l 1,2,-1
  1511 656 l 1,3,-1
@@ -1436,14 +1232,14 @@ EndSplineSet
 EndChar
 
 StartChar: v.fina
-Encoding: 50 -1 50
+Encoding: 58 -1 58 
 Width: 1311
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-328 164 m 256,0,1
+ 328 164 m 256,0,1
  0 164 0 164 0 492 c 2,2,3
  0 492 0 492 0 735 c 1,4,5
  0 735 0 735 656 735 c 128,-1,6
@@ -1463,50 +1259,50 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe.51
-Encoding: 51 -1 51
+Encoding: 59 -1 59 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 59 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.52
-Encoding: 52 -1 52
+Encoding: 60 -1 60 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 60 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.54
-Encoding: 54 -1 53
+Encoding: 62 -1 62 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 62 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.55
-Encoding: 55 -1 54
+Encoding: 63 -1 63 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 63 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: v.isol
-Encoding: 53 -1 55
+Encoding: 61 -1 61 
 Width: 2212
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1228 164 m 256,0,1
+ 1228 164 m 256,0,1
  903 164 903 164 899 492 c 1,2,3
  899 492 899 492 899 571 c 1,4,5
  899 571 899 571 656 571 c 1,6,7
@@ -1537,281 +1333,123 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe.6
-Encoding: 6 -1 56
+Encoding: 14 -1 14 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 14 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.7
-Encoding: 7 -1 57
+Encoding: 15 -1 15 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 15 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: e.repl2
-Encoding: 15 -1 58
+Encoding: 23 -1 23 
 Width: 1227
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 2 -1 N 1 0 0 1 0 0 2
+Refer: 23 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.23
-Encoding: 23 -1 59
+Encoding: 31 -1 31 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 31 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.19
-Encoding: 19 -1 60
+Encoding: 27 -1 27 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 27 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.27
-Encoding: 27 -1 61
+Encoding: 35 -1 35 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 35 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.39
-Encoding: 39 -1 62
+Encoding: 47 -1 47 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 47 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.31
-Encoding: 31 -1 63
+Encoding: 39 -1 39 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 39 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.47
-Encoding: 47 -1 64
+Encoding: 55 -1 55 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 55 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.45
-Encoding: 45 -1 65
+Encoding: 53 -1 53 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 53 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.41
-Encoding: 41 -1 66
+Encoding: 49 -1 49 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 49 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.43
-Encoding: 43 -1 67
+Encoding: 51 -1 51 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
-EndChar
-
-StartChar: NameMe.88
-Encoding: -1 -1 68
-Width: 409
-VWidth: 4095
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-409 735 m 5,0,-1
- 489 656 l 5,1,-1
- 409 571 l 5,2,-1
- 364 656 l 5,3,-1
- 409 735 l 5,0,-1
-0 735 m 1,4,5
- 0 735 0 735 409 735 c 1,6,7
- 409 735 409 735 409 571 c 1,8,9
- 409 571 409 571 164 571 c 1,10,11
- 164 571 164 571 164 409 c 0,12,13
- 164 328 164 328 82 328 c 128,-1,14
- 0 328 0 328 0 410 c 2,15,16
- 0 410 0 410 0 735 c 1,4,5
-204 -40 m 256,17,18
- 204 -118.04 204 -118.04 127 -155 c 1,19,20
- 52.8785425101 -177.558704453 52.8785425101 -177.558704453 -4 -127 c 256,21,22
- -37.875 -93.125 -37.875 -93.125 -40 -40 c 256,23,24
- -40 5.75 -40 5.75 -4 44 c 1,25,26
- 19.7457212714 75.1662591687 19.7457212714 75.1662591687 81 81 c 1,27,28
- 157.5 81 157.5 81 196 4 c 0,29,30
- 203 -17 203 -17 204 -40 c 256,17,18
-EndSplineSet
-EndChar
-
-StartChar: NameMe.65
-Encoding: -1 -1 69
-Width: 899
-VWidth: 4095
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-899 735 m 1,0,-1
- 979 656 l 1,1,-1
- 899 571 l 1,2,-1
- 854 656 l 1,3,-1
- 899 735 l 1,0,-1
-0 1392 m 0,4,5
- 656 1392 656 1392 656 735 c 1,6,7
- 656 735 656 735 899 735 c 1,8,9
- 899 735 899 735 899 571 c 1,10,11
- 899 571 899 571 656 571 c 1,12,13
- 656 571 656 571 656 409 c 0,14,15
- 656 328 656 328 573 328 c 128,-1,16
- 490 328 490 328 491 410 c 2,17,18
- 491 410 491 410 492 492 c 257,19,20
- 492 492 492 492 492 737.5 c 0,21,22
- 492 1230.02469136 492 1230.02469136 0 1228 c 0,23,24
- -81 1228 -81 1228 -81 1310 c 128,-1,25
- -81 1392 -81 1392 0 1392 c 0,4,5
-696 40 m 256,26,27
- 696 -9 696 -9 661 -44 c 1,28,29
- 636.657587549 -75.9494163424 636.657587549 -75.9494163424 571 -81 c 257,30,31
- 516.19047619 -81 516.19047619 -81 488 -44 c 1,32,33
- 453 -17.3333333333 453 -17.3333333333 453 40 c 256,34,35
- 453 116.391304348 453 116.391304348 527 155 c 0,36,37
- 548 162 548 162 571 164 c 256,38,39
- 619.375 164 619.375 164 661 127 c 256,40,41
- 693.833333333 94.1666666667 693.833333333 94.1666666667 696 40 c 256,26,27
-EndSplineSet
-EndChar
-
-StartChar: NameMe.66
-Encoding: -1 -1 70
-Width: 1227
-VWidth: 4095
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1228 1228 m 256,0,1
- 1228 571 1228 571 571 571 c 2,2,3
- 571 571 571 571 0 571 c 1,4,5
- 0 571 0 571 0 735 c 1,6,7
- 0 735 0 735 571 735 c 0,8,9
- 1063 735 1063 735 1063 1229.49190283 c 128,-1,10
- 1063 1723.98380567 1063 1723.98380567 571 1720 c 0,11,12
- 490 1720 490 1720 491 1803 c 128,-1,13
- 492 1886 492 1886 571 1884 c 0,14,15
- 1226 1884 1226 1884 1228 1228 c 256,0,1
-EndSplineSet
-EndChar
-
-StartChar: NameMe.70
-Encoding: -1 -1 71
-Width: 409
-VWidth: 4095
-Flags: W
-LayerCount: 2
-Fore
-Refer: 0 6176 N 1 0 0 1 0 0 2
-EndChar
-
-StartChar: NameMe.71
-Encoding: -1 -1 72
-Width: 1227
-VWidth: 4095
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1228 1228 m 256,0,1
- 1228 571 1228 571 571 571 c 2,2,3
- 571 571 571 571 0 571 c 1,4,5
- 0 571 0 571 0 735 c 1,6,7
- 0 735 0 735 571 735 c 0,8,9
- 1063 735 1063 735 1063 1229.49190283 c 128,-1,10
- 1063 1723.98380567 1063 1723.98380567 571 1720 c 0,11,12
- 490 1720 490 1720 491 1803 c 128,-1,13
- 492 1886 492 1886 571 1884 c 0,14,15
- 1226 1884 1226 1884 1228 1228 c 256,0,1
-696 -40 m 256,16,17
- 696 -118.52 696 -118.52 620 -155 c 0,18,19
- 597 -162 597 -162 571 -164 c 256,20,21
- 525 -164 525 -164 488 -127 c 1,22,23
- 453 -100.333333333 453 -100.333333333 453 -40 c 256,24,25
- 453 15.6666666667 453 15.6666666667 488 44 c 1,26,27
- 512.301552106 75.8957871397 512.301552106 75.8957871397 571 81 c 257,28,29
- 652.708333333 81 652.708333333 81 688 4 c 0,30,31
- 695 -17 695 -17 696 -40 c 256,16,17
-EndSplineSet
-EndChar
-
-StartChar: NameMe.59
-Encoding: -1 -1 73
-Width: 1516
-Flags: W
-LayerCount: 2
-Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
-EndChar
-
-StartChar: NameMe.60
-Encoding: -1 -1 74
-Width: 1516
-Flags: W
-LayerCount: 2
-Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
-EndChar
-
-StartChar: NameMe.61
-Encoding: -1 -1 75
-Width: 1516
-Flags: W
-LayerCount: 2
-Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 51 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: n.dflt
-Encoding: 64 6184 76
+Encoding: 72 6184 72 
 Width: 409
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-409 735 m 5,0,-1
+ 409 735 m 5,0,-1
  489 656 l 5,1,-1
  409 571 l 5,2,-1
  364 656 l 5,3,-1
@@ -1833,19 +1471,18 @@ SplineSet
  157.5 81 157.5 81 196 4 c 0,29,30
  203 -17 203 -17 204 -40 c 256,17,18
 EndSplineSet
-Substitution2: "'fina' General Terminal Forms-1" n.fina
 Substitution2: "'init' General Initial Forms-1" n.init
 EndChar
 
 StartChar: n.init
-Encoding: 65 -1 77
+Encoding: 73 -1 73 
 Width: 899
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-899 735 m 1,0,-1
+ 899 735 m 1,0,-1
  979 656 l 1,1,-1
  899 571 l 1,2,-1
  854 656 l 1,3,-1
@@ -1876,62 +1513,61 @@ EndSplineSet
 EndChar
 
 StartChar: n.fina
-Encoding: 66 -1 78
+Encoding: 74 -1 74 
 Width: 1227
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 2 -1 N 1 0 0 1 0 0 2
-Substitution2: "Single Sub n for en-1" n.repl2
+Refer: [74 -1 N 1 0 0 1 0 0 2], Substitution2: "Single Sub n for en-1" n.repl2
 EndChar
 
 StartChar: NameMe.67
-Encoding: 67 -1 79
+Encoding: 75 -1 75 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 75 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.68
-Encoding: 68 -1 80
+Encoding: 76 -1 76 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 76 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.69
-Encoding: 69 -1 81
+Encoding: 77 -1 77 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 77 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: n.repl1
-Encoding: 70 -1 82
+Encoding: 78 -1 78 
 Width: 409
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 6176 N 1 0 0 1 0 0 2
+Refer: 78 6176 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: n.repl2
-Encoding: 71 -1 83
+Encoding: 79 -1 79 
 Width: 1227
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1228 1228 m 256,0,1
+ 1228 1228 m 256,0,1
  1228 571 1228 571 571 571 c 2,2,3
  571 571 571 571 0 571 c 1,4,5
  0 571 0 571 0 735 c 1,6,7
@@ -1954,14 +1590,14 @@ EndSplineSet
 EndChar
 
 StartChar: y.prime.dflt
-Encoding: 56 6239 84
+Encoding: 64 6239 64 
 Width: 735
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-735 735 m 5,0,-1
+ 735 735 m 5,0,-1
  815 656 l 5,1,-1
  735 571 l 5,2,-1
  690 656 l 5,3,-1
@@ -1990,14 +1626,14 @@ Substitution2: "'fina' General Terminal Forms-1" y.prime.fina
 EndChar
 
 StartChar: y.prime.fina
-Encoding: 58 -1 85
+Encoding: 66 -1 66 
 Width: 1230
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1228 1228 m 256,0,1
+ 1228 1228 m 256,0,1
  1228 571 1228 571 571 571 c 2,2,3
  571 571 571 571 0 571 c 1,4,5
  0 571 0 571 0 735 c 1,6,7
@@ -2025,68 +1661,68 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe.57
-Encoding: 57 -1 86
+Encoding: 65 -1 65 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 65 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.59.1
-Encoding: 59 -1 87
+Encoding: 67 -1 67 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 67 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.60.1
-Encoding: 60 -1 88
+Encoding: 68 -1 68 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 68 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.61.1
-Encoding: 61 -1 89
+Encoding: 69 -1 69 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 69 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.62
-Encoding: 62 -1 90
+Encoding: 70 -1 70 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 70 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.63
-Encoding: 63 -1 91
+Encoding: 71 -1 71 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 71 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: s.dflt
-Encoding: 72 6192 92
+Encoding: 80 6192 80 
 Width: 1477
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1477 735 m 5,0,-1
+ 1477 735 m 5,0,-1
  1557 656 l 5,1,-1
  1477 571 l 5,2,-1
  1432 656 l 5,3,-1
@@ -2113,19 +1749,18 @@ SplineSet
  164 328 164 328 82 328 c 128,-1,40
  0 328 0 328 0 409 c 2,4,5
 EndSplineSet
-Substitution2: "'fina' General Terminal Forms-1" s.fina
 Substitution2: "'init' General Initial Forms-1" s.init
 EndChar
 
 StartChar: s.init
-Encoding: 73 -1 93
+Encoding: 81 -1 81 
 Width: 1477
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1477 735 m 5,0,-1
+ 1477 735 m 5,0,-1
  1557 656 l 5,1,-1
  1477 571 l 5,2,-1
  1432 656 l 5,3,-1
@@ -2155,14 +1790,14 @@ EndSplineSet
 EndChar
 
 StartChar: s.fina
-Encoding: 74 -1 94
+Encoding: 82 -1 82 
 Width: 1231
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1068 883 m 2,0,1
+ 1068 883 m 2,0,1
  1068 883 1068 883 1063 1312 c 0,2,3
  1063 1393 1063 1393 1146 1392.5 c 128,-1,4
  1229 1392 1229 1392 1228 1312 c 1,5,6
@@ -2188,59 +1823,59 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe.75
-Encoding: 75 -1 95
+Encoding: 83 -1 83 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 83 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.76
-Encoding: 76 -1 96
+Encoding: 84 -1 84 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 84 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.77
-Encoding: 77 -1 97
+Encoding: 85 -1 85 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 85 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.78
-Encoding: 78 -1 98
+Encoding: 86 -1 86 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 86 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.79
-Encoding: 79 -1 99
+Encoding: 87 -1 87 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 87 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: x.dflt
-Encoding: 80 6247 100
+Encoding: 88 6247 88 
 Width: 1555
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1555 735 m 5,0,-1
+ 1555 735 m 5,0,-1
  1635 656 l 5,1,-1
  1555 571 l 5,2,-1
  1510 656 l 5,3,-1
@@ -2278,14 +1913,14 @@ Substitution2: "'init' General Initial Forms-1" x.init
 EndChar
 
 StartChar: x.init
-Encoding: 81 -1 101
+Encoding: 89 -1 89 
 Width: 1556
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 1597 m 2,0,1
+ 0 1597 m 2,0,1
  0 1597 0 1597 0 656 c 0,2,3
  0 571 0 571 82 571 c 128,-1,4
  164 571 164 571 164 656 c 2,5,6
@@ -2317,68 +1952,68 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe.82
-Encoding: 82 -1 102
+Encoding: 90 -1 90 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 90 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.83
-Encoding: 83 -1 103
+Encoding: 91 -1 91 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 91 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.85
-Encoding: 85 -1 104
+Encoding: 93 -1 93 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 93 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.84
-Encoding: 84 -1 105
+Encoding: 92 -1 92 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 92 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.86
-Encoding: 86 -1 106
+Encoding: 94 -1 94 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 94 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.87
-Encoding: 87 -1 107
+Encoding: 95 -1 95 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 95 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: k.dflt
-Encoding: 88 6260 108
+Encoding: 96 6260 96 
 Width: 820
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-820 735 m 1,0,-1
+ 820 735 m 1,0,-1
  900 656 l 1,1,-1
  820 571 l 1,2,-1
  775 656 l 1,3,-1
@@ -2397,19 +2032,18 @@ SplineSet
  0 328 0 328 0 410 c 2,24,25
  0 410 0 410 0 735 c 1,4,5
 EndSplineSet
-Substitution2: "'fina' General Terminal Forms-1" k.fina
 Substitution2: "'init' General Initial Forms-1" k.init
 EndChar
 
 StartChar: k.init
-Encoding: 89 -1 109
+Encoding: 97 -1 97 
 Width: 1556
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1556 735 m 5,0,-1
+ 1556 735 m 5,0,-1
  1636 656 l 5,1,-1
  1556 571 l 5,2,-1
  1511 656 l 5,3,-1
@@ -2440,14 +2074,14 @@ EndSplineSet
 EndChar
 
 StartChar: k.fina
-Encoding: 90 -1 110
+Encoding: 98 -1 98 
 Width: 1391
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1392 1228 m 256,0,1
+ 1392 1228 m 256,0,1
  1392 571 1392 571 735 571 c 2,2,3
  735 571 735 571 164 571 c 1,4,5
  164 571 164 571 164 409 c 0,6,7
@@ -2486,14 +2120,14 @@ EndSplineSet
 EndChar
 
 StartChar: k.F.dflt
-Encoding: 91 -1 111
+Encoding: 99 -1 99 
 Width: 1146
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 1392 m 256,0,1
+ 656 1392 m 256,0,1
  1312 1392 1312 1392 1312 735 c 2,2,3
  1312 735 1312 735 1312 654 c 128,-1,4
  1312 573 1312 573 1228 571 c 0,5,6
@@ -2511,14 +2145,14 @@ EndSplineSet
 EndChar
 
 StartChar: k.F.fina
-Encoding: 92 -1 112
+Encoding: 100 -1 100 
 Width: 1311
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 1392 m 256,0,1
+ 656 1392 m 256,0,1
  1312 1392 1312 1392 1312 735 c 2,2,3
  1312 735 1312 735 1312 654 c 128,-1,4
  1312 573 1312 573 1228 571 c 0,5,6
@@ -2548,23 +2182,23 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe.93
-Encoding: 93 -1 113
+Encoding: 101 -1 101 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 101 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: k.repl1
-Encoding: 94 -1 114
+Encoding: 102 -1 102 
 Width: 654
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 1392 m 256,0,1
+ 656 1392 m 256,0,1
  1312 1392 1312 1392 1312 735 c 2,2,3
  1312 735 1312 735 1312 654 c 128,-1,4
  1312 573 1312 573 1228 571 c 0,5,6
@@ -2582,14 +2216,14 @@ EndSplineSet
 EndChar
 
 StartChar: k.repl2
-Encoding: 95 -1 115
+Encoding: 103 -1 103 
 Width: 820
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-820 735 m 5,0,-1
+ 820 735 m 5,0,-1
  900 656 l 5,1,-1
  820 571 l 5,2,-1
  775 656 l 5,3,-1
@@ -2630,14 +2264,14 @@ EndSplineSet
 EndChar
 
 StartChar: g.dflt
-Encoding: 96 6244 116
+Encoding: 104 6244 104 
 Width: 820
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-820 735 m 5,0,-1
+ 820 735 m 5,0,-1
  900 656 l 5,1,-1
  820 571 l 5,2,-1
  775 656 l 5,3,-1
@@ -2670,14 +2304,14 @@ Substitution2: "'init' General Initial Forms-1" g.init
 EndChar
 
 StartChar: g.init
-Encoding: 97 -1 117
+Encoding: 105 -1 105 
 Width: 1556
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1556 735 m 5,0,-1
+ 1556 735 m 5,0,-1
  1636 656 l 5,1,-1
  1556 571 l 5,2,-1
  1511 656 l 5,3,-1
@@ -2717,23 +2351,23 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe.98
-Encoding: 98 -1 118
+Encoding: 106 -1 106 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 106 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: g.F.dflt
-Encoding: 99 -1 119
+Encoding: 107 -1 107 
 Width: 1146
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 1392 m 256,0,1
+ 656 1392 m 256,0,1
  1312 1392 1312 1392 1312 735 c 2,2,3
  1312 735 1312 735 1312 654 c 128,-1,4
  1312 573 1312 573 1228 571 c 0,5,6
@@ -2763,41 +2397,41 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe.100
-Encoding: 100 -1 120
+Encoding: 108 -1 108 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 108 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.101
-Encoding: 101 -1 121
+Encoding: 109 -1 109 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 109 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.103
-Encoding: 103 -1 122
+Encoding: 111 -1 111 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 111 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: g.repl1
-Encoding: 102 -1 123
+Encoding: 110 -1 110 
 Width: 654
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 1392 m 256,0,1
+ 656 1392 m 256,0,1
  1312 1392 1312 1392 1312 735 c 2,2,3
  1312 735 1312 735 1312 654 c 128,-1,4
  1312 573 1312 573 1228 571 c 0,5,6
@@ -2827,14 +2461,14 @@ EndSplineSet
 EndChar
 
 StartChar: h.dflt
-Encoding: 104 6245 124
+Encoding: 112 6245 112 
 Width: 820
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-820 735 m 5,0,-1
+ 820 735 m 5,0,-1
  900 656 l 5,1,-1
  820 571 l 5,2,-1
  775 656 l 5,3,-1
@@ -2878,14 +2512,14 @@ Substitution2: "'init' General Initial Forms-1" h.init
 EndChar
 
 StartChar: h.init
-Encoding: 105 -1 125
+Encoding: 113 -1 113 
 Width: 1555
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1556 735 m 5,0,-1
+ 1556 735 m 5,0,-1
  1636 656 l 5,1,-1
  1556 571 l 5,2,-1
  1511 656 l 5,3,-1
@@ -2937,23 +2571,23 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe.106
-Encoding: 106 -1 126
+Encoding: 114 -1 114 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 114 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: h.F.dflt
-Encoding: 107 -1 127
+Encoding: 115 -1 115 
 Width: 1146
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 1392 m 256,0,1
+ 656 1392 m 256,0,1
  1312 1392 1312 1392 1312 735 c 2,2,3
  1312 735 1312 735 1312 654 c 128,-1,4
  1312 573 1312 573 1228 571 c 0,5,6
@@ -2989,41 +2623,41 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe.108
-Encoding: 108 -1 128
+Encoding: 116 -1 116 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 116 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.109
-Encoding: 109 -1 129
+Encoding: 117 -1 117 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 117 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.111
-Encoding: 111 -1 130
+Encoding: 119 -1 119 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 119 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.110
-Encoding: 110 -1 131
+Encoding: 118 -1 118 
 Width: 654
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 1392 m 256,0,1
+ 656 1392 m 256,0,1
  1312 1392 1312 1392 1312 735 c 2,2,3
  1312 735 1312 735 1312 654 c 128,-1,4
  1312 573 1312 573 1228 571 c 0,5,6
@@ -3059,14 +2693,14 @@ EndSplineSet
 EndChar
 
 StartChar: l.dflt
-Encoding: 112 6191 132
+Encoding: 120 6191 120 
 Width: 409
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-409 735 m 1,0,-1
+ 409 735 m 1,0,-1
  489 656 l 1,1,-1
  409 571 l 1,2,-1
  364 656 l 1,3,-1
@@ -3089,19 +2723,18 @@ SplineSet
  -245 1719 -245 1719 -245 1805 c 0,31,32
  -245 1886 -245 1886 -160 1884 c 0,17,18
 EndSplineSet
-Substitution2: "'fina' General Terminal Forms-1" l.fina
 Substitution2: "'init' General Initial Forms-1" l.init
 EndChar
 
 StartChar: l.init
-Encoding: 113 -1 133
+Encoding: 121 -1 121 
 Width: 899
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-899 735 m 5,0,-1
+ 899 735 m 5,0,-1
  979 656 l 5,1,-1
  899 571 l 5,2,-1
  854 656 l 5,3,-1
@@ -3137,14 +2770,14 @@ EndSplineSet
 EndChar
 
 StartChar: l.fina
-Encoding: 114 -1 134
+Encoding: 122 -1 122 
 Width: 162
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 1556 m 0,0,1
+ 0 1556 m 0,0,1
  0 1720 0 1720 -162.5 1720 c 0,2,3
  -245 1720 -245 1720 -245 1803 c 128,-1,4
  -245 1886 -245 1886 -164 1884 c 0,5,6
@@ -3157,14 +2790,14 @@ EndSplineSet
 EndChar
 
 StartChar: l.F.dflt
-Encoding: 115 -1 135
+Encoding: 123 -1 123 
 Width: 409
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-409 735 m 5,0,-1
+ 409 735 m 5,0,-1
  489 656 l 5,1,-1
  409 571 l 5,2,-1
  364 656 l 5,3,-1
@@ -3191,50 +2824,50 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe.116
-Encoding: 116 -1 136
+Encoding: 124 -1 124 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 124 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.117
-Encoding: 117 -1 137
+Encoding: 125 -1 125 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 125 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.118
-Encoding: 118 -1 138
+Encoding: 126 -1 126 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 126 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.119
-Encoding: 119 -1 139
+Encoding: 127 -1 127 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 127 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: m.dflt
-Encoding: 120 6190 140
+Encoding: 128 6190 128 
 Width: 409
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-409 735 m 5,0,-1
+ 409 735 m 5,0,-1
  489 656 l 5,1,-1
  409 571 l 5,2,-1
  364 656 l 5,3,-1
@@ -3257,19 +2890,18 @@ SplineSet
  409 1884 409 1884 409 1803 c 128,-1,31
  409 1722 409 1722 328 1720 c 0,17,18
 EndSplineSet
-Substitution2: "'fina' General Terminal Forms-1" m.fina
 Substitution2: "'init' General Initial Forms-1" m.init
 EndChar
 
 StartChar: m.init
-Encoding: 121 -1 141
+Encoding: 129 -1 129 
 Width: 899
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-898 735 m 1,0,-1
+ 898 735 m 1,0,-1
  978 656 l 1,1,-1
  898 571 l 1,2,-1
  853 656 l 1,3,-1
@@ -3302,14 +2934,14 @@ EndSplineSet
 EndChar
 
 StartChar: m.fina
-Encoding: 122 -1 142
+Encoding: 130 -1 130 
 Width: 982
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-984 1228 m 256,0,1
+ 984 1228 m 256,0,1
  984 571 984 571 328 571 c 2,2,3
  328 571 328 571 0 571 c 1,4,5
  0 571 0 571 0 735 c 1,6,7
@@ -3336,14 +2968,14 @@ EndSplineSet
 EndChar
 
 StartChar: m.F.dflt
-Encoding: 123 -1 143
+Encoding: 131 -1 131 
 Width: 409
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-409 735 m 5,0,-1
+ 409 735 m 5,0,-1
  489 656 l 5,1,-1
  409 571 l 5,2,-1
  364 656 l 5,3,-1
@@ -3361,61 +2993,61 @@ SplineSet
  -164 1884 -164 1884 -164 1803 c 128,-1,21
  -164 1722 -164 1722 -245 1720 c 0,22,23
  -407.515151515 1720 -407.515151515 1720 -408.5 1557.5 c 0,24,25
- -409 1475 -409 1475 -409 1464.625 c 2,26,27
- -409 1464.625 -409 1464.625 -409 1312 c 0,28,29
+ -409 1475 -409 1475 -409 1472.40625 c 2,26,27
+ -409 1472.40625 -409 1472.40625 -409 1312 c 0,28,29
  -409 1229 -409 1229 -492 1228 c 0,30,31
  -573 1228 -573 1228 -572 1310.5 c 128,-1,32
- -571 1393 -571 1393 -571 1403.25 c 2,33,34
- -571 1403.25 -571 1403.25 -571 1561.625 c 128,-1,35
+ -571 1393 -571 1393 -571 1395.5625 c 2,33,34
+ -571 1395.5625 -571 1395.5625 -571 1557.78125 c 128,-1,35
  -571 1720 -571 1720 -492 1805 c 1,17,18
 EndSplineSet
 EndChar
 
 StartChar: NameMe.124
-Encoding: 124 -1 144
+Encoding: 132 -1 132 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 132 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.125
-Encoding: 125 -1 145
+Encoding: 133 -1 133 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 133 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.126
-Encoding: 126 -1 146
+Encoding: 134 -1 134 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 134 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.127
-Encoding: 127 -1 147
+Encoding: 135 -1 135 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 135 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: q.dflt
-Encoding: 128 6196 148
+Encoding: 136 6196 136 
 Width: 984
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-984 735 m 1,0,-1
+ 984 735 m 1,0,-1
  1064 656 l 1,1,-1
  984 571 l 1,2,-1
  939 656 l 1,3,-1
@@ -3442,78 +3074,78 @@ Substitution2: "'init' General Initial Forms-1" q.init
 EndChar
 
 StartChar: q.init
-Encoding: 129 -1 149
+Encoding: 137 -1 137 
 Width: 984
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 148 6196 N 1 0 0 1 0 0 2
+Refer: 137 6196 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.130
-Encoding: 130 -1 150
+Encoding: 138 -1 138 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 138 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.131
-Encoding: 131 -1 151
+Encoding: 139 -1 139 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 139 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.132
-Encoding: 132 -1 152
+Encoding: 140 -1 140 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 140 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.133
-Encoding: 133 -1 153
+Encoding: 141 -1 141 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 141 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.134
-Encoding: 134 -1 154
+Encoding: 142 -1 142 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 142 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.135
-Encoding: 135 -1 155
+Encoding: 143 -1 143 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 143 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: j.dflt
-Encoding: 136 6197 156
+Encoding: 144 6197 144 
 Width: 656
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 735 m 5,0,-1
+ 656 735 m 5,0,-1
  736 656 l 5,1,-1
  656 571 l 5,2,-1
  611 656 l 5,3,-1
@@ -3537,14 +3169,14 @@ Substitution2: "'init' General Initial Forms-1" j.init
 EndChar
 
 StartChar: j.init
-Encoding: 137 -1 157
+Encoding: 145 -1 145 
 Width: 409
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-409 735 m 1,0,-1
+ 409 735 m 1,0,-1
  489 656 l 1,1,-1
  409 571 l 1,2,-1
  364 656 l 1,3,-1
@@ -3561,68 +3193,68 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe.138
-Encoding: 138 -1 158
+Encoding: 146 -1 146 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 146 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.139
-Encoding: 139 -1 159
+Encoding: 147 -1 147 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 147 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.140
-Encoding: 140 -1 160
+Encoding: 148 -1 148 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 148 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.141
-Encoding: 141 -1 161
+Encoding: 149 -1 149 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 149 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.142
-Encoding: 142 -1 162
+Encoding: 150 -1 150 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 150 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.143
-Encoding: 143 -1 163
+Encoding: 151 -1 151 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 151 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: y.dflt
-Encoding: 144 6198 164
+Encoding: 152 6198 152 
 Width: 407
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-407 735 m 1,0,-1
+ 407 735 m 1,0,-1
  487 656 l 1,1,-1
  407 571 l 1,2,-1
  362 656 l 1,3,-1
@@ -3644,14 +3276,14 @@ Substitution2: "'init' General Initial Forms-1" y.init
 EndChar
 
 StartChar: y.init
-Encoding: 145 -1 165
+Encoding: 153 -1 153 
 Width: 735
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-735 735 m 5,0,-1
+ 735 735 m 5,0,-1
  815 656 l 5,1,-1
  735 571 l 5,2,-1
  690 656 l 5,3,-1
@@ -3672,50 +3304,50 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe.146
-Encoding: 146 -1 166
+Encoding: 154 -1 154 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 154 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.147
-Encoding: 147 -1 167
+Encoding: 155 -1 155 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 155 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.148
-Encoding: 148 -1 168
+Encoding: 156 -1 156 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 156 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.149
-Encoding: 149 -1 169
+Encoding: 157 -1 157 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 157 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: y.repl1
-Encoding: 150 -1 170
+Encoding: 158 -1 158 
 Width: 735
 VWidth: 8191
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-735 735 m 5,0,-1
+ 735 735 m 5,0,-1
  815 656 l 5,1,-1
  735 571 l 5,2,-1
  690 656 l 5,3,-1
@@ -3737,28 +3369,28 @@ SplineSet
  410 714 410 714 472 658 c 1,27,28
  451 637 451 637 387 571 c 1,29,-1
  0 571 l 1,30,31
- 0 125.009718315 0 125.009718315 0 735 c 1,24,-1
+ 0 571 0 571 0 735 c 1,24,-1
 EndSplineSet
 EndChar
 
 StartChar: NameMe.151
-Encoding: 151 -1 171
+Encoding: 159 -1 159 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 159 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: r.dflt
-Encoding: 152 6261 172
+Encoding: 160 6261 160 
 Width: 656
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 735 m 5,0,-1
+ 656 735 m 5,0,-1
  736 656 l 5,1,-1
  656 571 l 5,2,-1
  611 656 l 5,3,-1
@@ -3780,74 +3412,73 @@ SplineSet
  656 -245 656 -245 573 -245 c 128,-1,28
  490 -245 490 -245 492 -164 c 0,17,18
 EndSplineSet
-Substitution2: "'init' General Initial Forms-1" r.init
 Substitution2: "'fina' General Terminal Forms-1" r.fina
 EndChar
 
 StartChar: r.init
-Encoding: 153 -1 173
+Encoding: 161 -1 161 
 Width: 656
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 172 6261 N 1 0 0 1 0 0 2
+Refer: 161 6261 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.155
-Encoding: 155 -1 174
+Encoding: 163 -1 163 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 163 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.156
-Encoding: 156 -1 175
+Encoding: 164 -1 164 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 164 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.157
-Encoding: 157 -1 176
+Encoding: 165 -1 165 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 165 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.158
-Encoding: 158 -1 177
+Encoding: 166 -1 166 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 166 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.159
-Encoding: 159 -1 178
+Encoding: 167 -1 167 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 167 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: r.fina
-Encoding: 154 -1 179
+Encoding: 162 -1 162 
 Width: 1312
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 735 m 1,0,1
+ 0 735 m 1,0,1
  0 735 0 735 656 735 c 1,2,3
  656 735 656 735 656 571 c 1,4,5
  656 571 656 571 164 571 c 1,6,7
@@ -3874,14 +3505,14 @@ EndSplineSet
 EndChar
 
 StartChar: r.prime.dflt
-Encoding: 160 6256 180
+Encoding: 168 6256 168 
 Width: 409
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-409 735 m 1,0,-1
+ 409 735 m 1,0,-1
  364 656 l 1,1,-1
  409 571 l 1,2,-1
  489 656 l 1,3,-1
@@ -3903,78 +3534,78 @@ Substitution2: "'init' General Initial Forms-1" r.prime.init
 EndChar
 
 StartChar: r.prime.init
-Encoding: 161 -1 181
+Encoding: 169 -1 169 
 Width: 409
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 180 6256 N 1 0 0 1 0 0 2
+Refer: 169 6256 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.162
-Encoding: 162 -1 182
+Encoding: 170 -1 170 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 170 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.163
-Encoding: 163 -1 183
+Encoding: 171 -1 171 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 171 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.164
-Encoding: 164 -1 184
+Encoding: 172 -1 172 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 172 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.165
-Encoding: 165 -1 185
+Encoding: 173 -1 173 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 173 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.166
-Encoding: 166 -1 186
+Encoding: 174 -1 174 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 174 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.167
-Encoding: 167 -1 187
+Encoding: 175 -1 175 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 175 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: f.dflt
-Encoding: 168 6262 188
+Encoding: 176 6262 176 
 Width: 409
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-409 735 m 5,0,-1
+ 409 735 m 5,0,-1
  489 656 l 5,1,-1
  409 571 l 5,2,-1
  364 656 l 5,3,-1
@@ -3994,29 +3625,28 @@ SplineSet
  0 -245 0 -245 0 735 c 1,4,5
 0 1148 m 0,26,27
  -81 1148 -81 1148 -81 1230 c 128,-1,28
- -81 1312 -81 1312 0 1312 c 257,29,30
- 0 1312 0 1312 0 1312 c 1,31,32
- 164 1312 164 1312 245 1220 c 1,33,34
- 328 1132 328 1132 328 984 c 2,35,36
- 328 984 328 984 328 735 c 0,37,38
- 328 654 328 654 246 655 c 128,-1,39
- 164 656 164 656 164 737 c 2,40,41
- 164 737 164 737 164 984 c 0,42,43
- 164 1035 164 1035 125 1091 c 0,44,45
+ -81 1312 -81 1312 0 1312 c 0,29,30
+ 164 1312 164 1312 245 1220 c 1,31,32
+ 328 1132 328 1132 328 984 c 2,33,34
+ 328 984 328 984 328 735 c 0,35,36
+ 328 654 328 654 246 655 c 128,-1,37
+ 164 656 164 656 164 737 c 2,38,39
+ 164 737 164 737 164 984 c 0,40,41
+ 164 1035 164 1035 125 1091 c 0,42,43
  81 1147 81 1147 0 1148 c 0,26,27
 EndSplineSet
 Substitution2: "'init' General Initial Forms-1" f.init
 EndChar
 
 StartChar: f.init
-Encoding: 169 -1 189
+Encoding: 177 -1 177 
 Width: 656
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 735 m 5,0,-1
+ 656 735 m 5,0,-1
  736 656 l 5,1,-1
  656 571 l 5,2,-1
  611 656 l 5,3,-1
@@ -4049,111 +3679,70 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: NameMe.175
-Encoding: -1 -1 190
-Width: 409
-VWidth: 4095
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-409 735 m 5,0,-1
- 489 656 l 5,1,-1
- 409 571 l 5,2,-1
- 364 656 l 5,3,-1
- 409 735 l 5,0,-1
-0 735 m 1,4,5
- 0 735 0 735 409 735 c 1,6,7
- 409 735 409 735 409 571 c 1,8,9
- 409 571 409 571 164 571 c 1,10,11
- 164 571 164 571 164 -245 c 0,12,13
- 164 -407.515151515 164 -407.515151515 326.5 -408.5 c 2,14,15
- 326.5 -408.5 326.5 -408.5 409.25 -408.75 c 128,-1,16
- 492 -409 492 -409 492 -491 c 128,-1,17
- 492 -573 492 -573 410 -572 c 2,18,19
- 410 -572 410 -572 328 -571 c 1,20,21
- 164 -571 164 -571 81 -492 c 1,22,23
- 0 -409 0 -409 0 -245 c 2,24,25
- 0 -245 0 -245 0 735 c 1,4,5
-0 1148 m 0,26,27
- -81 1148 -81 1148 -81 1230 c 128,-1,28
- -81 1312 -81 1312 0 1312 c 257,29,30
- 0 1312 0 1312 0 1312 c 1,31,32
- 164 1312 164 1312 245 1220 c 1,33,34
- 328 1132 328 1132 328 984 c 2,35,36
- 328 984 328 984 328 735 c 0,37,38
- 328 654 328 654 246 655 c 128,-1,39
- 164 656 164 656 164 737 c 2,40,41
- 164 737 164 737 164 984 c 0,42,43
- 164 1035 164 1035 125 1091 c 0,44,45
- 81 1147 81 1147 0 1148 c 0,26,27
-EndSplineSet
-EndChar
-
 StartChar: f.repl1
-Encoding: 174 -1 191
+Encoding: 182 -1 182 
 Width: 409
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 197 6200 N 1 0 0 1 0 0 2
+Refer: 182 6200 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.170
-Encoding: 170 -1 192
+Encoding: 178 -1 178 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 178 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.171
-Encoding: 171 -1 193
+Encoding: 179 -1 179 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 179 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.172
-Encoding: 172 -1 194
+Encoding: 180 -1 180 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 180 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.173
-Encoding: 173 -1 195
+Encoding: 181 -1 181 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 181 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.175.1
-Encoding: 175 -1 196
+Encoding: 183 -1 183 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 183 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: w.dflt
-Encoding: 176 6200 197
+Encoding: 184 6200 184 
 Width: 409
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-409 735 m 5,0,-1
+ 409 735 m 5,0,-1
  489 656 l 5,1,-1
  409 571 l 5,2,-1
  364 656 l 5,3,-1
@@ -4176,78 +3765,78 @@ Substitution2: "'init' General Initial Forms-1" w.init
 EndChar
 
 StartChar: w.init
-Encoding: 177 -1 198
+Encoding: 185 -1 185 
 Width: 409
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 197 6200 N 1 0 0 1 0 0 2
+Refer: 185 6200 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.178
-Encoding: 178 -1 199
+Encoding: 186 -1 186 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 186 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.179
-Encoding: 179 -1 200
+Encoding: 187 -1 187 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 187 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.180
-Encoding: 180 -1 201
+Encoding: 188 -1 188 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 188 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.182
-Encoding: 182 -1 202
+Encoding: 190 -1 190 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 190 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.183
-Encoding: 183 -1 203
+Encoding: 191 -1 191 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 191 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.181
-Encoding: 181 -1 204
+Encoding: 189 -1 189 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 189 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: c.dflt
-Encoding: 184 6254 205
+Encoding: 192 6254 192 
 Width: 1392
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1392 735 m 1,0,-1
+ 1392 735 m 1,0,-1
  1472 656 l 1,1,-1
  1392 571 l 1,2,-1
  1347 656 l 1,3,-1
@@ -4268,8 +3857,8 @@ SplineSet
  848 707 848 707 628 929 c 256,28,29
  408 1149 408 1149 328 1228 c 0,30,31
  312 1249 312 1249 238 1244.5 c 128,-1,32
- 164 1240 164 1240 164 1238.5 c 2,33,34
- 164 1238.5 164 1238.5 164 409 c 256,35,36
+ 164 1240 164 1240 164 1239.625 c 2,33,34
+ 164 1239.625 164 1239.625 164 409 c 256,35,36
  164 328 164 328 82 328 c 128,-1,37
  0 328 0 328 0 409 c 2,38,39
  0 409 0 409 0 1312 c 1,4,5
@@ -4291,14 +3880,14 @@ Substitution2: "'init' General Initial Forms-1" c.init
 EndChar
 
 StartChar: c.init
-Encoding: 185 -1 206
+Encoding: 193 -1 193 
 Width: 1392
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1392 735 m 5,0,-1
+ 1392 735 m 5,0,-1
  1472 656 l 5,1,-1
  1392 571 l 5,2,-1
  1347 656 l 5,3,-1
@@ -4341,68 +3930,68 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe.186
-Encoding: 186 -1 207
+Encoding: 194 -1 194 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 194 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.187
-Encoding: 187 -1 208
+Encoding: 195 -1 195 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 195 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.188
-Encoding: 188 -1 209
+Encoding: 196 -1 196 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 196 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.189
-Encoding: 189 -1 210
+Encoding: 197 -1 197 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 197 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.190
-Encoding: 190 -1 211
+Encoding: 198 -1 198 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 198 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.191
-Encoding: 191 -1 212
+Encoding: 199 -1 199 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 199 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: z.dflt
-Encoding: 192 6255 213
+Encoding: 200 6255 200 
 Width: 1392
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1392 735 m 1,0,-1
+ 1392 735 m 1,0,-1
  1472 656 l 1,1,-1
  1392 571 l 1,2,-1
  1347 656 l 1,3,-1
@@ -4423,8 +4012,8 @@ SplineSet
  848 707 848 707 628 929 c 256,28,29
  408 1149 408 1149 328 1228 c 0,30,31
  312 1249 312 1249 238 1244.5 c 128,-1,32
- 164 1240 164 1240 164 1239.25 c 2,33,34
- 164 1239.25 164 1239.25 164 409 c 256,35,36
+ 164 1240 164 1240 164 1239.8125 c 2,33,34
+ 164 1239.8125 164 1239.8125 164 409 c 256,35,36
  164 328 164 328 82 328 c 128,-1,37
  0 328 0 328 0 409 c 2,38,39
  0 409 0 409 0 1312 c 1,4,5
@@ -4440,14 +4029,14 @@ Substitution2: "'init' General Initial Forms-1" z.init
 EndChar
 
 StartChar: z.init
-Encoding: 193 -1 214
+Encoding: 201 -1 201 
 Width: 1392
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1392 735 m 5,0,-1
+ 1392 735 m 5,0,-1
  1472 656 l 5,1,-1
  1392 571 l 5,2,-1
  1347 656 l 5,3,-1
@@ -4484,68 +4073,68 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe.194
-Encoding: 194 -1 215
+Encoding: 202 -1 202 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 202 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.195
-Encoding: 195 -1 216
+Encoding: 203 -1 203 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 203 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.196
-Encoding: 196 -1 217
+Encoding: 204 -1 204 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 204 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.197
-Encoding: 197 -1 218
+Encoding: 205 -1 205 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 205 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.198
-Encoding: 198 -1 219
+Encoding: 206 -1 206 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 206 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.199
-Encoding: 199 -1 220
+Encoding: 207 -1 207 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 207 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: t.init
-Encoding: 201 -1 221
+Encoding: 209 -1 209 
 Width: 1227
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1227 735 m 5,0,-1
+ 1227 735 m 5,0,-1
  1307 656 l 5,1,-1
  1227 571 l 5,2,-1
  1182 656 l 5,3,-1
@@ -4580,14 +4169,14 @@ Substitution2: "Single Subs t-d-1" t.repl1
 EndChar
 
 StartChar: t.dflt
-Encoding: 200 6248 222
+Encoding: 208 6248 208 
 Width: 492
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-492 735 m 1,0,-1
+ 492 735 m 1,0,-1
  572 656 l 1,1,-1
  492 571 l 1,2,-1
  447 656 l 1,3,-1
@@ -4611,20 +4200,18 @@ SplineSet
  326 -656 326 -656 368 -617 c 1,33,34
  408 -573 408 -573 409 -492 c 0,24,25
 EndSplineSet
-Substitution2: "Single Subs t-d-1" t.F.dflt
-Substitution2: "'fina' General Terminal Forms-1" t.fina
 Substitution2: "'init' General Initial Forms-1" t.init
 EndChar
 
 StartChar: t.fina
-Encoding: 202 -1 223
+Encoding: 210 -1 210 
 Width: 1555
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 492 m 0,0,1
+ 656 492 m 0,0,1
  656 164 656 164 328 164 c 256,2,3
  0 164 0 164 0 492 c 1,4,5
  4 492 4 492 2 581.5 c 128,-1,6
@@ -4653,14 +4240,14 @@ EndSplineSet
 EndChar
 
 StartChar: t.F.dflt
-Encoding: 203 -1 224
+Encoding: 211 -1 211 
 Width: 492
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-492 735 m 5,0,-1
+ 492 735 m 5,0,-1
  572 656 l 5,1,-1
  492 571 l 5,2,-1
  447 656 l 5,3,-1
@@ -4689,32 +4276,32 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe.204
-Encoding: 204 -1 225
+Encoding: 212 -1 212 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 212 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.205
-Encoding: 205 -1 226
+Encoding: 213 -1 213 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 213 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: t.repl1
-Encoding: 206 -1 227
+Encoding: 214 -1 214 
 Width: 1312
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1312 735 m 1,0,-1
+ 1312 735 m 1,0,-1
  1392 656 l 1,1,-1
  1312 571 l 1,2,-1
  1267 656 l 1,3,-1
@@ -4749,14 +4336,14 @@ EndSplineSet
 EndChar
 
 StartChar: t.repl2
-Encoding: 207 -1 228
+Encoding: 215 -1 215 
 Width: 1312
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1312 735 m 5,0,-1
+ 1312 735 m 5,0,-1
  1392 656 l 5,1,-1
  1312 571 l 5,2,-1
  1267 656 l 5,3,-1
@@ -4790,14 +4377,14 @@ EndSplineSet
 EndChar
 
 StartChar: d.dflt
-Encoding: 208 6249 229
+Encoding: 216 6249 216 
 Width: 492
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-492 735 m 5,0,-1
+ 492 735 m 5,0,-1
  572 656 l 5,1,-1
  492 571 l 5,2,-1
  447 656 l 5,3,-1
@@ -4829,19 +4416,18 @@ SplineSet
  111.12145749 1406.55870445 111.12145749 1406.55870445 168 1356 c 256,47,48
  201.681818182 1322.31818182 201.681818182 1322.31818182 204 1269 c 256,35,36
 EndSplineSet
-Substitution2: "Single Subs t-d-1" d.F.dflt
 Substitution2: "'init' General Initial Forms-1" d.init
 EndChar
 
 StartChar: d.init
-Encoding: 209 -1 230
+Encoding: 217 -1 217 
 Width: 1228
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1228 735 m 1,0,-1
+ 1228 735 m 1,0,-1
  1308 656 l 1,1,-1
  1228 571 l 1,2,-1
  1183 656 l 1,3,-1
@@ -4887,14 +4473,14 @@ Substitution2: "Single Subs t-d-1" d.repl1
 EndChar
 
 StartChar: d.F.dflt
-Encoding: 211 -1 231
+Encoding: 219 -1 219 
 Width: 492
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-492 735 m 5,0,-1
+ 492 735 m 5,0,-1
  572 656 l 5,1,-1
  492 571 l 5,2,-1
  447 656 l 5,3,-1
@@ -4931,14 +4517,14 @@ EndSplineSet
 EndChar
 
 StartChar: d.repl1
-Encoding: 214 -1 232
+Encoding: 222 -1 222 
 Width: 1312
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1312 735 m 5,0,-1
+ 1312 735 m 5,0,-1
  1392 656 l 5,1,-1
  1312 571 l 5,2,-1
  1267 656 l 5,3,-1
@@ -4985,50 +4571,50 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe.210
-Encoding: 210 -1 233
+Encoding: 218 -1 218 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 218 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.212
-Encoding: 212 -1 234
+Encoding: 220 -1 220 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 220 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.213
-Encoding: 213 -1 235
+Encoding: 221 -1 221 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 221 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.215
-Encoding: 215 -1 236
+Encoding: 223 -1 223 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 223 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: b.dflt
-Encoding: 216 6186 237
+Encoding: 224 6186 224 
 Width: 1146
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 1392 m 256,0,1
+ 656 1392 m 256,0,1
  1312 1392 1312 1392 1312 735 c 2,2,3
  1312 735 1312 735 1312 654 c 128,-1,4
  1312 573 1312 573 1228 571 c 0,5,6
@@ -5055,19 +4641,18 @@ SplineSet
  735 571 735 571 164 571 c 1,42,43
  164 571 164 571 164 492 c 0,32,33
 EndSplineSet
-Substitution2: "'init' General Initial Forms-1" b.init
 Substitution2: "'fina' General Terminal Forms-1" b.fina
 EndChar
 
 StartChar: b.fina
-Encoding: 218 -1 238
+Encoding: 226 -1 226 
 Width: 1311
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 1392 m 256,0,1
+ 656 1392 m 256,0,1
  1312 1392 1312 1392 1312 735 c 2,2,3
  1312 735 1312 735 1312 654 c 128,-1,4
  1312 573 1312 573 1228 571 c 0,5,6
@@ -5108,61 +4693,25 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: b.repl1
-Encoding: -1 -1 239
-Width: 490
-VWidth: 4095
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-656 492 m 0,0,1
- 656 164 656 164 328 164 c 256,2,3
- 0 164 0 164 0 492 c 1,4,5
- 4 492 4 492 4 613.5 c 128,-1,6
- 4 735 4 735 0 735 c 1,7,8
- 0 1063 0 1063 164 1228 c 256,9,10
- 328 1392 328 1392 573.5 1392 c 128,-1,11
- 819 1392 819 1392 984 1228 c 256,12,13
- 1148 1064 1148 1064 1148 735 c 2,14,15
- 1148 735 1148 735 1148 654 c 128,-1,16
- 1148 573 1148 573 1063 571 c 0,17,18
- 982 571 982 571 984 656 c 1,19,20
- 984 656 984 656 984 735 c 0,21,22
- 984 983 984 983 859.5 1106 c 128,-1,23
- 735 1229 735 1229 571 1228 c 256,24,25
- 407 1228 407 1228 289 1104 c 1,26,27
- 164 984 164 984 164 735 c 1,28,29
- 164 735 164 735 656 735 c 1,30,31
- 656 735 656 735 656 492 c 0,0,1
-492 492 m 1,32,33
- 492 492 492 492 492 571 c 1,34,35
- 492 571 492 571 164 571 c 1,36,37
- 164 571 164 571 164 490 c 0,38,39
- 164 328 164 328 328.976190476 328 c 128,-1,40
- 493.952380952 328 493.952380952 328 492 492 c 1,32,33
-EndSplineSet
-EndChar
-
 StartChar: b.init
-Encoding: 217 -1 240
+Encoding: 225 -1 225 
 Width: 1146
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 237 6186 N 1 0 0 1 0 0 2
+Refer: 225 6186 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: b.F.dflt
-Encoding: 219 -1 241
+Encoding: 227 -1 227 
 Width: 490
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 492 m 0,0,1
+ 656 492 m 0,0,1
  656 164 656 164 328 164 c 256,2,3
  0 164 0 164 0 492 c 1,4,5
  4 492 4 492 4 613.5 c 128,-1,6
@@ -5191,83 +4740,41 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe.220
-Encoding: 220 -1 242
+Encoding: 228 -1 228 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 228 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.221
-Encoding: 221 -1 243
+Encoding: 229 -1 229 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 229 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.223
-Encoding: 223 -1 244
+Encoding: 231 -1 231 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
-EndChar
-
-StartChar: p.repl1
-Encoding: -1 -1 245
-Width: 490
-VWidth: 4095
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-656 492 m 0,0,1
- 656 164 656 164 328 164 c 256,2,3
- 0 164 0 164 0 492 c 1,4,5
- 4 492 4 492 4 613.5 c 128,-1,6
- 4 735 4 735 0 735 c 1,7,8
- 0 1063 0 1063 164 1228 c 256,9,10
- 328 1392 328 1392 573.5 1392 c 128,-1,11
- 819 1392 819 1392 984 1228 c 256,12,13
- 1148 1064 1148 1064 1148 735 c 2,14,15
- 1148 735 1148 735 1148 654 c 128,-1,16
- 1148 573 1148 573 1063 571 c 0,17,18
- 982 571 982 571 984 656 c 1,19,20
- 984 656 984 656 984 735 c 0,21,22
- 984 983 984 983 859.5 1106 c 128,-1,23
- 735 1229 735 1229 571 1228 c 256,24,25
- 407 1228 407 1228 289 1104 c 1,26,27
- 164 984 164 984 164 735 c 1,28,29
- 164 735 164 735 656 735 c 1,30,31
- 656 735 656 735 656 492 c 0,0,1
-492 492 m 1,32,33
- 492 492 492 492 492 571 c 1,34,35
- 492 571 492 571 164 571 c 1,36,37
- 164 571 164 571 164 490 c 0,38,39
- 164 328 164 328 328.976190476 328 c 128,-1,40
- 493.952380952 328 493.952380952 328 492 492 c 1,32,33
-492 1312 m 1,41,42
- 492 1312 492 1312 656 1312 c 1,43,44
- 656 1312 656 1312 656 1063 c 0,45,46
- 656 982 656 982 573 983 c 128,-1,47
- 490 984 490 984 491 1066 c 128,-1,48
- 492 1148 492 1148 492 1312 c 1,41,42
-EndSplineSet
+Refer: 231 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: p.dflt
-Encoding: 224 6246 246
+Encoding: 232 6246 232 
 Width: 1146
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 1392 m 256,0,1
+ 656 1392 m 256,0,1
  1312 1392 1312 1392 1312 735 c 2,2,3
  1312 735 1312 735 1312 654 c 128,-1,4
  1312 573 1312 573 1228 571 c 0,5,6
@@ -5304,33 +4811,33 @@ Substitution2: "'init' General Initial Forms-1" p.init
 EndChar
 
 StartChar: p.init
-Encoding: 225 -1 247
+Encoding: 233 -1 233 
 Width: 1146
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 246 6246 N 1 0 0 1 0 0 2
+Refer: 233 6246 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.226
-Encoding: 226 -1 248
+Encoding: 234 -1 234 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 234 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: p.F.dflt
-Encoding: 227 -1 249
+Encoding: 235 -1 235 
 Width: 490
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 492 m 0,0,1
+ 656 492 m 0,0,1
  656 164 656 164 328 164 c 256,2,3
  0 164 0 164 0 492 c 1,4,5
  4 492 4 492 4 613.5 c 128,-1,6
@@ -5365,59 +4872,59 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe.228
-Encoding: 228 -1 250
+Encoding: 236 -1 236 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 236 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.229
-Encoding: 229 -1 251
+Encoding: 237 -1 237 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 237 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.231
-Encoding: 231 -1 252
+Encoding: 239 -1 239 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 239 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.222
-Encoding: 222 -1 253
+Encoding: 230 -1 230 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 230 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.230
-Encoding: 230 -1 254
+Encoding: 238 -1 238 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 238 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: k.prime.dflt
-Encoding: 232 6202 255
+Encoding: 240 6202 240 
 Width: 1146
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 1392 m 256,0,1
+ 656 1392 m 256,0,1
  1312 1392 1312 1392 1312 735 c 2,2,3
  1312 735 1312 735 1312 654 c 128,-1,4
  1312 573 1312 573 1228 571 c 0,5,6
@@ -5444,14 +4951,14 @@ Substitution2: "'init' General Initial Forms-1" k.prime.init
 EndChar
 
 StartChar: k.prime.F.dflt
-Encoding: 235 -1 256
+Encoding: 243 -1 243 
 Width: 654
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 1392 m 256,0,1
+ 656 1392 m 256,0,1
  1312 1392 1312 1392 1312 735 c 2,2,3
  1312 735 1312 735 1312 654 c 128,-1,4
  1312 573 1312 573 1228 571 c 0,5,6
@@ -5477,14 +4984,14 @@ EndSplineSet
 EndChar
 
 StartChar: g.prime.F.dflt
-Encoding: 243 -1 257
+Encoding: 251 -1 251 
 Width: 654
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 1392 m 256,0,1
+ 656 1392 m 256,0,1
  1312 1392 1312 1392 1312 735 c 2,2,3
  1312 735 1312 735 1312 654 c 128,-1,4
  1312 573 1312 573 1228 571 c 0,5,6
@@ -5522,14 +5029,14 @@ EndSplineSet
 EndChar
 
 StartChar: h.prime.F.dflt
-Encoding: 251 -1 258
+Encoding: 259 -1 259 
 Width: 654
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 1392 m 256,0,1
+ 656 1392 m 256,0,1
  1312 1392 1312 1392 1312 735 c 2,2,3
  1312 735 1312 735 1312 654 c 128,-1,4
  1312 573 1312 573 1228 571 c 0,5,6
@@ -5573,14 +5080,14 @@ EndSplineSet
 EndChar
 
 StartChar: g.prime.dflt
-Encoding: 240 6252 259
+Encoding: 248 6252 248 
 Width: 1146
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 1392 m 260,0,1
+ 656 1392 m 260,0,1
  1312 1392 1312 1392 1312 735 c 6,2,3
  1312 735 1312 735 1312 654 c 132,-1,4
  1312 573 1312 573 1228 571 c 4,5,6
@@ -5619,14 +5126,14 @@ Substitution2: "'init' General Initial Forms-1" g.prime.init
 EndChar
 
 StartChar: h.prime.dflt
-Encoding: 248 6253 260
+Encoding: 256 6253 256 
 Width: 1146
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-656 1392 m 256,0,1
+ 656 1392 m 256,0,1
  1312 1392 1312 1392 1312 735 c 2,2,3
  1312 735 1312 735 1312 654 c 128,-1,4
  1312 573 1312 573 1228 571 c 0,5,6
@@ -5671,179 +5178,179 @@ Substitution2: "'init' General Initial Forms-1" h.prime.init
 EndChar
 
 StartChar: k.prime.init
-Encoding: 233 -1 261
+Encoding: 241 -1 241 
 Width: 1146
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 255 6202 N 1 0 0 1 0 0 2
+Refer: 241 6202 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.234
-Encoding: 234 -1 262
+Encoding: 242 -1 242 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 242 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: g.prime.init
-Encoding: 241 -1 263
+Encoding: 249 -1 249 
 Width: 1146
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 259 6252 N 1 0 0 1 0 0 2
+Refer: 249 6252 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.242
-Encoding: 242 -1 264
+Encoding: 250 -1 250 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 250 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: h.prime.init
-Encoding: 249 -1 265
+Encoding: 257 -1 257 
 Width: 1146
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 260 6253 N 1 0 0 1 0 0 2
+Refer: 257 6253 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.250
-Encoding: 250 -1 266
+Encoding: 258 -1 258 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 258 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.236
-Encoding: 236 -1 267
+Encoding: 244 -1 244 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 244 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.237
-Encoding: 237 -1 268
+Encoding: 245 -1 245 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 245 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.238
-Encoding: 238 -1 269
+Encoding: 246 -1 246 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 246 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.239
-Encoding: 239 -1 270
+Encoding: 247 -1 247 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 247 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.244
-Encoding: 244 -1 271
+Encoding: 252 -1 252 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 252 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.245
-Encoding: 245 -1 272
+Encoding: 253 -1 253 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 253 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.246
-Encoding: 246 -1 273
+Encoding: 254 -1 254 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 254 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.247
-Encoding: 247 -1 274
+Encoding: 255 -1 255 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 255 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.253
-Encoding: 253 -1 275
+Encoding: 261 -1 261 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 261 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.254
-Encoding: 254 -1 276
+Encoding: 262 -1 262 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 262 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.255
-Encoding: 255 -1 277
+Encoding: 263 -1 263 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 263 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.252
-Encoding: 252 -1 278
+Encoding: 260 -1 260 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 260 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ng.fina
-Encoding: 258 -1 279
+Encoding: 266 -1 266 
 Width: 1227
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 735 m 1,0,1
+ 0 735 m 1,0,1
  0 735 0 735 409 735 c 0,2,3
  492 735 492 735 492 654 c 128,-1,4
  492 573 492 573 409 571 c 1,5,6
@@ -5874,14 +5381,14 @@ EndSplineSet
 EndChar
 
 StartChar: ng.dflt
-Encoding: 256 6185 280
+Encoding: 264 6185 264 
 Width: 1146
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-820 1148 m 0,0,1
+ 820 1148 m 0,0,1
  1312 1148 1312 1148 1312 656 c 0,2,3
  1312 573 1312 573 1228 571 c 0,4,5
  1147 571 1147 571 1148 656 c 0,6,7
@@ -5906,61 +5413,61 @@ Substitution2: "'fina' General Terminal Forms-1" ng.fina
 EndChar
 
 StartChar: NameMe.257
-Encoding: 257 -1 281
+Encoding: 265 -1 265 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 265 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.259
-Encoding: 259 -1 282
+Encoding: 267 -1 267 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 267 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.260
-Encoding: 260 -1 283
+Encoding: 268 -1 268 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 268 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.261
-Encoding: 261 -1 284
+Encoding: 269 -1 269 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 269 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.262
-Encoding: 262 -1 285
+Encoding: 270 -1 270 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 270 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.263
-Encoding: 263 -1 286
+Encoding: 271 -1 271 
 Width: 1516
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+Refer: 271 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: e.isol
-Encoding: 13 -1 287
+Encoding: 21 -1 21 
 Width: 1803
 VWidth: 4095
 Flags: W

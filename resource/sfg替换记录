@@ -1,0 +1,43 @@
+删除尾部：
+EndChars
+EndSplineFont
+
+前面添加
+EndChar
+
+
+替换：
+
+"
+双引
+
+'
+单引
+
+Fore
+Fore: 无
+
+(.*?): (.*?)\n
+"$1":"$2",\n
+
+SplineSet\n([\s\S]*?)EndSplineSet
+"SplineSet":"$1",
+
+EndChar\n\n
+},{
+
+前后补完[]
+
+([^,])\n
+$1回
+
+Encoding":"([\-0-9]*?) ([\-0-9]*?) ([\-0-9]*?)"
+Encoding":[$1,$2,$3]
+
+Refer":"([\-0-9]*?) (.*?),
+Refer":[$1,"$2],
+
+,\n\}
+}\n
+
+==========

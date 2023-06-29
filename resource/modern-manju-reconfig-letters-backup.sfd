@@ -68,7 +68,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 200 8 9
+WinInfo: 0 8 9
 BeginPrivate: 0
 EndPrivate
 Grid
