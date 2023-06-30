@@ -1,5 +1,5 @@
 SplineFontDB: 3.2
-FontName: Modern-manJu-Roundssssssssss
+FontName: Modern-manJu-Roundss
 FullName: Modern manJu Round
 FamilyName: Modern-manJu
 Weight: Book
@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1390402476
-ModificationTime: 1688127854
+ModificationTime: 1688129391
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -61,6 +61,7 @@ OS2UnicodeRanges: 800000a7.1001e408.00020016.00000000
 Lookup: 1 0 0 "Single Subs round syllables - vowels" { "dflt vowels"  "final vowels"  } []
 Lookup: 1 0 0 "Single Subs round syllabes - half width" { "consonants"  } []
 Lookup: 1 0 0 "Single Subs round syllables - full width g-h-k" { "Single Subs round syllables - full width g-h-k-1"  } []
+Lookup: 1 0 0 "Single Subs -k to -k.F" { "Single Subs -k to -k.F-1"  } []
 Lookup: 1 0 0 "Single Subs t-d at syllable.init" { "Single Subs t-d-1"  } []
 Lookup: 1 0 0 "Single Subs t-k(M) at syllable.fina" { "Single Subs t at syllable.fina-1"  } []
 Lookup: 1 0 0 "Single Subs o-u.fina for isol syllable" { "Single Subs o-u.fina for isol syllable-1"  } []
@@ -69,12 +70,21 @@ Lookup: 1 0 0 "Single Sub n for en" { "Single Sub n for en-1"  } []
 Lookup: 1 0 0 "Single Subs i-u after vowel" { "Single Subs i-u after vowel-1"  } []
 Lookup: 6 0 0 "'calt' General Contextual Alternates" { "calt i-u after vowel"  "calt t-d at syllable.init"  "calt e-u after t-d-k-g-h"  "calt t-k at syllable.fina"  } ['calt' ('mong' <'dflt' > ) ]
 Lookup: 6 4 0 "'calt' Round Syllables" { "calt round - half width - kgh"  "calt round - half width - bp"  "calt round - half width - k'g'h'"  "calt round - full width"  "calt round - vowels"  } ['calt' ('mong' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' k.F at syllable.fina" { "calt k'-g'-h' ak"  } ['calt' ('mong' <'dflt' > ) ]
 Lookup: 1 0 0 "'isol' Isolated Forms" { "'isol' General Isolated Forms-1"  } ['isol' ('mong' <'dflt' > ) ]
 Lookup: 1 0 0 "'init' Initial Forms" { "'init' General Initial Forms-1"  } ['init' ('mong' <'dflt' > ) ]
 Lookup: 1 0 0 "'fina' Terminal Forms" { "'fina' General Terminal Forms-1"  } ['fina' ('mong' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' Special alters" { "calt n.fina in en"  "calt o-u.fina for isol syllable"  "calt Round syllables fina"  } ['calt' ('mong' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "calt k'-g'-h' ak" 0 0 0 1
+ 1 2 0
+  Coverage: 7 k.repl2
+  BCoverage: 6 a.dflt
+  BCoverage: 38 k.prime.dflt g.prime.dflt h.prime.dflt
+ 1
+  SeqLookup: 0 "Single Subs -k to -k.F"
+EndFPST
 ChainSub2: coverage "calt round - half width - k'g'h'" 0 0 0 1
  1 0 1
   Coverage: 38 k.prime.dflt g.prime.dflt h.prime.dflt
@@ -167,7 +177,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 80 8 12
+WinInfo: 64 8 12
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2168,6 +2178,7 @@ SplineSet
  0 735 l 2,19,0
  0 1392 0 1392 656 1392 c 128,-1,1
 EndSplineSet
+Substitution2: "'fina' General Terminal Forms-1" k.F.fina
 EndChar
 
 StartChar: k.F.fina
@@ -2281,6 +2292,7 @@ SplineSet
  900 656 l 1,48,-1
  820 571 l 1,34,-1
 EndSplineSet
+Substitution2: "Single Subs -k to -k.F-1" k.F.dflt
 Substitution2: "'fina' General Terminal Forms-1" k.fina
 EndChar
 
