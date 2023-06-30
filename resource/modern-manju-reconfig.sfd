@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1390402476
-ModificationTime: 1688134186
+ModificationTime: 1688134703
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -59,18 +59,19 @@ OS2Vendor: 'SBT '
 OS2CodePages: 001e0101.00000000
 OS2UnicodeRanges: 800000a7.1001e408.00020016.00000000
 Lookup: 1 0 0 "Single Subs round syllables - vowels" { "dflt vowels"  "final vowels"  } []
+Lookup: 1 0 0 "Single Subs round for k'-g'-h'v" { "Single Subs round for k'-g'-h'v-1"  } []
 Lookup: 1 0 0 "Single Subs round syllabes - half width" { "consonants"  } []
 Lookup: 1 0 0 "Single Subs round syllables - full width g-h-k" { "Single Subs round syllables - full width g-h-k-1"  } []
 Lookup: 1 0 0 "Single Subs -k to -k.F" { "Single Subs -k to -k.F-1"  } []
 Lookup: 1 0 0 "Single Subs t-d at syllable.init" { "Single Subs t-d-1"  } []
-Lookup: 1 0 0 "Single Subs t-k(M) at syllable.fina" { "Single Subs t at syllable.fina-1"  } []
+Lookup: 1 0 0 "Single Subs t-k(M)-n at syllable.fina" { "Single Subs t at syllable.fina-1"  } []
 Lookup: 1 0 0 "Single Subs o-u.fina for isol syllable" { "Single Subs o-u.fina for isol syllable-1"  } []
 Lookup: 1 0 0 "Single Subs e-u to e.bis-u.bis" { "Single Subs e-u after t-d-1"  } []
 Lookup: 1 0 0 "Single Sub n for en" { "Single Sub n for en-1"  } []
 Lookup: 1 0 0 "Single Subs i-u after vowel" { "Single Subs i-u after vowel-1"  } []
 Lookup: 6 0 0 "'calt' General Contextual Alternates" { "calt i-u after vowel"  "calt t-d at syllable.init"  "calt e-u after t-d-k-g-h"  "calt t-k at syllable.fina"  } ['calt' ('mong' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' k.F at syllable.fina" { "calt vk"  "calt g-k-h-uk"  "calt k'-g'-h' ak"  "calt -ek sauf d"  } ['calt' ('mong' <'dflt' > ) ]
-Lookup: 6 4 0 "'calt' Round Syllables" { "calt round - half width - kgh"  "calt round - half width - bp"  "calt round - half width - k'g'h'"  "calt round - full width"  "calt round - vowels"  } ['calt' ('mong' <'dflt' > ) ]
+Lookup: 6 4 0 "'calt' Round Syllables" { "calt round - half width - kgh"  "calt round - half width - bp"  "calt round - half width - k'g'h'"  "calt round - half width h'g'h'v"  "calt round - full width"  "calt round - vowels"  } ['calt' ('mong' <'dflt' > ) ]
 Lookup: 1 0 0 "'fina' Terminal Forms" { "'fina' General Terminal Forms-1"  } ['fina' ('mong' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' -k.F at word.fina" { "calt vk.fina"  "calt g-k-h-uk.fina"  "calt -ek sauf d.fina"  "calt k'-g'-h'ak.fina"  } ['calt' ('mong' <'dflt' > ) ]
 Lookup: 1 0 0 "'isol' Isolated Forms" { "'isol' General Isolated Forms-1"  } ['isol' ('mong' <'dflt' > ) ]
@@ -78,6 +79,13 @@ Lookup: 1 0 0 "'init' Initial Forms" { "'init' General Initial Forms-1"  } ['ini
 Lookup: 6 0 0 "'calt' Special alters" { "calt n.fina in en"  "calt o-u.fina for isol syllable"  "calt Round syllables fina"  } ['calt' ('mong' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "calt round - half width h'g'h'v" 0 0 0 1
+ 1 0 1
+  Coverage: 38 k.prime.dflt g.prime.dflt h.prime.dflt
+  FCoverage: 6 v.dlft
+ 1
+  SeqLookup: 0 "Single Subs round for k'-g'-h'v"
+EndFPST
 ChainSub2: coverage "calt vk.fina" 0 0 0 1
  1 1 0
   Coverage: 6 k.fina
@@ -143,7 +151,7 @@ EndFPST
 ChainSub2: coverage "calt round - half width - k'g'h'" 0 0 0 1
  1 0 1
   Coverage: 38 k.prime.dflt g.prime.dflt h.prime.dflt
-  FCoverage: 31 o.dflt u.dflt u.bis.dflt v.dlft
+  FCoverage: 24 o.dflt u.dflt u.bis.dflt
  1
   SeqLookup: 0 "Single Subs round syllabes - half width"
 EndFPST
@@ -184,10 +192,10 @@ ChainSub2: coverage "calt Round syllables fina" 0 0 0 1
 EndFPST
 ChainSub2: coverage "calt t-k at syllable.fina" 0 0 0 1
  1 0 1
-  Coverage: 13 k.dflt t.dflt
+  Coverage: 20 n.dflt k.dflt t.dflt
   FCoverage: 317 n.dflt s.dflt x.dflt k.dflt k.F.dflt g.dflt g.F.dflt h.dflt h.F.dflt l.dflt l.F.dflt m.dflt m.F.dflt q.dflt j.dflt y.dflt r.dflt r.prime.dflt f.dflt w.dflt c.dflt z.dflt t.dflt t.F.dflt d.dflt d.F.dflt b.dflt b.F.dflt p.dflt p.F.dflt k.prime.dflt k.prime.F.dflt g.prime.dflt g.prime.F.dflt h.prime.dflt h.prime.F.dflt
  1
-  SeqLookup: 0 "Single Subs t-k(M) at syllable.fina"
+  SeqLookup: 0 "Single Subs t-k(M)-n at syllable.fina"
 EndFPST
 ChainSub2: coverage "calt e-u after t-d-k-g-h" 0 0 0 1
  1 1 0
@@ -232,7 +240,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 8 12
+WinInfo: 24 8 12
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1712,6 +1720,7 @@ SplineSet
  489 656 l 1,22,-1
  409 571 l 1,14,-1
 EndSplineSet
+Substitution2: "Single Subs t at syllable.fina-1" n.repl1
 Substitution2: "'fina' General Terminal Forms-1" n.fina
 Substitution2: "'init' General Initial Forms-1" n.init
 EndChar
@@ -4753,6 +4762,7 @@ SplineSet
  0 735 l 2,29,0
  0 1392 0 1392 656 1392 c 128,-1,1
 EndSplineSet
+Substitution2: "Single Subs round for k'-g'-h'v-1" k.prime.repl1
 Substitution2: "consonants" k.prime.F.dflt
 Substitution2: "'init' General Initial Forms-1" k.prime.init
 EndChar
@@ -4815,13 +4825,29 @@ Fore
 Refer: 3 -1 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: NameMe.238
+StartChar: k.prime.repl1
 Encoding: 246 -1 230
-Width: 1516
+Width: 654
+VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+SplineSet
+656 1392 m 128,-1,1
+ 1312 1392 1312 1392 1312 735 c 2,2,-1
+ 1312 654 l 2,3,4
+ 1312 573 1312 573 1228 571 c 0,5,6
+ 1147 571 1147 571 1148 656 c 2,7,-1
+ 1148 735 l 2,8,9
+ 1148 1230.02469136 1148 1230.02469136 656 1228 c 0,10,11
+ 408 1228 408 1228 289 1104 c 1,12,13
+ 164 984 164 984 164 735 c 2,14,-1
+ 164 0 l 2,15,16
+ 164 -81 164 -81 82 -81 c 128,-1,17
+ 0 -81 0 -81 0 0 c 2,18,-1
+ 0 735 l 2,19,0
+ 0 1392 0 1392 656 1392 c 128,-1,1
+EndSplineSet
 EndChar
 
 StartChar: NameMe.239
@@ -4874,6 +4900,7 @@ SplineSet
  0 735 l 2,51,22
  0 1392 0 1392 656 1392 c 128,-1,23
 EndSplineSet
+Substitution2: "Single Subs round for k'-g'-h'v-1" g.prime.repl1
 Substitution2: "consonants" g.prime.F.dflt
 Substitution2: "'init' General Initial Forms-1" g.prime.init
 EndChar
@@ -4948,13 +4975,41 @@ Fore
 Refer: 3 -1 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: NameMe.246
+StartChar: g.prime.repl1
 Encoding: 254 -1 237
-Width: 1516
+Width: 654
+VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+SplineSet
+779 1759 m 0,0,1
+ 779 1716.9375 779 1716.9375 744 1671 c 1,2,3
+ 698.0625 1636 698.0625 1636 656 1636 c 0,4,5
+ 633 1636 633 1636 608 1648 c 0,6,7
+ 585 1655 585 1655 568 1671 c 0,8,9
+ 536 1713 536 1713 532 1759 c 1,10,11
+ 532 1805.8 532 1805.8 568 1849 c 1,12,13
+ 600.791666667 1881.79166667 600.791666667 1881.79166667 656 1884 c 0,14,15
+ 679 1884 679 1884 705 1876 c 1,16,17
+ 726 1864 726 1864 744 1849 c 0,18,19
+ 760 1833 760 1833 768 1808 c 1,20,21
+ 780 1785 780 1785 779 1759 c 0,0,1
+656 1392 m 128,-1,23
+ 1312 1392 1312 1392 1312 735 c 2,24,-1
+ 1312 654 l 2,25,26
+ 1312 573 1312 573 1228 571 c 0,27,28
+ 1147 571 1147 571 1148 656 c 2,29,-1
+ 1148 735 l 2,30,31
+ 1148 1230.02469136 1148 1230.02469136 656 1228 c 0,32,33
+ 408 1228 408 1228 289 1104 c 1,34,35
+ 164 984 164 984 164 735 c 2,36,-1
+ 164 0 l 2,37,38
+ 164 -81 164 -81 82 -81 c 128,-1,39
+ 0 -81 0 -81 0 0 c 2,40,-1
+ 0 735 l 2,41,22
+ 0 1392 0 1392 656 1392 c 128,-1,23
+EndSplineSet
 EndChar
 
 StartChar: NameMe.247
@@ -5013,6 +5068,7 @@ SplineSet
  0 735 l 2,60,31
  0 1392 0 1392 656 1392 c 128,-1,32
 EndSplineSet
+Substitution2: "Single Subs round for k'-g'-h'v-1" h.prime.repl1
 Substitution2: "consonants" h.prime.F.dflt
 Substitution2: "'init' General Initial Forms-1" h.prime.init
 EndChar
@@ -5093,13 +5149,47 @@ Fore
 Refer: 3 -1 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: NameMe.254
+StartChar: h.prime.repl1
 Encoding: 262 -1 244
-Width: 1516
+Width: 654
+VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
+SplineSet
+735 1720 m 0,0,1
+ 735 1762.61538462 735 1762.61538462 712 1775 c 1,2,3
+ 697.416666667 1800 697.416666667 1800 656 1800 c 0,4,5
+ 607 1800 607 1800 580 1752 c 0,6,7
+ 573 1736 573 1736 571 1720 c 0,8,9
+ 571 1693.33333333 571 1693.33333333 596 1660 c 1,10,11
+ 634.88 1637.32 634.88 1637.32 656 1636 c 0,12,13
+ 706 1636 706 1636 732 1688 c 1,14,15
+ 735 1704 735 1704 735 1720 c 0,0,1
+899 1720 m 0,16,17
+ 899 1615 899 1615 827.5 1543.5 c 128,-1,18
+ 756 1472 756 1472 656 1472 c 0,19,20
+ 566.4 1472 566.4 1472 480 1544 c 1,21,22
+ 405.191381496 1630.49746515 405.191381496 1630.49746515 409 1720 c 0,23,24
+ 409 1817.41935484 409 1817.41935484 480 1893 c 0,25,26
+ 558.08 1971.08 558.08 1971.08 656 1967 c 1,27,28
+ 760.529411765 1967 760.529411765 1967 828 1893 c 1,29,30
+ 899 1831.59459459 899 1831.59459459 899 1720 c 0,16,17
+656 1392 m 128,-1,32
+ 1312 1392 1312 1392 1312 735 c 2,33,-1
+ 1312 654 l 2,34,35
+ 1312 573 1312 573 1228 571 c 0,36,37
+ 1147 571 1147 571 1148 656 c 2,38,-1
+ 1148 735 l 2,39,40
+ 1148 1230.02469136 1148 1230.02469136 656 1228 c 0,41,42
+ 408 1228 408 1228 289 1104 c 1,43,44
+ 164 984 164 984 164 735 c 2,45,-1
+ 164 0 l 2,46,47
+ 164 -81 164 -81 82 -81 c 128,-1,48
+ 0 -81 0 -81 0 0 c 2,49,-1
+ 0 735 l 2,50,31
+ 0 1392 0 1392 656 1392 c 128,-1,32
+EndSplineSet
 EndChar
 
 StartChar: NameMe.255
