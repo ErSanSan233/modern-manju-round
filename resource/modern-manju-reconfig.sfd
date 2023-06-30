@@ -1,5 +1,5 @@
 SplineFontDB: 3.2
-FontName: Modern-manJu-Rounds
+FontName: Modern-manJu-Roundssss
 FullName: Modern manJu Round
 FamilyName: Modern-manJu
 Weight: Book
@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1390402476
-ModificationTime: 1688119209
+ModificationTime: 1688121380
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -59,21 +59,36 @@ OS2Vendor: 'SBT '
 OS2CodePages: 001e0101.00000000
 OS2UnicodeRanges: 800000a7.1001e408.00020016.00000000
 Lookup: 1 0 0 "Single Subs t-d at syllable.init" { "Single Subs t-d-1"  } []
+Lookup: 1 0 0 "Single Subs t at syllable.fina" { "Single Subs t at syllable.fina-1"  } []
 Lookup: 1 0 0 "Single Subs e-u after t-d" { "Single Subs e-u after t-d-1"  } []
 Lookup: 1 0 0 "Single Sub n for en" { "Single Sub n for en-1"  } []
 Lookup: 1 0 0 "Single Subs i-u after vowel" { "Single Subs i-u after vowel-1"  } []
+Lookup: 6 0 0 "'calt' General Contextual Alternates" { "calt i-u after vowel"  "calt t-d at syllable.init"  "calt e-u after t-d"  "calt t at syllable.fina"  } ['calt' ('mong' <'dflt' > ) ]
+Lookup: 1 0 0 "'isol' Isolated Forms" { "'isol' General Isolated Forms-1"  } ['isol' ('mong' <'dflt' > ) ]
+Lookup: 1 0 0 "'init' Initial Forms" { "'init' General Initial Forms-1"  } ['init' ('mong' <'dflt' > ) ]
+Lookup: 1 0 0 "'fina' Terminal Forms" { "'fina' General Terminal Forms-1"  } ['fina' ('mong' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Subs o-u.fina for isol syllable" { "Single Subs o-u.fina for isol syllable-1"  } []
-Lookup: 1 0 0 "'isol' General Isolated Forms" { "'isol' General Isolated Forms-1"  } ['isol' ('mong' <'dflt' > ) ]
-Lookup: 1 0 0 "'init' General Initial Forms" { "'init' General Initial Forms-1"  } ['init' ('mong' <'dflt' > ) ]
-Lookup: 1 0 0 "'fina' General Terminal Forms" { "'fina' General Terminal Forms-1"  } ['fina' ('mong' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' Contextual Alternates for particular syllables" { "calt t-d at syllable.init"  "calt n.fina in en"  } ['calt' ('mong' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' General Contextual Alts" { "calt i-u after vowel"  "calt o-u.fina for isol syllable"  } ['calt' ('mong' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' isol syllables" { "calt n.fina in en"  "calt o-u.fina for isol syllable"  } ['calt' ('mong' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "calt t at syllable.fina" 0 0 0 1
+ 1 0 1
+  Coverage: 6 t.dflt
+  FCoverage: 317 n.dflt s.dflt x.dflt k.dflt k.F.dflt g.dflt g.F.dflt h.dflt h.F.dflt l.dflt l.F.dflt m.dflt m.F.dflt q.dflt j.dflt y.dflt r.dflt r.prime.dflt f.dflt w.dflt c.dflt z.dflt t.dflt t.F.dflt d.dflt d.F.dflt b.dflt b.F.dflt p.dflt p.F.dflt k.prime.dflt k.prime.F.dflt g.prime.dflt g.prime.F.dflt h.prime.dflt h.prime.F.dflt
+ 1
+  SeqLookup: 0 "Single Subs t at syllable.fina"
+EndFPST
+ChainSub2: coverage "calt e-u after t-d" 0 0 0 1
+ 1 1 0
+  Coverage: 13 e.dflt u.dflt
+  BCoverage: 17 t.F.dflt d.F.dflt
+ 1
+  SeqLookup: 0 "Single Subs e-u after t-d"
+EndFPST
 ChainSub2: coverage "calt t-d at syllable.init" 0 0 0 1
  1 0 1
-  Coverage: 27 t.dflt t.init d.dflt d.init
-  FCoverage: 27 e.dflt e.fina u.dflt u.fina
+  Coverage: 13 t.dflt d.dflt
+  FCoverage: 13 e.dflt u.dflt
  1
   SeqLookup: 0 "Single Subs t-d at syllable.init"
 EndFPST
@@ -86,14 +101,14 @@ ChainSub2: coverage "calt n.fina in en" 0 0 0 1
 EndFPST
 ChainSub2: coverage "calt i-u after vowel" 0 0 0 1
  1 1 0
-  Coverage: 20 i.dflt u.dflt u.fina
-  BCoverage: 109 a.dflt a.init e.dflt e.init e.F.dflt i.dflt i.init o.dflt o.init u.dflt u.init u.F.dflt v.dlft v.init
+  Coverage: 13 i.dflt u.dflt
+  BCoverage: 94 a.dflt e.dflt e.F.dflt e.bis.dflt i.dflt o.dflt u.dflt u.F.dflt u.bis.dflt v.dlft y.prime.dflt
  1
   SeqLookup: 0 "Single Subs i-u after vowel"
 EndFPST
 ChainSub2: coverage "calt o-u.fina for isol syllable" 0 0 0 1
  1 1 0
-  Coverage: 13 o.fina u.fina
+  Coverage: 24 o.fina u.fina u.bis.fina
   BCoverage: 154 n.init s.init x.init k.init g.init h.init l.init m.init q.init j.init y.init r.init r.prime.init f.init w.init c.init z.init t.init t.repl1 d.init d.repl1
  1
   SeqLookup: 0 "Single Subs o-u.fina for isol syllable"
@@ -106,7 +121,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 8 12
+WinInfo: 160 8 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -116,7 +131,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-0""" 
-BeginChars: 272 274
+BeginChars: 272 272
 
 StartChar: a.dflt
 Encoding: 0 6176 0
@@ -381,7 +396,6 @@ SplineSet
  492 1886 492 1886 571 1884 c 0,27,28
  1226 1884 1226 1884 1228 1228 c 0,16,17
 EndSplineSet
-Substitution2: "Single Subs e-u after t-d-1" e.bis.fina
 EndChar
 
 StartChar: e.F.fina
@@ -673,6 +687,7 @@ SplineSet
  164 -81 164 -81 82 -81 c 128,-1,20
  0 -81 0 -81 0 0 c 2,0,-1
 EndSplineSet
+Substitution2: "'fina' General Terminal Forms-1" i.fina
 EndChar
 
 StartChar: NameMe.23
@@ -922,6 +937,7 @@ SplineSet
  656 571 l 1,34,-1
  656 492 l 2,24,25
 EndSplineSet
+Substitution2: "Single Subs e-u after t-d-1" u.bis.dflt
 Substitution2: "Single Subs i-u after vowel-1" u.bis.dflt
 Substitution2: "'isol' General Isolated Forms-1" u.isol
 Substitution2: "'fina' General Terminal Forms-1" u.fina
@@ -1022,7 +1038,6 @@ SplineSet
  4 735 4 735 0 735 c 1,56,31
  0 1392 0 1392 656 1392 c 128,-1,32
 EndSplineSet
-Substitution2: "Single Subs i-u after vowel-1" u.bis.fina
 Substitution2: "Single Subs o-u.fina for isol syllable-1" u.repl1
 EndChar
 
@@ -2163,6 +2178,7 @@ SplineSet
  0 735 l 2,19,0
  0 1392 0 1392 656 1392 c 128,-1,1
 EndSplineSet
+Substitution2: "'fina' General Terminal Forms-1" k.F.fina
 EndChar
 
 StartChar: k.repl2
@@ -2207,6 +2223,7 @@ SplineSet
  900 656 l 1,48,-1
  820 571 l 1,34,-1
 EndSplineSet
+Substitution2: "'fina' General Terminal Forms-1" k.fina
 EndChar
 
 StartChar: g.dflt
@@ -3958,6 +3975,7 @@ SplineSet
  571 -816.024390244 571 -816.024390244 245 -820 c 2,22,-1
  164 -820 l 2,9,10
 EndSplineSet
+Substitution2: "Single Subs t at syllable.fina-1" t.repl2
 Substitution2: "Single Subs t-d-1" t.F.dflt
 Substitution2: "'fina' General Terminal Forms-1" t.fina
 Substitution2: "'init' General Initial Forms-1" t.init
@@ -4002,7 +4020,6 @@ SplineSet
  0 820 l 2,32,33
  0 1065 0 1065 125 1188 c 1,8,9
 EndSplineSet
-Substitution2: "Single Subs t-d-1" t.repl1
 EndChar
 
 StartChar: t.fina
@@ -4066,6 +4083,7 @@ SplineSet
  164 245 l 1,24,-1
  245 245 l 2,7,8
 EndSplineSet
+Substitution2: "'init' General Initial Forms-1" t.repl1
 EndChar
 
 StartChar: NameMe.204
@@ -4156,6 +4174,7 @@ SplineSet
  656 571 l 1,24,-1
  656 492 l 2,6,7
 EndSplineSet
+Substitution2: "'fina' General Terminal Forms-1" t.fina
 EndChar
 
 StartChar: d.dflt
@@ -4244,7 +4263,6 @@ SplineSet
  0 820 l 2,48,49
  0 1065 0 1065 125 1188 c 1,28,29
 EndSplineSet
-Substitution2: "Single Subs t-d-1" d.repl1
 EndChar
 
 StartChar: NameMe.210
@@ -4294,6 +4312,7 @@ SplineSet
  164 245 l 1,37,-1
  245 245 l 2,20,21
 EndSplineSet
+Substitution2: "'init' General Initial Forms-1" d.repl1
 EndChar
 
 StartChar: NameMe.212
@@ -5142,7 +5161,7 @@ Refer: 3 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ng.fina
-Encoding: 266 -1 261
+Encoding: 266 -1 260
 Width: 1227
 VWidth: 4095
 Flags: W
@@ -5174,7 +5193,7 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe.257
-Encoding: 265 -1 262
+Encoding: 265 -1 261
 Width: 1516
 Flags: W
 LayerCount: 2
@@ -5183,7 +5202,7 @@ Refer: 3 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.259
-Encoding: 267 -1 263
+Encoding: 267 -1 262
 Width: 1516
 Flags: W
 LayerCount: 2
@@ -5192,7 +5211,7 @@ Refer: 3 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.260
-Encoding: 268 -1 264
+Encoding: 268 -1 263
 Width: 1516
 Flags: W
 LayerCount: 2
@@ -5201,7 +5220,7 @@ Refer: 3 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.261
-Encoding: 269 -1 265
+Encoding: 269 -1 264
 Width: 1516
 Flags: W
 LayerCount: 2
@@ -5210,7 +5229,7 @@ Refer: 3 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.262
-Encoding: 270 -1 266
+Encoding: 270 -1 265
 Width: 1516
 Flags: W
 LayerCount: 2
@@ -5219,7 +5238,7 @@ Refer: 3 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.263
-Encoding: 271 -1 267
+Encoding: 271 -1 266
 Width: 1516
 Flags: W
 LayerCount: 2
@@ -5228,7 +5247,7 @@ Refer: 3 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: e.isol
-Encoding: 13 -1 268
+Encoding: 13 -1 267
 Width: 1803
 VWidth: 4095
 Flags: W
@@ -5258,7 +5277,7 @@ EndSplineSet
 EndChar
 
 StartChar: e.F.dflt
-Encoding: 11 -1 270
+Encoding: 11 -1 268
 Width: 409
 VWidth: 4095
 Flags: W
@@ -5282,7 +5301,7 @@ Refer: 0 6176 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.15
-Encoding: 15 -1 271
+Encoding: 15 -1 269
 Width: 1516
 Flags: W
 LayerCount: 2
@@ -5291,7 +5310,7 @@ Refer: 258 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.14
-Encoding: 14 -1 272
+Encoding: 14 -1 270
 Width: 1516
 Flags: W
 LayerCount: 2
@@ -5300,13 +5319,14 @@ Refer: 258 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: n.repl1
-Encoding: 78 -1 273
+Encoding: 78 -1 271
 Width: 409
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 Refer: 0 6176 N 1 0 0 1 0 0 2
+Substitution2: "'fina' General Terminal Forms-1" n.fina
 EndChar
 EndChars
 EndSplineFont
