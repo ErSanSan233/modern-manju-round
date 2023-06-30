@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1390402476
-ModificationTime: 1688129391
+ModificationTime: 1688130068
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -71,12 +71,21 @@ Lookup: 1 0 0 "Single Subs i-u after vowel" { "Single Subs i-u after vowel-1"  }
 Lookup: 6 0 0 "'calt' General Contextual Alternates" { "calt i-u after vowel"  "calt t-d at syllable.init"  "calt e-u after t-d-k-g-h"  "calt t-k at syllable.fina"  } ['calt' ('mong' <'dflt' > ) ]
 Lookup: 6 4 0 "'calt' Round Syllables" { "calt round - half width - kgh"  "calt round - half width - bp"  "calt round - half width - k'g'h'"  "calt round - full width"  "calt round - vowels"  } ['calt' ('mong' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' k.F at syllable.fina" { "calt k'-g'-h' ak"  } ['calt' ('mong' <'dflt' > ) ]
+Lookup: 1 0 0 "'fina' Terminal Forms" { "'fina' General Terminal Forms-1"  } ['fina' ('mong' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' -k.F at word.fina" { "calt k'-g'-h'ak.fina"  } ['calt' ('mong' <'dflt' > ) ]
 Lookup: 1 0 0 "'isol' Isolated Forms" { "'isol' General Isolated Forms-1"  } ['isol' ('mong' <'dflt' > ) ]
 Lookup: 1 0 0 "'init' Initial Forms" { "'init' General Initial Forms-1"  } ['init' ('mong' <'dflt' > ) ]
-Lookup: 1 0 0 "'fina' Terminal Forms" { "'fina' General Terminal Forms-1"  } ['fina' ('mong' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' Special alters" { "calt n.fina in en"  "calt o-u.fina for isol syllable"  "calt Round syllables fina"  } ['calt' ('mong' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "calt k'-g'-h'ak.fina" 0 0 0 1
+ 1 2 0
+  Coverage: 6 k.fina
+  BCoverage: 6 a.dflt
+  BCoverage: 38 k.prime.dflt g.prime.dflt h.prime.dflt
+ 1
+  SeqLookup: 0 "Single Subs -k to -k.F"
+EndFPST
 ChainSub2: coverage "calt k'-g'-h' ak" 0 0 0 1
  1 2 0
   Coverage: 7 k.repl2
@@ -2153,6 +2162,7 @@ SplineSet
  656 1886 656 1886 735 1884 c 0,56,57
  1392 1884 1392 1884 1392 1228 c 0,38,39
 EndSplineSet
+Substitution2: "Single Subs -k to -k.F-1" k.F.fina
 EndChar
 
 StartChar: k.F.dflt
@@ -5267,18 +5277,18 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-204 1759 m 0
- 204 1718.25 204 1718.25 168 1671 c 0
- 152 1655 152 1655 127 1648 c 1
- 104 1636 104 1636 82 1636 c 0
- 60 1636 60 1636 37 1648 c 1
- 14 1655 14 1655 -4 1671 c 1
- -20 1692 -20 1692 -32 1715 c 0
- -39 1736 -39 1736 -40 1759 c 0
- -40 1842.12 -40 1842.12 37 1876 c 1
- 85 1890.60869565 85 1890.60869565 127 1876 c 0
- 150 1864 150 1864 168 1849 c 0
- 201.84 1815.16 201.84 1815.16 204 1759 c 0
+204 1759 m 0,0,1
+ 204 1718.25 204 1718.25 168 1671 c 0,2,3
+ 152 1655 152 1655 127 1648 c 1,4,5
+ 104 1636 104 1636 82 1636 c 0,6,7
+ 60 1636 60 1636 37 1648 c 1,8,9
+ 14 1655 14 1655 -4 1671 c 1,10,11
+ -20 1692 -20 1692 -32 1715 c 0,12,13
+ -39 1736 -39 1736 -40 1759 c 0,14,15
+ -40 1842.12 -40 1842.12 37 1876 c 1,16,17
+ 85 1890.60869565 85 1890.60869565 127 1876 c 0,18,19
+ 150 1864 150 1864 168 1849 c 0,20,21
+ 201.84 1815.16 201.84 1815.16 204 1759 c 0,0,1
 EndSplineSet
 Refer: 0 6176 N 1 0 0 1 0 0 2
 Substitution2: "'fina' General Terminal Forms-1" e.F.fina
