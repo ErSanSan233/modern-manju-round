@@ -4,7 +4,7 @@ FullName: Modern manJu Round
 FamilyName: Modern-manJu
 Weight: Book
 Copyright: Copyright 2023 LLLLL.
-Version: 0.5
+Version: 0.6
 ItalicAngle: 0
 UnderlinePosition: -420
 UnderlineWidth: 100
@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1390402476
-ModificationTime: 1688178165
+ModificationTime: 1688278163
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -58,6 +58,8 @@ OS2FamilyClass: 261
 OS2Vendor: 'SBT '
 OS2CodePages: 001e0101.00000000
 OS2UnicodeRanges: 800000a7.1001e408.00020016.00000000
+Lookup: 1 0 0 "Single Subs d before v" { "Single Subs t-d before v-1"  } []
+Lookup: 3 0 0 "Single Subs FVS1 force alter" { "td alter"  "Single Subs FVS1 force alter-1"  } []
 Lookup: 1 0 0 "Single Subs graphic design" { "short r"  "long y"  } []
 Lookup: 1 0 0 "Single Subs DONE f before i-o-u-v" { "Single Subs f before i-o-u-v-1"  } []
 Lookup: 1 0 0 "Single Subs DONE little -i" { "Single Subs little -i-1"  } []
@@ -76,14 +78,44 @@ Lookup: 1 0 0 "Single Subs DONE i-u after vowel" { "Single Subs i-u after vowel-
 Lookup: 1 0 0 "'isol' Isolated Forms" { "'isol' General Isolated Forms-1"  } ['isol' ('mong' <'dflt' > ) ]
 Lookup: 1 0 0 "'init' Initial Forms" { "'init' General Initial Forms-1"  } ['init' ('mong' <'dflt' > ) ]
 Lookup: 1 0 0 "'fina' Terminal Forms" { "'fina' General Terminal Forms-1"  } ['fina' ('mong' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' OK General Contextual Alternates" { "OK f before i-o-u-v"  "OK little i"  "OK i-u after vowel"  "OK t-d at syllable.init"  "OK e-u after t-d-k-g-h"  "OK t-k at syllable.fina"  } ['calt' ('mong' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' OK k.F at syllable.fina" { "calt vk"  "calt g-k-h-uk"  "calt k'-g'-h' ak"  "calt -ek sauf d"  } ['calt' ('mong' <'dflt' > ) ]
-Lookup: 6 4 0 "'calt' Round Syllables" { "calt round - OK half width - kgh"  "calt round - OK half width - bp"  "calt round - OK half width - k'g'h'"  "calt round - OK half width h'g'h'v"  "calt round - OK full width"  "calt round - OK vowels"  } ['calt' ('mong' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' OK -k.F at word.fina" { "calt vk.fina"  "calt g-k-h-uk.fina"  "calt -ek sauf d.fina"  "calt k'-g'-h'ak.fina"  } ['calt' ('mong' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' Special alters" { "calt n.fina in en"  "calt o-u.fina for isol syllable"  "calt EMPTY Round syllables fina"  "calt special zi.fina"  } ['calt' ('mong' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' General Contextual Alternates" { "OK f before i-o-u-v"  "OK little i"  "OK i-u after vowel"  "OK t-d at syllable.init"  "OK e-u after t-d-k-g-h"  "OK t-k at syllable.fina"  } ['calt' ('mong' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' k.F at syllable.fina" { "calt vk"  "calt g-k-h-uk"  "calt k'-g'-h' ak"  "calt -ek sauf d"  } ['calt' ('mong' <'dflt' > ) ]
+Lookup: 6 4 0 "'calt' Round Syllables" { "calt round - OK half width - kgh"  "calt round - kgh special F half width"  "calt round - kgh special F form dflt"  "calt round - OK half width h'g'h'v"  "calt round - OK half width - bp"  "calt round - OK half width - k'g'h'"  "calt round - OK full width"  "calt round - OK vowels"  } ['calt' ('mong' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' -k.F at word.fina" { "calt vk.fina"  "calt g-k-h-uk.fina"  "calt -ek sauf d.fina"  "calt k'-g'-h'ak.fina"  } ['calt' ('mong' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' Special alters" { "calt dv"  "calt t-d force F"  "calt n.fina in en"  "calt o-u.fina for isol syllable"  "calt Round syllables fina"  "calt special zi.fina"  } ['calt' ('mong' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' graphic design" { "short r for ra-re etc."  "long y in w/f*y"  } ['calt' ('mong' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "calt dv" 0 0 0 1
+ 1 0 1
+  Coverage: 30 d.dflt d.init d.F.dflt d.repl1
+  FCoverage: 27 v.dlft v.init v.fina v.isol
+ 1
+  SeqLookup: 0 "Single Subs d before v"
+EndFPST
+ChainSub2: coverage "calt t-d force F" 0 0 0 1
+ 1 0 1
+  Coverage: 27 t.dflt t.init d.dflt d.init
+  FCoverage: 4 FVS1
+ 1
+  SeqLookup: 0 "Single Subs FVS1 force alter"
+EndFPST
+ChainSub2: coverage "calt round - kgh special F half width" 0 0 0 1
+ 2 0 1
+  Coverage: 56 k.dflt k.init k.fina k.repl2 g.dflt g.init h.dflt h.init
+  Coverage: 4 FVS1
+  FCoverage: 72 o.dflt o.init o.fina o.F.fina o.isol o.repl1 v.dlft v.init v.fina v.isol
+ 2
+  SeqLookup: 0 "Single Subs DONE round syllabes - half width"
+  SeqLookup: 1 "Single Subs FVS1 force alter"
+EndFPST
+ChainSub2: coverage "calt round - kgh special F form dflt" 0 0 0 1
+ 1 0 1
+  Coverage: 56 k.dflt k.init k.fina k.repl2 g.dflt g.init h.dflt h.init
+  FCoverage: 4 FVS1
+ 1
+  SeqLookup: 0 "Single Subs DONE round syllables - full width g-h-k"
+EndFPST
 ChainSub2: coverage "short r for ra-re etc." 0 0 0 1
  1 0 1
   Coverage: 13 r.init r.dflt
@@ -122,7 +154,7 @@ ChainSub2: coverage "calt special zi.fina" 0 0 0 1
 EndFPST
 ChainSub2: coverage "calt round - OK half width h'g'h'v" 0 0 0 1
  1 0 1
-  Coverage: 164 k.prime.dflt k.prime.init k.prime.F.dflt k.prime.repl1 g.prime.dflt g.prime.init g.prime.F.dflt g.prime.repl1 h.prime.dflt h.prime.init h.prime.F.dflt h.prime.repl1
+  Coverage: 122 k.prime.dflt k.prime.init k.prime.F.dflt g.prime.dflt g.prime.init g.prime.F.dflt h.prime.dflt h.prime.init h.prime.F.dflt
   FCoverage: 27 v.dlft v.init v.fina v.isol
  1
   SeqLookup: 0 "Single Subs DONE round for k'-g'-h'v"
@@ -224,7 +256,7 @@ ChainSub2: coverage "calt round - OK half width - kgh" 0 0 0 1
  1
   SeqLookup: 0 "Single Subs DONE round syllabes - half width"
 EndFPST
-ChainSub2: coverage "calt EMPTY Round syllables fina" 0 0 0 1
+ChainSub2: coverage "calt Round syllables fina" 0 0 0 1
  1 1 0
   Coverage: 74 a.fina e.fina e.F.fina e.bis.fina i.fina o.fina u.fina u.F.fina u.bis.fina
   BCoverage: 261 k.F.dflt k.repl1 g.F.dflt g.repl1 h.F.dflt h.repl1 b.dflt b.init b.F.dflt p.dflt p.init p.F.dflt k.prime.dflt k.prime.init k.prime.F.dflt k.prime.repl1 g.prime.dflt g.prime.init g.prime.F.dflt g.prime.repl1 h.prime.dflt h.prime.init h.prime.F.dflt h.prime.repl1
@@ -280,7 +312,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 8 12
+WinInfo: 128 8 12
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -288,7 +320,7 @@ Grid
  4096 656 l 1024
   Named: "Real Baseline"
 EndSplineSet
-TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
+TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-0""" 
 BeginChars: 304 305
 
@@ -2353,6 +2385,7 @@ SplineSet
  656 1886 656 1886 735 1884 c 0,34,35
 EndSplineSet
 Validated: 33
+Substitution2: "Single Subs round syllables - full width g-h-k-1" k.F.fina
 Substitution2: "Single Subs -k to -k.F-1" k.F.fina
 EndChar
 
@@ -2495,6 +2528,7 @@ SplineSet
  820 571 l 1,27,-1
 EndSplineSet
 Validated: 33
+Substitution2: "Single Subs round syllables - full width g-h-k-1" k.F.fina
 Substitution2: "Single Subs -k to -k.F-1" k.F.dflt
 Substitution2: "'fina' General Terminal Forms-1" k.fina
 EndChar
@@ -4377,6 +4411,7 @@ SplineSet
  164 -820 l 2,9,10
 EndSplineSet
 Validated: 33
+AlternateSubs2: "td alter" t.F.dflt
 Substitution2: "Single Subs t at syllable.fina-1" t.repl2
 Substitution2: "Single Subs t-d-1" t.F.dflt
 Substitution2: "'fina' General Terminal Forms-1" t.fina
@@ -4423,6 +4458,7 @@ SplineSet
  0 1065 0 1065 125 1188 c 1,8,9
 EndSplineSet
 Validated: 33
+AlternateSubs2: "td alter" t.repl1
 Substitution2: "Single Subs t-d-1" t.repl1
 EndChar
 
@@ -4624,6 +4660,8 @@ SplineSet
  164 -820 l 2,21,22
 EndSplineSet
 Validated: 33
+Substitution2: "Single Subs t-d before v-1" d.repl0
+AlternateSubs2: "td alter" d.F.dflt
 Substitution2: "Single Subs t-d-1" d.F.dflt
 Substitution2: "'init' General Initial Forms-1" d.init
 EndChar
@@ -4673,6 +4711,8 @@ SplineSet
  0 1065 0 1065 125 1188 c 1,22,23
 EndSplineSet
 Validated: 33
+Substitution2: "Single Subs t-d before v-1" d.repl2
+AlternateSubs2: "td alter" d.repl1
 Substitution2: "Single Subs t-d-1" d.repl1
 EndChar
 
@@ -4738,14 +4778,14 @@ Refer: 3 -1 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: NameMe.213
+StartChar: d.repl0
 Encoding: 221 -1 208
-Width: 704
+Width: 492
+VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
-Validated: 1
+Refer: 198 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: d.repl1
@@ -4799,14 +4839,14 @@ EndSplineSet
 Validated: 33
 EndChar
 
-StartChar: NameMe.215
+StartChar: d.repl2
 Encoding: 223 -1 210
-Width: 704
+Width: 1312
+VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
-Validated: 1
+Refer: 201 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: b.dflt
@@ -6274,14 +6314,11 @@ Refer: 3 -1 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: NameMe.281
+StartChar: FVS1.repl1
 Encoding: 281 -1 285
-Width: 704
+Width: 0
 Flags: W
 LayerCount: 2
-Fore
-Refer: 3 -1 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: FVS1
@@ -6307,6 +6344,7 @@ SplineSet
  154 1353 l 1,4,-1
 EndSplineSet
 Validated: 1
+AlternateSubs2: "Single Subs FVS1 force alter-1" FVS1.repl1
 EndChar
 
 StartChar: FVS2
