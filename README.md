@@ -13,15 +13,19 @@
 ![sample](img/sample.svg)
 
 ```tex
-``manju gisun serengge, manju halangga niyalmai fulehe da yaya we bahanarakvqi ojorakvngge kai, adarame seqi, muse jabxan de wesihun jalan -i ayan suwayan manju ofi, aika manjurame bahanarakv, niyalma be aqaha dari, fonjiha \nolinebreak de, angga gahvxara yasa xarinjara oqi, ereqi giqukengge biu ereq=====i fanqaqukangge ge=====li bi===============o::''
+\noindent jalan~-i siden~de mini xanggiyan alin bi,\\
+alin~-i hanqi sahaliyan ula eyer tugi~-i adali.\\
+alin muke~de musei mafari banjihabi,\\
+mukvn~-i enen amba kesi~be alimbi
 
-tangsu: batu si ainambi ni.
+``arxan burge~de fulehe akvqi, tere uthai gargan banjirakv. ere uthai gaxan~be kidure akaqun inu, ere uthai gaxan~be kidure gvnin inu.''
 
-batu: bi jing bithe hvlame bi. taqibusi muse be xu bithe be labdu hvlabumbi, uttu ofi, bi jing <<ilan gurun -i bithe>> be hvlamebi.
+\noindent jalan~-i siden de mini xanggiyan alin bi,\\
+alin~-i hanqi sahaliyan ula eyer tugi~-i adali.\\
+muse ainu mafari gaxan~be waliyambi,\\
+enenggi mafari gaxan~be hargaxambi.
 
-tangsu: mini tere dabteli <<hari poter>> be si sabuhau.
-
-neh'v, dvmbi, hv, h'v. h h' h''. t'' d'' t d 
+``kituhan~de berge akvqi, tere uthai uqulerakv. ere uthai gaxan be kidule akaqun inu, ere uthai gaxan~be kidure gvnin inu.''
 ```
 
 下载请见ttf下的最新版本，其中带有test后缀的是还未发布的版本
@@ -69,7 +73,7 @@ neh'v, dvmbi, hv, h'v. h h' h''. t'' d'' t d
 - [ ] 无标点符号和ASCII支持
 - [ ] 补全latex映射文件
 - [x] 圆头字母后接ml的右侧协调
-- [x] 词中形x的一撇感觉偏细（从字符数据来看是一样的，应该是显示效果的问题）
+- [ ] 词中形x的一撇感觉偏细（从字符数据来看是一样的，应该是显示效果的问题）
 - [ ] 所有转角统一为圆角，涉及ᠪᠣ等复杂情况，搁置
 
 
