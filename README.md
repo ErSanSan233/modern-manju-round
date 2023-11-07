@@ -8,8 +8,6 @@
 >
 > “满圆。”
 
-满圆体是一款在保持可读性的前提下尽力简化笔形的满文美术字体，去除了满文抄本、刻本中古朴的笔锋，合并了一些不影响识读的元素，用尽量少元素来表达纷繁复杂的满文字符。字体目前支持满文、锡伯文常用字符和标点符号。
-
 ![sample](img/sample.svg)
 
 ```tex
@@ -27,6 +25,22 @@ enenggi mafari gaxan~be hargaxambi.
 
 ``kituhan~de berge akvqi, tere uthai uqulerakv. ere uthai gaxan be kidule akaqun inu, ere uthai gaxan~be kidure gvnin inu.''
 ```
+
+满圆体（ᠮᠠᠨ  ᠶᡠᠸᠠᠨ ᡨ᠋ᡳ; Modern manJu Round, MJR）是一款开源满文美术字体。致力于从以下三个方向来优化满文字体设计：
+
+- 尽量不借助辅助字符来正确显示字母变体；
+- 利用尽量少的字体特性方便拓展制作；
+- 在保持可读性的前提下尽力简化笔形。
+
+## 特性
+
+
+
+从字体层面，去除了满文抄本、刻本中古朴的笔锋，合并了一些不影响识读的元素，用尽量少元素来表达纷繁复杂的满文字符。字体目前支持满文、锡伯文常用字符和标点符号。
+
+
+
+## 下载
 
 下载请见ttf下的最新版本，其中带有test后缀的是还未发布的版本
 
