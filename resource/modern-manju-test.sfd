@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1390402476
-ModificationTime: 1699452029
+ModificationTime: 1699454264
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -127,7 +127,7 @@ ChainSub2: coverage "calt t-d force F" 0 0 0 1
 EndFPST
 ChainSub2: coverage "calt round - kgh special F half width" 0 0 0 1
  2 0 1
-  Coverage: 56 k.dflt k.init k.fina k.repl2 g.dflt g.init h.dflt h.init
+  Coverage: 41 k.dflt k.init g.dflt g.init h.dflt h.init
   Coverage: 4 FVS1
   FCoverage: 72 o.dflt o.init o.fina o.F.fina o.isol o.repl1 v.dlft v.init v.fina v.isol
  1
@@ -305,7 +305,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 216 8 11
+WinInfo: 56 8 12
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2521,7 +2521,7 @@ SplineSet
  820 571 l 1,27,-1
 EndSplineSet
 Validated: 33
-Substitution2: "Single Subs round syllables - full width g-h-k-1" k.F.fina
+Substitution2: "Single Subs round syllables - full width g-h-k-1" k.F.dflt
 Substitution2: "Single Subs -k to -k.F-1" k.F.dflt
 Substitution2: "'fina' General Terminal Forms-1" k.fina
 EndChar
@@ -5854,17 +5854,17 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-127 1876 m 1,0,1
- 201.348545853 1837.20945434 201.348545853 1837.20945434 202.92 1766.705 c 0,2,3
- 204 1718.25 204 1718.25 168 1671 c 0,4,5
- 152 1655 152 1655 127 1648 c 1,6,7
- 104 1636 104 1636 82 1636 c 0,8,9
- 60 1636 60 1636 37 1648 c 1,10,11
- 14 1655 14 1655 -4 1671 c 1,12,13
- -20 1692 -20 1692 -32 1715 c 0,14,15
- -39 1736 -39 1736 -40 1759 c 0,16,17
- -40 1842.12 -40 1842.12 37 1876 c 1,18,19
- 85 1890.60869565 85 1890.60869565 127 1876 c 1,0,1
+127 1876 m 1
+ 201.348545853 1837.20945434 201.348545853 1837.20945434 202.92 1766.705 c 0
+ 204 1718.25 204 1718.25 168 1671 c 0
+ 152 1655 152 1655 127 1648 c 1
+ 104 1636 104 1636 82 1636 c 0
+ 60 1636 60 1636 37 1648 c 1
+ 14 1655 14 1655 -4 1671 c 1
+ -20 1692 -20 1692 -32 1715 c 0
+ -39 1736 -39 1736 -40 1759 c 0
+ -40 1842.12 -40 1842.12 37 1876 c 1
+ 85 1890.60869565 85 1890.60869565 127 1876 c 1
 EndSplineSet
 Refer: 0 6176 N 1 0 0 1 0 0 2
 Validated: 33
