@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1390402476
-ModificationTime: 1699363845
+ModificationTime: 1699452029
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -81,14 +81,22 @@ Lookup: 1 0 0 "Single Subs DONE i-u after vowel" { "Single Subs i-u after vowel-
 Lookup: 1 0 0 "'isol' Isolated Forms" { "'isol' General Isolated Forms-1"  } ['isol' ('mong' <'dflt' > ) ]
 Lookup: 1 0 0 "'init' Initial Forms" { "'init' General Initial Forms-1"  } ['init' ('mong' <'dflt' > ) ]
 Lookup: 1 0 0 "'fina' Terminal Forms" { "'fina' General Terminal Forms-1"  } ['fina' ('mong' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' General Contextual Alternates" { "OK f before i-o-u-v"  "OK little i"  "OK i-u after vowel"  "OK t-d at syllable.init"  "OK e-u after t-d-k-g-h"  "OK t-k at syllable.fina"  } ['calt' ('mong' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' General Contextual Alternates" { "OK f before i-o-u-v"  "OK little i"  "OK i-u after vowel"  "OK t-d at syllable.init"  "OK e-u after t-d-k-g-h"  "OK t-k-n at syllable.fina"  } ['calt' ('mong' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' k.F at syllable.fina" { "calt e-vk"  "calt g-k-h-uk"  "calt k'-g'-h' ak"  } ['calt' ('mong' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' tek.F back to k" { "calt tek back to k"  } ['calt' ('mong' <'dflt' > ) ]
 Lookup: 6 4 0 "'calt' Round Syllables" { "calt round - OK half width - kgh"  "calt round - kgh special F half width"  "calt round - kgh special F form dflt"  "calt round - OK half width h'g'h'v"  "calt round - OK half width - bp"  "calt round - OK half width - k'g'h'"  "calt round - OK full width"  "calt round - OK vowels"  } ['calt' ('mong' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' Special alters" { "calt dv"  "calt t-d force F"  "calt n.fina in en"  "calt o-u.fina for isol syllable"  "calt Round syllables fina"  "calt special zi.fina"  } ['calt' ('mong' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' FSV1 invisible in correct cases" { "'calt' FSV1 invisible in correct cases-1"  } ['calt' ('mong' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' graphic design" { "calt l-m after F"  "calt l-m after ng"  "short r for ra-re etc."  "long y in w/f*y"  } ['calt' ('mong' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "'calt' FSV1 invisible in correct cases-1" 0 0 0 1
+ 1 1 0
+  Coverage: 4 FVS1
+  BCoverage: 374 k.dflt k.init k.fina k.F.dflt k.F.fina k.repl1 k.repl2 g.dflt g.init g.F.dflt g.repl1 h.dflt h.init h.F.dflt h.repl1 t.dflt t.init t.fina t.F.dflt t.repl1 t.repl2 d.dflt d.init d.F.dflt d.repl0 d.repl1 d.repl2 k.prime.dflt k.prime.init k.prime.F.dflt k.prime.repl1 g.prime.dflt g.prime.init g.prime.F.dflt g.prime.repl1 h.prime.dflt h.prime.init h.prime.F.dflt h.prime.repl1
+ 1
+  SeqLookup: 0 "Single Subs FVS1 force alter"
+EndFPST
 ChainSub2: coverage "calt l-m after ng" 0 0 0 1
  1 1 0
   Coverage: 13 l.dflt m.dflt
@@ -122,9 +130,8 @@ ChainSub2: coverage "calt round - kgh special F half width" 0 0 0 1
   Coverage: 56 k.dflt k.init k.fina k.repl2 g.dflt g.init h.dflt h.init
   Coverage: 4 FVS1
   FCoverage: 72 o.dflt o.init o.fina o.F.fina o.isol o.repl1 v.dlft v.init v.fina v.isol
- 2
+ 1
   SeqLookup: 0 "Single Subs DONE round syllabes - half width"
-  SeqLookup: 1 "Single Subs FVS1 force alter"
 EndFPST
 ChainSub2: coverage "calt round - kgh special F form dflt" 0 0 0 1
  1 0 1
@@ -248,7 +255,7 @@ ChainSub2: coverage "calt Round syllables fina" 0 0 0 1
   BCoverage: 261 k.F.dflt k.repl1 g.F.dflt g.repl1 h.F.dflt h.repl1 b.dflt b.init b.F.dflt p.dflt p.init p.F.dflt k.prime.dflt k.prime.init k.prime.F.dflt k.prime.repl1 g.prime.dflt g.prime.init g.prime.F.dflt g.prime.repl1 h.prime.dflt h.prime.init h.prime.F.dflt h.prime.repl1
  0
 EndFPST
-ChainSub2: coverage "OK t-k at syllable.fina" 0 0 0 1
+ChainSub2: coverage "OK t-k-n at syllable.fina" 0 0 0 1
  1 0 1
   Coverage: 20 n.dflt k.dflt t.dflt
   FCoverage: 454 n.dflt s.dflt x.dflt k.dflt k.F.dflt k.repl1 g.dflt g.F.dflt g.repl1 h.dflt h.F.dflt h.repl1 l.dflt l.F.dflt m.dflt m.F.dflt q.dflt q.repl1 j.dflt j.repl1 y.dflt y.repl1 r.dflt r.repl1 r.prime.dflt f.dflt w.dflt c.dflt z.dflt t.dflt t.F.dflt d.dflt d.F.dflt b.dflt b.F.dflt p.dflt p.F.dflt k.prime.dflt k.prime.init k.prime.F.dflt k.prime.repl1 g.prime.dflt g.prime.init g.prime.F.dflt g.prime.repl1 h.prime.dflt h.prime.init h.prime.F.dflt h.prime.repl1
@@ -298,7 +305,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 8 11
+WinInfo: 216 8 11
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -5847,17 +5854,17 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-127 1876 m 1
- 201.348545853 1837.20945434 201.348545853 1837.20945434 202.92 1766.705 c 0
- 204 1718.25 204 1718.25 168 1671 c 0
- 152 1655 152 1655 127 1648 c 1
- 104 1636 104 1636 82 1636 c 0
- 60 1636 60 1636 37 1648 c 1
- 14 1655 14 1655 -4 1671 c 1
- -20 1692 -20 1692 -32 1715 c 0
- -39 1736 -39 1736 -40 1759 c 0
- -40 1842.12 -40 1842.12 37 1876 c 1
- 85 1890.60869565 85 1890.60869565 127 1876 c 1
+127 1876 m 1,0,1
+ 201.348545853 1837.20945434 201.348545853 1837.20945434 202.92 1766.705 c 0,2,3
+ 204 1718.25 204 1718.25 168 1671 c 0,4,5
+ 152 1655 152 1655 127 1648 c 1,6,7
+ 104 1636 104 1636 82 1636 c 0,8,9
+ 60 1636 60 1636 37 1648 c 1,10,11
+ 14 1655 14 1655 -4 1671 c 1,12,13
+ -20 1692 -20 1692 -32 1715 c 0,14,15
+ -39 1736 -39 1736 -40 1759 c 0,16,17
+ -40 1842.12 -40 1842.12 37 1876 c 1,18,19
+ 85 1890.60869565 85 1890.60869565 127 1876 c 1,0,1
 EndSplineSet
 Refer: 0 6176 N 1 0 0 1 0 0 2
 Validated: 33
