@@ -4,7 +4,7 @@ FullName: Modern manJu Round
 FamilyName: Modern-manJu
 Weight: Book
 Copyright: Copyright 2023 LLLLL.
-Version: 0.7beta
+Version: 0.7
 ItalicAngle: 0
 UnderlinePosition: -420
 UnderlineWidth: 100
@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1390402476
-ModificationTime: 1688557375
+ModificationTime: 1699786614
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -71,6 +71,7 @@ Lookup: 1 0 0 "Single Subs DONE round for k'-g'-h'v" { "Single Subs round for k'
 Lookup: 1 0 0 "Single Subs DONE round syllabes - half width" { "consonants"  } []
 Lookup: 1 0 0 "Single Subs DONE round syllables - full width g-h-k" { "Single Subs round syllables - full width g-h-k-1"  } []
 Lookup: 1 0 0 "Single Subs -k to -k.F" { "Single Subs -k to -k.F-1"  } []
+Lookup: 1 0 0 "Single Subs -k.F back to -k" { "Single Subs -k.F back to -k-1"  } []
 Lookup: 1 0 0 "Single Subs DONE t-d at syllable.init" { "Single Subs t-d-1"  } []
 Lookup: 1 0 0 "Single Subs DONE t-k(M)-n at syllable.fina" { "Single Subs t at syllable.fina-1"  } []
 Lookup: 1 0 0 "Single Subs o-u.fina for isol syllable" { "Single Subs o-u.fina for isol syllable-1"  } []
@@ -80,14 +81,22 @@ Lookup: 1 0 0 "Single Subs DONE i-u after vowel" { "Single Subs i-u after vowel-
 Lookup: 1 0 0 "'isol' Isolated Forms" { "'isol' General Isolated Forms-1"  } ['isol' ('mong' <'dflt' > ) ]
 Lookup: 1 0 0 "'init' Initial Forms" { "'init' General Initial Forms-1"  } ['init' ('mong' <'dflt' > ) ]
 Lookup: 1 0 0 "'fina' Terminal Forms" { "'fina' General Terminal Forms-1"  } ['fina' ('mong' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' General Contextual Alternates" { "OK f before i-o-u-v"  "OK little i"  "OK i-u after vowel"  "OK t-d at syllable.init"  "OK e-u after t-d-k-g-h"  "OK t-k at syllable.fina"  } ['calt' ('mong' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' k.F at syllable.fina" { "calt vk"  "calt g-k-h-uk"  "calt k'-g'-h' ak"  "calt -ek sauf d"  } ['calt' ('mong' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' General Contextual Alternates" { "OK f before i-o-u-v"  "OK little i"  "OK i-u after vowel"  "OK t-d at syllable.init"  "OK e-u after t-d-k-g-h"  "OK t-k-n at syllable.fina"  } ['calt' ('mong' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' k.F at syllable.fina" { "calt e-vk"  "calt g-k-h-uk"  "calt k'-g'-h' ak"  } ['calt' ('mong' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' tek.F back to k" { "calt tek back to k"  } ['calt' ('mong' <'dflt' > ) ]
 Lookup: 6 4 0 "'calt' Round Syllables" { "calt round - OK half width - kgh"  "calt round - kgh special F half width"  "calt round - kgh special F form dflt"  "calt round - OK half width h'g'h'v"  "calt round - OK half width - bp"  "calt round - OK half width - k'g'h'"  "calt round - OK full width"  "calt round - OK vowels"  } ['calt' ('mong' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' -k.F at word.fina" { "calt vk.fina"  "calt g-k-h-uk.fina"  "calt -ek sauf d.fina"  "calt k'-g'-h'ak.fina"  } ['calt' ('mong' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' Special alters" { "calt dv"  "calt t-d force F"  "calt n.fina in en"  "calt o-u.fina for isol syllable"  "calt Round syllables fina"  "calt special zi.fina"  } ['calt' ('mong' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' FSV1 invisible in correct cases" { "'calt' FSV1 invisible in correct cases-1"  } ['calt' ('mong' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' graphic design" { "calt l-m after F"  "calt l-m after ng"  "short r for ra-re etc."  "long y in w/f*y"  } ['calt' ('mong' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "'calt' FSV1 invisible in correct cases-1" 0 0 0 1
+ 1 1 0
+  Coverage: 4 FVS1
+  BCoverage: 374 k.dflt k.init k.fina k.F.dflt k.F.fina k.repl1 k.repl2 g.dflt g.init g.F.dflt g.repl1 h.dflt h.init h.F.dflt h.repl1 t.dflt t.init t.fina t.F.dflt t.repl1 t.repl2 d.dflt d.init d.F.dflt d.repl0 d.repl1 d.repl2 k.prime.dflt k.prime.init k.prime.F.dflt k.prime.repl1 g.prime.dflt g.prime.init g.prime.F.dflt g.prime.repl1 h.prime.dflt h.prime.init h.prime.F.dflt h.prime.repl1
+ 1
+  SeqLookup: 0 "Single Subs FVS1 force alter"
+EndFPST
 ChainSub2: coverage "calt l-m after ng" 0 0 0 1
  1 1 0
   Coverage: 13 l.dflt m.dflt
@@ -118,12 +127,11 @@ ChainSub2: coverage "calt t-d force F" 0 0 0 1
 EndFPST
 ChainSub2: coverage "calt round - kgh special F half width" 0 0 0 1
  2 0 1
-  Coverage: 56 k.dflt k.init k.fina k.repl2 g.dflt g.init h.dflt h.init
+  Coverage: 41 k.dflt k.init g.dflt g.init h.dflt h.init
   Coverage: 4 FVS1
   FCoverage: 72 o.dflt o.init o.fina o.F.fina o.isol o.repl1 v.dlft v.init v.fina v.isol
- 2
+ 1
   SeqLookup: 0 "Single Subs DONE round syllabes - half width"
-  SeqLookup: 1 "Single Subs FVS1 force alter"
 EndFPST
 ChainSub2: coverage "calt round - kgh special F form dflt" 0 0 0 1
  1 0 1
@@ -175,63 +183,32 @@ ChainSub2: coverage "calt round - OK half width h'g'h'v" 0 0 0 1
  1
   SeqLookup: 0 "Single Subs DONE round for k'-g'-h'v"
 EndFPST
-ChainSub2: coverage "calt vk.fina" 0 0 0 1
+ChainSub2: coverage "calt e-vk" 0 0 0 1
  1 1 0
-  Coverage: 6 k.fina
-  BCoverage: 6 v.dlft
- 1
-  SeqLookup: 0 "Single Subs -k to -k.F"
-EndFPST
-ChainSub2: coverage "calt g-k-h-uk.fina" 0 0 0 1
- 1 2 0
-  Coverage: 6 k.fina
-  BCoverage: 10 u.bis.dflt
-  BCoverage: 23 k.repl1 g.repl1 h.repl1
- 1
-  SeqLookup: 0 "Single Subs -k to -k.F"
-EndFPST
-ChainSub2: coverage "calt vk" 0 0 0 1
- 1 1 0
-  Coverage: 7 k.repl2
-  BCoverage: 13 v.dlft v.init
+  Coverage: 14 k.fina k.repl2
+  BCoverage: 47 e.dflt e.init e.F.dflt e.bis.dflt v.dlft v.init
  1
   SeqLookup: 0 "Single Subs -k to -k.F"
 EndFPST
 ChainSub2: coverage "calt g-k-h-uk" 0 0 0 1
  1 2 0
-  Coverage: 7 k.repl2
+  Coverage: 14 k.fina k.repl2
   BCoverage: 10 u.bis.dflt
   BCoverage: 92 k.dflt k.init k.F.dflt k.repl1 g.dflt g.init g.F.dflt g.repl1 h.dflt h.init h.F.dflt h.repl1
  1
   SeqLookup: 0 "Single Subs -k to -k.F"
 EndFPST
-ChainSub2: coverage "calt -ek sauf d" 0 0 0 1
+ChainSub2: coverage "calt tek back to k" 0 0 0 1
  1 2 0
-  Coverage: 7 k.repl2
+  Coverage: 17 k.F.dflt k.F.fina
   BCoverage: 17 e.dflt e.bis.dflt
-  BCoverage: 582 n.dflt n.init s.dflt s.init x.dflt x.init k.dflt k.init k.F.dflt k.repl1 g.dflt g.init g.F.dflt g.repl1 h.dflt h.init h.F.dflt h.repl1 l.dflt l.init m.dflt m.init q.dflt q.init q.repl1 j.dflt j.repl1 j.repl2 y.dflt y.init y.repl1 r.dflt r.init r.repl1 r.prime.dflt r.prime.init f.dflt f.init f.repl1 f.repl2 w.dflt w.init c.dflt c.init z.dflt z.init t.dflt t.init t.repl1 b.dflt b.init b.F.dflt p.dflt p.init p.F.dflt k.prime.dflt k.prime.init k.prime.F.dflt k.prime.repl1 g.prime.dflt g.prime.init g.prime.F.dflt g.prime.repl1 h.prime.dflt h.prime.init h.prime.F.dflt h.prime.repl1
+  BCoverage: 45 t.dflt t.init t.fina t.F.dflt t.repl1 t.repl2
  1
-  SeqLookup: 0 "Single Subs -k to -k.F"
-EndFPST
-ChainSub2: coverage "calt -ek sauf d.fina" 0 0 0 1
- 1 2 0
-  Coverage: 6 k.fina
-  BCoverage: 17 e.dflt e.bis.dflt
-  BCoverage: 589 n.dflt n.init s.dflt s.init x.dflt x.init k.dflt k.init k.F.dflt k.repl1 g.dflt g.init g.F.dflt g.repl1 h.dflt h.init h.F.dflt h.repl1 l.dflt l.init m.dflt m.init q.dflt q.init q.repl1 j.dflt j.init j.repl1 j.repl2 y.dflt y.init y.repl1 r.dflt r.init r.repl1 r.prime.dflt r.prime.init f.dflt f.init f.repl1 f.repl2 w.dflt w.init c.dflt c.init z.dflt z.init t.dflt t.init t.repl1 b.dflt b.init b.F.dflt p.dflt p.init p.F.dflt k.prime.dflt k.prime.init k.prime.F.dflt k.prime.repl1 g.prime.dflt g.prime.init g.prime.F.dflt g.prime.repl1 h.prime.dflt h.prime.init h.prime.F.dflt h.prime.repl1
- 1
-  SeqLookup: 0 "Single Subs -k to -k.F"
-EndFPST
-ChainSub2: coverage "calt k'-g'-h'ak.fina" 0 0 0 1
- 1 2 0
-  Coverage: 6 k.fina
-  BCoverage: 6 a.dflt
-  BCoverage: 164 k.prime.dflt k.prime.init k.prime.F.dflt k.prime.repl1 g.prime.dflt g.prime.init g.prime.F.dflt g.prime.repl1 h.prime.dflt h.prime.init h.prime.F.dflt h.prime.repl1
- 1
-  SeqLookup: 0 "Single Subs -k to -k.F"
+  SeqLookup: 0 "Single Subs -k.F back to -k"
 EndFPST
 ChainSub2: coverage "calt k'-g'-h' ak" 0 0 0 1
  1 2 0
-  Coverage: 7 k.repl2
+  Coverage: 14 k.fina k.repl2
   BCoverage: 6 a.dflt
   BCoverage: 164 k.prime.dflt k.prime.init k.prime.F.dflt k.prime.repl1 g.prime.dflt g.prime.init g.prime.F.dflt g.prime.repl1 h.prime.dflt h.prime.init h.prime.F.dflt h.prime.repl1
  1
@@ -278,7 +255,7 @@ ChainSub2: coverage "calt Round syllables fina" 0 0 0 1
   BCoverage: 261 k.F.dflt k.repl1 g.F.dflt g.repl1 h.F.dflt h.repl1 b.dflt b.init b.F.dflt p.dflt p.init p.F.dflt k.prime.dflt k.prime.init k.prime.F.dflt k.prime.repl1 g.prime.dflt g.prime.init g.prime.F.dflt g.prime.repl1 h.prime.dflt h.prime.init h.prime.F.dflt h.prime.repl1
  0
 EndFPST
-ChainSub2: coverage "OK t-k at syllable.fina" 0 0 0 1
+ChainSub2: coverage "OK t-k-n at syllable.fina" 0 0 0 1
  1 0 1
   Coverage: 20 n.dflt k.dflt t.dflt
   FCoverage: 454 n.dflt s.dflt x.dflt k.dflt k.F.dflt k.repl1 g.dflt g.F.dflt g.repl1 h.dflt h.F.dflt h.repl1 l.dflt l.F.dflt m.dflt m.F.dflt q.dflt q.repl1 j.dflt j.repl1 y.dflt y.repl1 r.dflt r.repl1 r.prime.dflt f.dflt w.dflt c.dflt z.dflt t.dflt t.F.dflt d.dflt d.F.dflt b.dflt b.F.dflt p.dflt p.F.dflt k.prime.dflt k.prime.init k.prime.F.dflt k.prime.repl1 g.prime.dflt g.prime.init g.prime.F.dflt g.prime.repl1 h.prime.dflt h.prime.init h.prime.F.dflt h.prime.repl1
@@ -288,7 +265,7 @@ EndFPST
 ChainSub2: coverage "OK e-u after t-d-k-g-h" 0 0 0 1
  1 1 0
   Coverage: 71 e.dflt e.fina e.F.dflt e.F.fina u.dflt u.fina u.F.dflt u.F.fina u.repl1
-  BCoverage: 291 k.dflt k.init k.F.dflt k.repl1 g.dflt g.init g.F.dflt g.repl1 h.dflt h.init h.F.dflt h.repl1 t.F.dflt t.repl1 d.F.dflt d.repl1 k.prime.dflt k.prime.init k.prime.F.dflt k.prime.repl1 g.prime.dflt g.prime.init g.prime.F.dflt g.prime.repl1 h.prime.dflt h.prime.init h.prime.F.dflt h.prime.repl1
+  BCoverage: 374 k.dflt k.init k.fina k.F.dflt k.F.fina k.repl1 k.repl2 g.dflt g.init g.F.dflt g.repl1 h.dflt h.init h.F.dflt h.repl1 t.dflt t.init t.fina t.F.dflt t.repl1 t.repl2 d.dflt d.init d.F.dflt d.repl0 d.repl1 d.repl2 k.prime.dflt k.prime.init k.prime.F.dflt k.prime.repl1 g.prime.dflt g.prime.init g.prime.F.dflt g.prime.repl1 h.prime.dflt h.prime.init h.prime.F.dflt h.prime.repl1
  1
   SeqLookup: 0 "Single Subs DONE e-u to e.bis-u.bis"
 EndFPST
@@ -308,7 +285,7 @@ ChainSub2: coverage "calt n.fina in en" 0 0 0 1
 EndFPST
 ChainSub2: coverage "OK i-u after vowel" 0 0 0 1
  1 1 0
-  Coverage: 28 i.dflt u.dflt u.fina u.repl1
+  Coverage: 37 i.dflt u.dflt u.fina u.F.fina u.repl1
   BCoverage: 344 a.dflt a.init a.fina a.F.fina a.isol e.dflt e.init e.fina e.F.dflt e.F.fina e.isol e.bis.dflt e.bis.fina e.bis.F.fina i.dflt i.init i.fina i.F.fina i.isol i.repl1 i.repl2 o.dflt o.init o.fina o.F.fina o.isol o.repl1 u.dflt u.init u.fina u.F.dflt u.F.fina u.isol u.repl1 u.bis.dflt u.bis.fina u.bis.F.fina u.bis.repl1 v.dlft v.init v.fina v.isol
  1
   SeqLookup: 0 "Single Subs DONE i-u after vowel"
@@ -325,10 +302,10 @@ GaspTable: 3 8 2 17 1 65535 3 0
 Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -72
+DisplaySize: -48
 AntiAlias: 1
-FitToEm: 0
-WinInfo: 0 8 9
+FitToEm: 1
+WinInfo: 56 8 12
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -342,22 +319,23 @@ BeginChars: 304 305
 
 StartChar: a.dflt
 Encoding: 0 6176 0
-Width: 488
+Width: 409
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 656 m 4,0,1
- 0 572.735351562 0 572.735351562 39.498046875 532.169921875 c 260,2,3
- 78.9951171875 492.672851562 78.9951171875 492.672851562 163.327148438 492.672851562 c 4,4,5
- 243.389648438 493.740234375 243.389648438 493.740234375 287.157226562 532.169921875 c 4,6,7
- 326.655273438 572.735351562 326.655273438 572.735351562 326.655273438 656 c 4,8,9
- 326.655273438 734.995117188 326.655273438 734.995117188 287.157226562 777.6953125 c 4,10,11
- 243.389648438 816.125 243.389648438 816.125 163.327148438 818.259765625 c 4,12,13
- 80.0625 818.259765625 80.0625 818.259765625 39.498046875 777.6953125 c 4,14,15
- 0 734.995117188 0 734.995117188 0 656 c 4,0,1
+0 735 m 5,0,-1
+ 409 735 l 5,1,-1
+ 489 656 l 5,2,-1
+ 409 571 l 5,3,-1
+ 164 571 l 5,4,-1
+ 164 409 l 6,5,6
+ 164 328 164 328 82 328 c 132,-1,7
+ 0 328 0 328 0 410 c 6,8,-1
+ 0 735 l 5,0,-1
 EndSplineSet
+Validated: 1
 Substitution2: "'isol' General Isolated Forms-1" a.isol
 Substitution2: "'fina' General Terminal Forms-1" a.fina
 Substitution2: "'init' General Initial Forms-1" a.init
@@ -365,32 +343,35 @@ EndChar
 
 StartChar: a.init
 Encoding: 1 -1 1
-Width: 1384
+Width: 1312
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-489.413971735 803.849635987 m 1,0,1
- 410.172851562 770.712048673 410.172851562 770.712048673 410.172851562 656 c 0,2,3
- 410.172851562 572.735351562 410.172851562 572.735351562 449.670410156 532.704101562 c 128,-1,4
- 489.16796875 492.672851562 489.16796875 492.672851562 573.5 492.672851562 c 0,5,6
- 690.560699149 494.233489543 690.560699149 494.233489543 722.421235813 571 c 1,7,-1
- 911.579740749 571 l 1,8,9
- 944.087991675 492.672851562 944.087991675 492.672851562 1060.5 492.672851562 c 0,10,11
- 1140.5625 493.740234375 1140.5625 493.740234375 1184.33007812 532.169921875 c 1,12,13
- 1223.828125 572.735351562 1223.828125 572.735351562 1223.828125 653.865234375 c 128,-1,14
- 1223.828125 734.995117188 1223.828125 734.995117188 1184.33007812 777.6953125 c 1,15,16
- 1140.5625 816.125 1140.5625 816.125 1060.5 818.259765625 c 0,17,18
- 942.927926955 818.259765625 942.927926955 818.259765625 910.292796431 735 c 1,19,-1
- 723.708180132 735 l 1,20,21
- 704.587970103 783.780077792 704.587970103 783.780077792 654.112466511 803.593627461 c 1,22,23
- 620.811621677 1392 620.811621677 1392 0 1392 c 0,24,25
- -81 1392 -81 1392 -81 1310 c 128,-1,26
- -81 1228 -81 1228 0 1228 c 0,27,28
- 243 1229 243 1229 367.5 1104.5 c 0,29,30
- 474.056741684 997.943258316 474.056741684 997.943258316 489.413971735 803.849635987 c 1,0,1
+0 1392 m 0,0,1
+ 656 1392 656 1392 656 735 c 1,2,-1
+ 1312 735 l 1,3,-1
+ 1392 656 l 1,4,5
+ 1352 614 1352 614 1312 571 c 1,6,-1
+ 1063 571 l 1,7,-1
+ 1063 409 l 2,8,9
+ 1063 328 1063 328 981.5 328 c 128,-1,10
+ 900 328 900 328 899 410 c 128,-1,11
+ 898 492 898 492 899 492 c 1,12,-1
+ 899 571 l 1,13,-1
+ 656 571 l 1,14,-1
+ 656 409 l 2,15,16
+ 656 328 656 328 573.5 328 c 128,-1,17
+ 491 328 491 328 492 410 c 128,-1,18
+ 493 492 493 492 492 492 c 1,19,-1
+ 492 736 l 2,20,21
+ 492 980 492 980 367.5 1104.5 c 128,-1,22
+ 243 1229 243 1229 0 1228 c 0,23,24
+ -81 1228 -81 1228 -81 1310 c 128,-1,25
+ -81 1392 -81 1392 0 1392 c 0,0,1
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: a.fina
@@ -401,22 +382,18 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
--78.787109375 653.1953125 m 128,-1,1
- -78.787109375 618.833984375 -78.787109375 618.833984375 -55.8447265625 594.884765625 c 128,-1,2
- -32.90234375 570.936523438 -32.90234375 570.936523438 0.0146484375 570.936523438 c 0,3,4
- 1.70938776582 570.936523438 1.70938776582 570.936523438 3.37768607609 571 c 2,5,-1
- 571 571 l 2,6,7
- 1228 571 1228 571 1227 1227.5 c 128,-1,8
- 1226 1884 1226 1884 571 1884 c 0,9,10
- 492 1884 492 1884 491 1802 c 128,-1,11
- 490 1720 490 1720 571 1720 c 0,12,13
- 1063 1724 1063 1724 1063 1229.49190283 c 128,-1,14
- 1063 735 1063 735 571 735 c 2,15,-1
- 8.89104469261 735 l 2,16,17
- 4.54742019621 735.454101562 4.54742019621 735.454101562 -14.1774617769 735.454101562 c 128,-1,19
- -32.90234375 735.454101562 -32.90234375 735.454101562 -55.8447265625 711.504882812 c 128,-1,0
- -78.787109375 687.556640625 -78.787109375 687.556640625 -78.787109375 653.1953125 c 128,-1,1
+571 1884 m 0,0,1
+ 1226 1884 1226 1884 1227 1227.5 c 128,-1,2
+ 1228 571 1228 571 571 571 c 2,3,-1
+ 0 571 l 1,4,-1
+ 0 735 l 1,5,-1
+ 571 735 l 2,6,7
+ 1063 735 1063 735 1063 1229.49190283 c 128,-1,8
+ 1063 1723.98380567 1063 1723.98380567 571 1720 c 0,9,10
+ 490 1720 490 1720 491 1803 c 128,-1,11
+ 492 1886 492 1886 571 1884 c 0,0,1
 EndSplineSet
+Validated: 33
 Substitution2: "final vowels" a.F.fina
 EndChar
 
@@ -453,21 +430,22 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-163.327148438 818.259765625 m 0,0,1
- 0 818.259765625 0 818.259765625 0 656 c 0,2,3
- 0 572.735351562 0 572.735351562 39.4975585938 532.704101562 c 128,-1,4
- 78.9951171875 492.672851562 78.9951171875 492.672851562 163.327148438 492.672851562 c 0,5,6
- 280.387847586 494.233489543 280.387847586 494.233489543 312.248384251 571 c 1,7,-1
- 656 571 l 1,8,9
- 1147 575 1147 575 1148 83 c 128,-1,10
- 1149 -409 1149 -409 656 -409 c 0,11,12
- 570 -409 570 -409 571 -490 c 128,-1,13
- 572 -571 572 -571 656 -571 c 0,14,15
- 1312 -571 1312 -571 1312 82 c 128,-1,16
- 1312 735 1312 735 656 735 c 2,17,-1
- 313.535328569 735 l 1,18,19
- 282.141969991 815.091718202 282.141969991 815.091718202 163.327148438 818.259765625 c 0,0,1
+1148 81 m 0,0,1
+ 1148 575.049382716 1148 575.049382716 656 571 c 1,2,-1
+ 164 571 l 1,3,-1
+ 164 409 l 2,4,5
+ 164 328 164 328 82 328 c 128,-1,6
+ 0 328 0 328 0 410 c 2,7,-1
+ 0 735 l 1,8,-1
+ 656 735 l 2,9,10
+ 1312 735 1312 735 1312 81 c 0,11,12
+ 1312 -243 1312 -243 1148 -408 c 0,13,14
+ 984 -573 984 -573 656 -571 c 0,15,16
+ 573 -571 573 -571 571 -492 c 0,17,18
+ 571 -409 571 -409 656 -409 c 0,19,20
+ 1150 -409 1150 -409 1148 81 c 0,0,1
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: a.isol
@@ -477,60 +455,56 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-489.562510183 804.11901591 m 1,0,1
- 409.672851562 771.160210347 409.672851562 771.160210347 409.672851562 656 c 0,2,3
- 409.672851562 536.81867193 409.672851562 536.81867193 491.431398436 505.504287135 c 1,4,-1
- 484 682 l 1,5,6
- 484.979297147 658.741692758 484.979297147 658.741692758 492 642.080322782 c 1,7,-1
- 492 505.2878277 l 1,8,9
- 525.340077025 492.672851562 525.340077025 492.672851562 573 492.672851562 c 0,10,11
- 690.060699149 494.233489543 690.060699149 494.233489543 721.921235813 571 c 1,12,-1
- 1148 571 l 2,13,14
- 1805 571 1805 571 1805 1226.5 c 128,-1,15
- 1805 1882 1805 1882 1148 1884 c 0,16,17
- 1063 1884 1063 1884 1063 1805 c 0,18,19
- 1063 1720 1063 1720 1148 1720 c 0,20,21
- 1641 1720 1641 1720 1641 1230.5 c 0,22,23
- 1641 735 1641 735 1148.5 735 c 2,24,-1
- 723.208180132 735 l 1,25,26
- 704.174756271 783.558666206 704.174756271 783.558666206 654.123863119 803.391933925 c 1,27,28
- 620.918013253 1392 620.918013253 1392 0 1392 c 0,29,30
- -81 1392 -81 1392 -81 1310 c 128,-1,31
- -81 1228 -81 1228 0 1228 c 0,32,33
- 457.369883198 1228 457.369883198 1228 489.562510183 804.11901591 c 1,0,1
-492 505.2878277 m 2,34,-1
- 492 492 l 1,35,-1
- 491.431398436 505.504287135 l 1,36,37
- 491.71517667 505.395597082 491.71517667 505.395597082 492 505.2878277 c 2,34,-1
+656 735 m 1,0,-1
+ 1148.5 735 l 2,1,2
+ 1641 735 1641 735 1641 1230.5 c 0,3,4
+ 1641 1476 1641 1476 1516 1599 c 128,-1,5
+ 1391 1722 1391 1722 1148 1720 c 0,6,7
+ 1065 1720 1065 1720 1063 1805 c 0,8,9
+ 1063 1886 1063 1886 1148 1884 c 0,10,11
+ 1805 1884 1805 1884 1805 1227.5 c 0,12,13
+ 1805 571 1805 571 1148 571 c 2,14,-1
+ 656 571 l 1,15,-1
+ 656 409 l 2,16,17
+ 656 328 656 328 573 328 c 128,-1,18
+ 490 328 490 328 491 410 c 2,19,-1
+ 492 492 l 1,20,-1
+ 492 737.5 l 2,21,22
+ 492 1230.02469136 492 1230.02469136 0 1228 c 0,23,24
+ -81 1228 -81 1228 -81 1310 c 128,-1,25
+ -81 1392 -81 1392 0 1392 c 0,26,27
+ 656 1392 656 1392 656 735 c 1,0,-1
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: e.dflt
 Encoding: 8 6237 6
-Width: 487
+Width: 409
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 656 m 0,0,1
- 0 572.735351562 0 572.735351562 39.498046875 532.169921875 c 256,2,3
- 78.9951171875 492.672851562 78.9951171875 492.672851562 163.327148438 492.672851562 c 0,4,5
- 243.389648438 493.740234375 243.389648438 493.740234375 287.157226562 532.169921875 c 1,6,7
- 326.655273438 572.735351562 326.655273438 572.735351562 326.655273438 656 c 0,8,9
- 326.655273438 734.995117188 326.655273438 734.995117188 287.157226562 777.6953125 c 1,10,11
- 243.389648438 816.125 243.389648438 816.125 163.327148438 818.259765625 c 0,12,13
- 80.0625 818.259765625 80.0625 818.259765625 39.498046875 777.6953125 c 0,14,15
- 0 734.995117188 0 734.995117188 0 656 c 0,0,1
-260.213867188 1356 m 4,16,17
- 294 1322 294 1322 295.0546875 1271.15917969 c 4,18,19
- 296 1220 296 1220 260.213867188 1184 c 5,20,21
- 235 1150 235 1150 166 1149.33984375 c 4,22,23
- 97 1148 97 1148 60.2138671875 1225 c 4,24,25
- 53 1240 53 1240 52.2138671875 1269 c 4,26,27
- 52 1347 52 1347 129.213867188 1384 c 5,28,29
- 208 1408 208 1408 260.213867188 1356 c 4,16,17
+168 1356 m 0,0,1
+ 201.681818182 1322.31818182 201.681818182 1322.31818182 202.840909091 1271.15909091 c 128,-1,2
+ 204 1220 204 1220 168 1184 c 1,3,4
+ 142.6124197 1150.67880086 142.6124197 1150.67880086 73.7862098501 1149.33940043 c 128,-1,5
+ 4.96 1148 4.96 1148 -32 1225 c 0,6,7
+ -39 1246 -39 1246 -40 1269 c 0,8,9
+ -40 1347.04 -40 1347.04 37 1384 c 1,10,11
+ 111.12145749 1406.55870445 111.12145749 1406.55870445 168 1356 c 0,0,1
+0 409 m 2,12,-1
+ 0 735 l 1,13,-1
+ 409 735 l 1,14,-1
+ 489 656 l 1,15,-1
+ 409 571 l 1,16,-1
+ 164 571 l 1,17,-1
+ 164 409 l 2,18,19
+ 164 328 164 328 82 328 c 128,-1,20
+ 0 328 0 328 0 409 c 2,12,-1
 EndSplineSet
+Validated: 33
 Substitution2: "dflt vowels" e.F.dflt
 Substitution2: "Single Subs e-u after t-d-1" e.bis.dflt
 Substitution2: "'isol' General Isolated Forms-1" e.isol
@@ -546,24 +520,23 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-489.413971735 803.849635987 m 1,0,1
- 410.172851562 770.712048673 410.172851562 770.712048673 410.172851562 653.754983354 c 128,-1,2
- 410.172851562 536.797918035 410.172851562 536.797918035 491.962352358 505.492435386 c 0,3,4
- 491.981176179 505.492435386 491.981176179 505.492435386 508.731649363 499.082643474 c 128,-1,5
- 525.482122548 492.672851562 525.482122548 492.672851562 589.522311274 493.206542969 c 128,-1,6
- 653.5625 493.740234375 653.5625 493.740234375 697.330078125 532.169921875 c 1,7,8
- 736.828125 572.735351562 736.828125 572.735351562 736.828125 653.865234375 c 128,-1,9
- 736.828125 734.995117188 736.828125 734.995117188 697.330078125 777.6953125 c 0,10,11
- 678.928999372 793.852197035 678.928999372 793.852197035 654.112466511 803.593627461 c 1,12,13
- 620.811621677 1392 620.811621677 1392 0 1392 c 0,14,15
- -81 1392 -81 1392 -81 1310 c 128,-1,16
- -81 1228 -81 1228 0 1228 c 0,17,18
- 243 1229 243 1229 367.5 1104.5 c 0,19,20
- 474.056741684 997.943258316 474.056741684 997.943258316 489.413971735 803.849635987 c 1,0,1
-492 492 m 1,21,22
- 491.98080784 498.832409022 491.98080784 498.832409022 491.962352358 505.492435386 c 1,23,24
- 492 492 492 492 492 492 c 1,21,22
+0 1392 m 0,0,1
+ 656 1392 656 1392 656 735 c 1,2,-1
+ 1312 735 l 1,3,4
+ 1352 696 1352 696 1392 656 c 1,5,-1
+ 1312 571 l 1,6,-1
+ 656 571 l 1,7,-1
+ 656 409 l 2,8,9
+ 656 328 656 328 573.5 328 c 128,-1,10
+ 491 328 491 328 492 410 c 128,-1,11
+ 493 492 493 492 492 492 c 1,12,-1
+ 492 736 l 2,13,14
+ 492 980 492 980 367.5 1104.5 c 128,-1,15
+ 243 1229 243 1229 0 1228 c 0,16,17
+ -81 1228 -81 1228 -81 1310 c 128,-1,18
+ -81 1392 -81 1392 0 1392 c 0,0,1
 EndSplineSet
+Validated: 33
 Substitution2: "dflt vowels" e.F.dflt
 EndChar
 
@@ -573,48 +546,28 @@ Width: 1227
 VWidth: 4095
 Flags: W
 LayerCount: 2
-Back
-SplineSet
--78.787109375 653.1953125 m 132,-1,1
- -78.787109375 687.556640625 -78.787109375 687.556640625 -55.8447265625 711.504882812 c 132,-1,2
- -32.90234375 735.454101562 -32.90234375 735.454101562 0.0146484375 735.454101562 c 132,-1,3
- 32.9326171875 735.454101562 32.9326171875 735.454101562 55.875 711.504882812 c 132,-1,4
- 78.8173828125 687.556640625 78.8173828125 687.556640625 78.8173828125 653.1953125 c 132,-1,5
- 78.8173828125 618.833984375 78.8173828125 618.833984375 55.875 594.884765625 c 132,-1,6
- 32.9326171875 570.936523438 32.9326171875 570.936523438 0.0146484375 570.936523438 c 132,-1,7
- -32.90234375 570.936523438 -32.90234375 570.936523438 -55.8447265625 594.884765625 c 132,-1,0
- -78.787109375 618.833984375 -78.787109375 618.833984375 -78.787109375 653.1953125 c 132,-1,1
-EndSplineSet
 Fore
 SplineSet
--78.787109375 653.1953125 m 132,-1,1
- -78.787109375 687.556640625 -78.787109375 687.556640625 -55.8447265625 711.504882812 c 132,-1,2
- -32.90234375 735.454101562 -32.90234375 735.454101562 0.0146484375 735.454101562 c 132,-1,3
- 32.9326171875 735.454101562 32.9326171875 735.454101562 55.875 711.504882812 c 132,-1,4
- 78.8173828125 687.556640625 78.8173828125 687.556640625 78.8173828125 653.1953125 c 132,-1,5
- 78.8173828125 618.833984375 78.8173828125 618.833984375 55.875 594.884765625 c 132,-1,6
- 32.9326171875 570.936523438 32.9326171875 570.936523438 0.0146484375 570.936523438 c 132,-1,7
- -32.90234375 570.936523438 -32.90234375 570.936523438 -55.8447265625 594.884765625 c 132,-1,0
- -78.787109375 618.833984375 -78.787109375 618.833984375 -78.787109375 653.1953125 c 132,-1,1
-688 1315 m 1,8,9
- 712.266666667 1235.26666667 712.266666667 1235.26666667 661 1184 c 1,10,11
- 635.460377358 1150.47924528 635.460377358 1150.47924528 575.444474394 1149.23962264 c 128,-1,12
- 515.428571429 1148 515.428571429 1148 488 1184 c 1,13,14
- 453 1210.66666667 453 1210.66666667 453 1278.02898551 c 128,-1,15
- 453 1345.39130435 453 1345.39130435 527 1384 c 0,16,17
- 548 1391 548 1391 571 1392 c 0,18,19
- 654.12 1392 654.12 1392 688 1315 c 1,8,9
-571 1884 m 0,20,21
- 1226 1884 1226 1884 1227 1227.5 c 128,-1,22
- 1228 571 1228 571 571 571 c 2,23,-1
- 0 571 l 1,24,-1
- 0 735 l 1,25,-1
- 571 735 l 2,26,27
- 1063 735 1063 735 1063 1229.49190283 c 128,-1,28
- 1063 1723.98380567 1063 1723.98380567 571 1720 c 0,29,30
- 490 1720 490 1720 491 1803 c 128,-1,31
- 492 1886 492 1886 571 1884 c 0,20,21
+688 1315 m 1,0,1
+ 712.266666667 1235.26666667 712.266666667 1235.26666667 661 1184 c 1,2,3
+ 635.460377358 1150.47924528 635.460377358 1150.47924528 575.444474394 1149.23962264 c 128,-1,4
+ 515.428571429 1148 515.428571429 1148 488 1184 c 1,5,6
+ 453 1210.66666667 453 1210.66666667 453 1278.02898551 c 128,-1,7
+ 453 1345.39130435 453 1345.39130435 527 1384 c 0,8,9
+ 548 1391 548 1391 571 1392 c 0,10,11
+ 654.12 1392 654.12 1392 688 1315 c 1,0,1
+571 1884 m 0,12,13
+ 1226 1884 1226 1884 1227 1227.5 c 128,-1,14
+ 1228 571 1228 571 571 571 c 2,15,-1
+ 0 571 l 1,16,-1
+ 0 735 l 1,17,-1
+ 571 735 l 2,18,19
+ 1063 735 1063 735 1063 1229.49190283 c 128,-1,20
+ 1063 1723.98380567 1063 1723.98380567 571 1720 c 0,21,22
+ 490 1720 490 1720 491 1803 c 128,-1,23
+ 492 1886 492 1886 571 1884 c 0,12,13
 EndSplineSet
+Validated: 33
 Substitution2: "Single Subs e-u after t-d-1" e.bis.fina
 Substitution2: "final vowels" e.F.fina
 EndChar
@@ -626,18 +579,46 @@ VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
-Refer: 4 -1 N 1 0 0 1 0 0 2
+SplineSet
+-404 1849 m 1,0,1
+ -327.027027027 1772.02702703 -327.027027027 1772.02702703 -404 1671 c 0,2,3
+ -420 1655 -420 1655 -444 1648 c 1,4,5
+ -467 1636 -467 1636 -503.8125 1636 c 128,-1,6
+ -540.625 1636 -540.625 1636 -580 1671 c 1,7,8
+ -596 1692 -596 1692 -604 1715 c 1,9,10
+ -616 1736 -616 1736 -617 1759 c 0,11,12
+ -617 1782 -617 1782 -604 1808 c 1,13,14
+ -597 1831 -597 1831 -580 1849 c 1,15,16
+ -559 1865 -559 1865 -541 1876 c 1,17,18
+ -461.887931035 1900.07758621 -461.887931035 1900.07758621 -404 1849 c 1,0,1
+1148 81 m 0,19,20
+ 1148 575.049382716 1148 575.049382716 656 571 c 1,21,-1
+ 164 571 l 1,22,-1
+ 164 409 l 2,23,24
+ 164 328 164 328 82 328 c 128,-1,25
+ 0 328 0 328 0 410 c 2,26,-1
+ 0 735 l 1,27,-1
+ 656 735 l 2,28,29
+ 1312 735 1312 735 1312 81 c 0,30,31
+ 1312 -243 1312 -243 1148 -408 c 128,-1,32
+ 984 -573 984 -573 656 -571 c 0,33,34
+ 573 -571 573 -571 571 -492 c 0,35,36
+ 571 -409 571 -409 656 -409 c 0,37,38
+ 1150 -409 1150 -409 1148 81 c 0,19,20
+EndSplineSet
+Validated: 33
 Substitution2: "Single Subs e-u after t-d-1" e.bis.F.fina
 EndChar
 
 StartChar: e.bis.dflt
 Encoding: 16 -1 10
-Width: 488
+Width: 409
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 Refer: 0 6176 N 1 0 0 1 0 0 2
+Validated: 1
 Substitution2: "'fina' General Terminal Forms-1" e.bis.fina
 EndChar
 
@@ -659,6 +640,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2 -1 N 1 0 0 1 0 0 2
+Validated: 1
 Substitution2: "final vowels" e.bis.F.fina
 EndChar
 
@@ -680,6 +662,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 4 -1 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: NameMe.21
@@ -714,20 +697,23 @@ EndChar
 
 StartChar: i.dflt
 Encoding: 24 6259 18
-Width: 324
+Width: 409
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 735 m 2,0,1
- 0 816 0 816 82 816 c 128,-1,2
- 164 816 164 816 164 735 c 2,3,-1
- 164 0 l 2,4,5
- 164 -81 164 -81 82 -80.999525013 c 128,-1,6
- 0 -81 0 -81 0 0 c 2,7,-1
- 0 735 l 2,0,1
+0 735 m 1,0,-1
+ 409 735 l 1,1,2
+ 449 696 449 696 489 656 c 1,3,-1
+ 409 571 l 1,4,-1
+ 164 571 l 1,5,-1
+ 164 0 l 2,6,7
+ 164 -81 164 -81 82 -81 c 128,-1,8
+ 0 -81 0 -81 0 0 c 2,9,-1
+ 0 735 l 1,0,-1
 EndSplineSet
+Validated: 1
 Substitution2: "Single Subs little -i-1" i.fina
 Substitution2: "'init' General Initial Forms-1" i.init
 Substitution2: "'fina' General Terminal Forms-1" i.fina
@@ -764,7 +750,6 @@ SplineSet
  -81 1228 -81 1228 -81 1310 c 128,-1,23
  -81 1392 -81 1392 0 1392 c 0,0,1
 EndSplineSet
-Validated: 33
 Substitution2: "Single Subs little -i-1" i.fina
 EndChar
 
@@ -959,6 +944,7 @@ SplineSet
  656 571 l 1,16,-1
  656 492 l 2,6,7
 EndSplineSet
+Validated: 33
 Substitution2: "'isol' General Isolated Forms-1" o.isol
 Substitution2: "'fina' General Terminal Forms-1" o.fina
 Substitution2: "'init' General Initial Forms-1" o.init
@@ -1058,27 +1044,21 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-326.654296875 983.1953125 m 256,0,1
- 484 983 484 983 567.91015625 897.794921875 c 0,2,3
- 653 812 653 812 654 657 c 256,4,5
- 655 497 655 497 567.91015625 409.947265625 c 0,6,7
- 488 330 488 330 326.654296875 329.884765625 c 256,8,9
- 159 330 159 330 80.0625 409.947265625 c 0,10,11
- 0 491 0 491 0 656.540039062 c 1,12,13
- 0 656.540039062 0 656.540039062 0 656.540039062 c 257,14,15
- 0 656.540039062 0 656.540039062 0 656.540039062 c 1,16,17
- 0 816 0 816 80.0625 897.794921875 c 0,18,19
- 163 983 163 983 326.654296875 983.1953125 c 256,0,1
-163.327148438 656.540039062 m 4,20,21
- 163.327148438 573.275390625 163.327148438 573.275390625 202.825195312 532.709960938 c 260,22,23
- 242.322265625 493.212890625 242.322265625 493.212890625 326.654296875 493.212890625 c 4,24,25
- 406.716796875 494.280273438 406.716796875 494.280273438 450.484375 532.709960938 c 4,26,27
- 489.982421875 573.275390625 489.982421875 573.275390625 489.982421875 656.540039062 c 4,28,29
- 489.982421875 735.53515625 489.982421875 735.53515625 450.484375 778.235351562 c 4,30,31
- 406.716796875 816.665039062 406.716796875 816.665039062 326.654296875 818.799804688 c 4,32,33
- 243.389648438 818.799804688 243.389648438 818.799804688 202.825195312 778.235351562 c 4,34,35
- 163.327148438 735.53515625 163.327148438 735.53515625 163.327148438 656.540039062 c 4,20,21
+492 492 m 1,0,-1
+ 492 571 l 1,1,-1
+ 164 571 l 1,2,-1
+ 164 490 l 2,3,4
+ 164 328 164 328 328.976190476 328 c 128,-1,5
+ 493.952380952 328 493.952380952 328 492 492 c 1,0,-1
+656 492 m 2,6,7
+ 656 164 656 164 328 164 c 128,-1,8
+ 0 164 0 164 0 492 c 1,9,10
+ 4 492 4 492 2 581.5 c 128,-1,11
+ 0 671 0 671 0 735 c 1,12,-1
+ 656 735 l 1,13,-1
+ 656 492 l 2,6,7
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: o.isol
@@ -1468,6 +1448,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 26 6179 N 1 0 0 1 0 0 2
+Validated: 1
 Substitution2: "'fina' General Terminal Forms-1" u.bis.fina
 EndChar
 
@@ -1512,6 +1493,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 30 -1 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: NameMe.45
@@ -1570,10 +1552,9 @@ SplineSet
  492 571 l 1,16,-1
  164 571 l 1,17,-1
  164 490 l 2,18,19
- 164 328 164 328 327.046644389 328 c 0,20,21
+ 164 328 164 328 327.046644389 328 c 128,-1,20
  490.093288778 328 490.093288778 328 492 484.417222395 c 1,14,-1
 EndSplineSet
-Validated: 33
 Substitution2: "'isol' General Isolated Forms-1" v.isol
 Substitution2: "'fina' General Terminal Forms-1" v.fina
 Substitution2: "'init' General Initial Forms-1" v.init
@@ -1581,41 +1562,42 @@ EndChar
 
 StartChar: v.init
 Encoding: 57 -1 51
-Width: 1556
+Width: 1801
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1063 492 m 2,0,1
- 1063 328 1063 328 1227.5 328 c 128,-1,2
- 1392 328 1392 328 1392 492 c 2,3,-1
- 1392 571 l 1,4,-1
- 1063 571 l 1,5,-1
- 1063 492 l 2,0,1
-1228 164 m 0,6,7
- 903 164 903 164 899 492 c 1,8,-1
- 899 571 l 1,9,-1
- 656 571 l 1,10,-1
- 656 409 l 2,11,12
- 656 328 656 328 573 328 c 128,-1,13
- 490 328 490 328 491 410 c 2,14,-1
- 492 492 l 1,15,-1
- 492 737.5 l 2,16,17
- 492 1230.02469136 492 1230.02469136 0 1228 c 0,18,19
- -81 1228 -81 1228 -81 1310 c 128,-1,20
- -81 1392 -81 1392 0 1392 c 0,21,22
- 656 1392 656 1392 656 735 c 1,23,-1
- 1556 735 l 1,24,-1
- 1636 656 l 1,25,-1
- 1556 571 l 1,26,-1
- 1556 0 l 2,27,28
- 1556 -81 1556 -81 1475 -81 c 128,-1,29
- 1394 -81 1394 -81 1392 0 c 1,30,-1
- 1392 191.262089849 l 1,31,32
- 1324.30418295 164 1324.30418295 164 1228 164 c 0,6,7
+1228 164 m 0,0,1
+ 903 164 903 164 899 492 c 1,2,-1
+ 899 571 l 1,3,-1
+ 656 571 l 1,4,-1
+ 656 409 l 2,5,6
+ 656 328 656 328 573 328 c 128,-1,7
+ 490 328 490 328 491 410 c 2,8,-1
+ 492 492 l 1,9,-1
+ 492 737.5 l 2,10,11
+ 492 1230.02469136 492 1230.02469136 0 1228 c 0,12,13
+ -81 1228 -81 1228 -81 1310 c 128,-1,14
+ -81 1392 -81 1392 0 1392 c 0,15,16
+ 656 1392 656 1392 656 735 c 1,17,-1
+ 1801 735 l 1,18,-1
+ 1881 656 l 1,19,-1
+ 1801 571 l 1,20,-1
+ 1556 571 l 1,21,-1
+ 1556 409 l 1,22,-1
+ 1556 0 l 2,23,24
+ 1556 -81 1556 -81 1475 -81 c 128,-1,25
+ 1394 -81 1394 -81 1392 0 c 1,26,-1
+ 1392 191.262089849 l 1,27,28
+ 1324.30418295 164 1324.30418295 164 1228 164 c 0,0,1
+1063 492 m 2,29,30
+ 1063 328 1063 328 1227.5 328 c 128,-1,31
+ 1392 328 1392 328 1392 492 c 2,32,-1
+ 1392 571 l 1,33,-1
+ 1063 571 l 1,34,-1
+ 1063 492 l 2,29,30
 EndSplineSet
-Validated: 33
 EndChar
 
 StartChar: v.fina
@@ -1921,6 +1903,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 2 -1 N 1 0 0 1 0 0 2
+Validated: 1
 Substitution2: "Single Sub n for en-1" n.repl2
 EndChar
 
@@ -2069,20 +2052,20 @@ SplineSet
  1228 696 l 2,5,6
  1228 608 1228 608 1151 584 c 0,7,8
  1075 563 1075 563 1028 617 c 1,9,10
- 892 753 892 753 617 1064 c 0,11,12
- 342 1375 342 1375 259 1456 c 0,13,14
- 236 1484 236 1484 200 1477 c 0,15,16
- 164 1470 164 1470 164 1440 c 2,17,-1
- 164 409 l 2,18,19
- 164 328 164 328 82 328 c 128,-1,20
- 0 328 0 328 0 409 c 2,21,-1
- 0 1560 l 2,22,23
- 0 1676 0 1676 97 1712 c 0,24,25
- 137 1724 137 1724 178 1724 c 128,-1,26
- 219 1724 219 1724 256 1692 c 1,27,28
- 408 1537 408 1537 645 1269 c 1,29,30
- 876 1001 876 1001 992 869 c 0,31,32
- 1024 837 1024 837 1047 844 c 0,33,34
+ 892 753 892 753 617 1064 c 128,-1,11
+ 342 1375 342 1375 259 1456 c 0,12,13
+ 236 1484 236 1484 200 1477 c 128,-1,14
+ 164 1470 164 1470 164 1440 c 2,15,-1
+ 164 409 l 2,16,17
+ 164 328 164 328 82 328 c 128,-1,18
+ 0 328 0 328 0 409 c 2,19,-1
+ 0 1560 l 2,20,21
+ 0 1676 0 1676 97 1712 c 0,22,23
+ 137 1724 137 1724 178 1724 c 128,-1,24
+ 219 1724 219 1724 256 1692 c 1,25,26
+ 408 1537 408 1537 645 1269 c 1,27,28
+ 876 1001 876 1001 992 869 c 0,29,30
+ 1024 837 1024 837 1047 844 c 0,31,32
  1068 851 1068 851 1068 883 c 2,0,-1
 EndSplineSet
 Validated: 33
@@ -2421,6 +2404,7 @@ SplineSet
  0 1392 0 1392 656 1392 c 128,-1,1
 EndSplineSet
 Validated: 33
+Substitution2: "Single Subs -k.F back to -k-1" k.repl2
 Substitution2: "'fina' General Terminal Forms-1" k.F.fina
 EndChar
 
@@ -2457,6 +2441,7 @@ SplineSet
  1312 -243 1312 -243 1188 -409 c 0,0,1
 EndSplineSet
 Validated: 33
+Substitution2: "Single Subs -k.F back to -k-1" k.fina
 EndChar
 
 StartChar: NameMe.93
@@ -2536,7 +2521,7 @@ SplineSet
  820 571 l 1,27,-1
 EndSplineSet
 Validated: 33
-Substitution2: "Single Subs round syllables - full width g-h-k-1" k.F.fina
+Substitution2: "Single Subs round syllables - full width g-h-k-1" k.F.dflt
 Substitution2: "Single Subs -k to -k.F-1" k.F.dflt
 Substitution2: "'fina' General Terminal Forms-1" k.fina
 EndChar
@@ -5838,55 +5823,51 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-573 492.672851562 m 0,0,1
- 690.060699149 494.233489543 690.060699149 494.233489543 721.921235813 571 c 1,2,-1
- 1148 571 l 1,3,4
- 1641 575 1641 575 1641 83.0288065844 c 128,-1,5
- 1641 -409 1641 -409 1148 -409 c 0,6,7
- 1062 -409 1062 -409 1063 -490 c 128,-1,8
- 1064 -571 1064 -571 1148 -571 c 0,9,10
- 1805 -571 1805 -571 1805 82 c 128,-1,11
- 1805 735 1805 735 1148 735 c 2,12,-1
- 723.208180132 735 l 1,13,14
- 704.174756271 783.558666206 704.174756271 783.558666206 654.123863119 803.391933925 c 1,15,16
- 620.918013253 1392 620.918013253 1392 0 1392 c 0,17,18
- -81 1392 -81 1392 -81 1310 c 128,-1,19
- -81 1228 -81 1228 0 1228 c 0,20,21
- 457.369883198 1228 457.369883198 1228 489.562510183 804.11901591 c 1,22,23
- 409.672851562 771.160210347 409.672851562 771.160210347 409.672851562 656 c 0,24,25
- 409.672851562 537.827623235 409.672851562 537.827623235 489.934930544 506.086723791 c 1,26,-1
- 464 683 l 1,27,28
- 470.226097652 640.529119591 470.226097652 640.529119591 492 620.055503606 c 1,29,-1
- 492 505.2878277 l 1,30,31
- 525.340077025 492.672851562 525.340077025 492.672851562 573 492.672851562 c 0,0,1
-492 505.2878277 m 1,32,-1
- 492 492 l 1,33,-1
- 489.934930544 506.086723791 l 1,34,35
- 490.960505101 505.681144228 490.960505101 505.681144228 492 505.2878277 c 1,32,-1
+1148 -409 m 0,0,1
+ 1641 -409 1641 -409 1641 83.0288065844 c 128,-1,2
+ 1641 575.057613169 1641 575.057613169 1148 571 c 1,3,-1
+ 656 571 l 1,4,-1
+ 656 409 l 2,5,6
+ 656 328 656 328 573 328 c 128,-1,7
+ 490 328 490 328 491 410 c 2,8,-1
+ 492 492 l 1,9,-1
+ 492 737.5 l 2,10,11
+ 492 1230.02469136 492 1230.02469136 0 1228 c 0,12,13
+ -81 1228 -81 1228 -81 1310 c 128,-1,14
+ -81 1392 -81 1392 0 1392 c 0,15,16
+ 656 1392 656 1392 656 735 c 1,17,-1
+ 1148 735 l 2,18,19
+ 1805 735 1805 735 1805 81 c 0,20,21
+ 1805 -243 1805 -243 1641 -408 c 0,22,23
+ 1477 -573 1477 -573 1148 -571 c 0,24,25
+ 1065 -571 1065 -571 1063 -492 c 0,26,27
+ 1063 -409 1063 -409 1148 -409 c 0,0,1
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: e.F.dflt
 Encoding: 11 -1 257
-Width: 488
+Width: 409
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-127 1876 m 1,0,1
- 201.348545853 1837.20945434 201.348545853 1837.20945434 202.92 1766.705 c 0,2,3
- 204 1718.25 204 1718.25 168 1671 c 0,4,5
- 152 1655 152 1655 127 1648 c 1,6,7
- 104 1636 104 1636 82 1636 c 0,8,9
- 60 1636 60 1636 37 1648 c 1,10,11
- 14 1655 14 1655 -4 1671 c 1,12,13
- -20 1692 -20 1692 -32 1715 c 0,14,15
- -39 1736 -39 1736 -40 1759 c 0,16,17
- -40 1842.12 -40 1842.12 37 1876 c 1,18,19
- 85 1890.60869565 85 1890.60869565 127 1876 c 1,0,1
+127 1876 m 1
+ 201.348545853 1837.20945434 201.348545853 1837.20945434 202.92 1766.705 c 0
+ 204 1718.25 204 1718.25 168 1671 c 0
+ 152 1655 152 1655 127 1648 c 1
+ 104 1636 104 1636 82 1636 c 0
+ 60 1636 60 1636 37 1648 c 1
+ 14 1655 14 1655 -4 1671 c 1
+ -20 1692 -20 1692 -32 1715 c 0
+ -39 1736 -39 1736 -40 1759 c 0
+ -40 1842.12 -40 1842.12 37 1876 c 1
+ 85 1890.60869565 85 1890.60869565 127 1876 c 1
 EndSplineSet
 Refer: 0 6176 N 1 0 0 1 0 0 2
+Validated: 33
 Substitution2: "Single Subs e-u after t-d-1" e.bis.dflt
 Substitution2: "'fina' General Terminal Forms-1" e.F.fina
 EndChar
@@ -5913,12 +5894,13 @@ EndChar
 
 StartChar: n.repl1
 Encoding: 78 -1 260
-Width: 488
+Width: 409
 VWidth: 4095
 Flags: W
 LayerCount: 2
 Fore
 Refer: 0 6176 N 1 0 0 1 0 0 2
+Validated: 1
 Substitution2: "'fina' General Terminal Forms-1" n.fina
 EndChar
 
