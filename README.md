@@ -26,7 +26,7 @@ enenggi mafari gaxan~be hargaxambi.
 ``kituhan~de berge akvqi, tere uthai uqulerakv. ere uthai gaxan be kidule akaqun inu, ere uthai gaxan~be kidure gvnin inu.''
 ```
 
-满圆体（ᠮᠠᠨ  ᠶᡠᠸᠠᠨ ᡨ᠋ᡳ; Modern manJu Round, MJR）是一款开源满文美术字体。致力于从以下三个方向来优化满文字体设计：
+满圆体（ᠮᠠᠨ ᠶᡠᠸᠠᠨ ᡨ᠋ᡳ; Modern manJu Round, MJR）是一款开源满文美术字体。致力于从以下三个方向来优化满文字体设计：
 
 - 尽量不借助辅助字符来正确显示字母变体；
 - 利用尽量少的字体特性方便拓展制作；

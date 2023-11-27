@@ -4,7 +4,7 @@ FullName: Modern manJu Round
 FamilyName: Modern-manJu
 Weight: Book
 Copyright: Copyright 2023 LLLLL.
-Version: 0.9beta
+Version: 0.8
 ItalicAngle: 0
 UnderlinePosition: -420
 UnderlineWidth: 100
@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1390402476
-ModificationTime: 1701097225
+ModificationTime: 1701097159
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
