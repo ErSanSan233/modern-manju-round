@@ -46,3 +46,10 @@ BirdFont 可以免费使用，功能简单但相对有限，还有些 bug。之�
 ### 为什么字牙右边是尖的？
 
 为了防止字符拼接的时候出现白缝。在字母相连的文字（如阿拉伯文）中，这是很常见的做法。参考[这篇](https://glyphsapp.com/learn/arabic)文章中 Cap components as stroke endings 的部分。
+
+### 为什么我自定义的变体规则到了LaTeX中不会执行？
+
+变体规则是否应用会根据语言的不同而不同。LaTeX没有检测到蒙古文环境。需要在制定规则时将dflt语言删掉，仅保留mong，防止冲突，如下图：
+
+![lang-eg](img/lang-eg.png)
+
